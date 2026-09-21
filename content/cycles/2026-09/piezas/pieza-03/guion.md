@@ -1,82 +1,82 @@
-# Guion — pieza-03 (Ciclo 2026-09)
+# Guion — Pieza 03 (Reel, founder/CEO a cámara)
 
-**Formato:** Carrusel informativo · **Funnel:** awareness · **Plataformas:** IG + Facebook
-**Tono:** informativo/empático, no catastrofista. Héroe: el dueño/a del negocio. Sin mención de pricing ni nombres de plan.
+> Formato: Reel, founder habla directo a cámara, 1 locación, sin cortes de escena (edición de diseño resuelve ritmo/cortes, no este documento). Etapa de funnel: awareness / confianza. Regla dura de esta pieza: **no se menciona pricing, nombres de plan, ni se nombra a Iguana como producto.** Es la convicción del founder sobre el problema, no la presentación de una solución.
 
----
+## 1. Hook
 
-## Hook (Slide 1 — tal cual elegido en `hook.md`)
+> Copiado tal cual del archivo `hook.md`, hook recomendado (#1 — controversia suave). No se modifica.
 
-**Texto en pantalla:**
-"¿Te cambiaron de régimen este año y nadie te explicó bien qué significa eso para tu negocio?"
+**Founder a cámara:**
+"Voy a decir algo que casi nadie en este negocio quiere admitir: no estás perdiendo clientes porque cortas mal el pelo. Los estás perdiendo por WhatsApp."
 
-**Apoyo visual sugerido (texto secundario, pequeño, debajo del hook):** "RIMPE → Régimen General · lo que sí necesitas saber →"
-
----
-
-## Desarrollo — Slides 2 a 8 (beats narrativos)
-
-**Slide 2 — Qué pasó, en términos simples**
-- Texto en pantalla (titular): "El SRI reclasificó a miles de negocios pequeños este año."
-- Texto de apoyo: "Si tu negocio creció, cambió de actividad o superó cierto nivel de ingresos, el SRI pudo moverte de RIMPE a Régimen General sin que sea un proceso que tú iniciaste — es una recategorización automática."
-- Nota de tono: se explica como un hecho administrativo, no como una falla del dueño.
-
-**Slide 3 — Qué significa "Régimen General" en la práctica**
-- Texto en pantalla (titular): "En corto: cambian tus obligaciones, no tu negocio."
-- Texto de apoyo: "Pasas de un régimen simplificado a llevar declaraciones de IVA y Renta con más detalle, y a factura electrónica — ya no vale la factura física o el apunte a mano."
-- Nota: sin jerga tributaria excesiva; frase clave que se repetirá: "cambian tus obligaciones, no tu negocio".
-
-**Slide 4 — El punto que más se pasa por alto: tiempo real**
-- Texto en pantalla (titular): "La factura electrónica ahora se emite en tiempo real."
-- Texto de apoyo: "No es facturar 'cuando puedas' al final del día. El comprobante se genera y se envía al SRI en el momento de la venta o el servicio."
-- Nota: este es el dato técnico central del carrusel — debe quedar claro sin sonar alarmante.
-
-**Slide 5 — El dato duro (una sola vez, sin dramatizar)**
-- Texto en pantalla (titular): "¿Por qué importa cumplir el plazo?"
-- Texto de apoyo: "Las multas por no facturar como corresponde van desde $470 hasta $14.100, según la gravedad. No es para asustarte — es un dato para que decidas con información, no a ciegas."
-- Nota de tono: se presenta como referencia informativa ("para que tengas el dato"), nunca como amenaza directa al lector. Una sola mención de la cifra en todo el carrusel.
-
-**Slide 6 — Validación empática (voz del negocio)**
-- Texto en pantalla (titular): "No es que no entiendas de impuestos."
-- Texto de apoyo: "Es que el aviso llegó silencioso — un correo, una notificación en el portal — y tú estabas ocupada atendiendo clientes, no leyendo boletines del SRI. Eso le pasa a la mayoría."
-- Nota: este slide sostiene el tono "informativo/empático, no catastrofista" — es el corazón emocional del carrusel.
-
-**Slide 7 — Qué hacer, en orden**
-- Texto en pantalla (titular): "3 pasos para saber dónde estás parada:"
-- Texto de apoyo (lista):
-  1. Entra al portal del SRI y verifica tu régimen actual (RUC → Consultas).
-  2. Revisa con tu contador o asesor desde cuándo te aplica la facturación electrónica en tiempo real.
-  3. Empieza a emitir así desde ya, aunque el plazo formal esté por definirse — evitas sorpresas.
-- Nota: pasos accionables y verificables, sin mencionar producto ni marca.
-
-**Slide 8 — Cierre de contenido / puente suave**
-- Texto en pantalla (titular): "Cambiar de régimen no te hace menos negocio. Te hace uno que está creciendo."
-- Texto de apoyo: "Y un negocio que crece necesita organizarse distinto — eso no pasa de la noche a la mañana, y está bien ir paso a paso."
-- Nota: aquí se planta la idea de "organización" sin mencionar a Iguana ni el producto — deja la puerta abierta para piezas futuras de consideración, sin romper la regla de esta pieza (awareness puro, sin producto).
+**Texto en pantalla:** "No es tu trabajo. Es tu WhatsApp."
 
 ---
 
-## CTA (Slide final del carrusel)
+## 2. Desarrollo (beats narrativos)
 
-**Texto en pantalla:**
-"Guarda este carrusel para cuando tengas que revisarlo con tu contador."
+**Beat 1 — Credencial / por qué habla de esto (seg. ~3-7)**
+Founder a cámara, tono cercano, casi confidencial:
+"Llevo meses sentado con dueñas y dueños de peluquerías, spas, consultorios, centros estéticos, en Quito y en Guayaquil. Y les prometo algo: casi todos me dicen la misma frase cuando les pregunto por qué a veces no llenan la agenda."
 
-**Texto de apoyo:**
-"Síguenos si quieres que seamos nosotros quienes te avisemos de estos cambios antes que una multa. Y si conoces a otra dueña de negocio a la que esto le sirva, compártele este post — a nadie le deberían caer estos cambios por sorpresa."
+**Texto en pantalla:** "Meses hablando con dueños de negocios de servicios en Ecuador"
 
-**Nota de CTA:** CTA blando de awareness (guardar, seguir, compartir) — no hay llamado a agendar demo, comprar ni mencionar producto/precio, consistente con la etapa de funnel de esta pieza.
+**Beat 2 — El dato, dicho con calma, no con alarma (seg. ~7-14)**
+"'Es que la gente ya no es fiel', me dicen. Y yo también lo pensé al principio. Hasta que empecé a contar. Un negocio de servicios normal, de los buenos, está perdiendo entre 2 y 5 citas por semana. No por mal servicio. Por un mensaje que llegó y nadie alcanzó a contestar a tiempo."
+
+**Texto en pantalla:** "2–5 citas perdidas / semana (negocios de servicios en Ecuador)"
+
+**Beat 3 — La escena concreta, con la que Amanda se identifica (seg. ~14-22)**
+Founder, más pausado, como quien describe algo que ya vio muchas veces:
+"Piensa en esa señora que está cortando el pelo de una clienta a las 6 de la tarde. Le entra un WhatsApp: 'Hola, ¿tienen espacio mañana?' No lo puede ver. Tiene las manos ocupadas y a alguien enfrente. Cuando por fin contesta, dos horas después, esa persona ya agendó en otro lado."
+
+**Texto en pantalla:** "6pm. Cliente al frente. WhatsApp esperando."
+
+**Beat 4 — El costo real, conectado al dolor emocional de Amanda (seg. ~22-30)**
+Tono más serio, sin dramatizar:
+"Y eso no se siente como 'perdí una cita'. Se siente como trabajar todo el día, dar lo mejor de ti, y aun así no saber bien por qué a fin de mes falta plata. Eso no es falta de talento. Eso es un problema de tiempo — y el tiempo, cuando eres una sola persona atendiendo todo, no alcanza."
+
+**Texto en pantalla:** "No es falta de talento. Es falta de tiempo."
+
+**Beat 5 — Reencuadre / la opinión central (seg. ~30-38)**
+Founder, mirando directo a cámara, con más firmeza — este es el clímax de la opinión:
+"Y lo que me parece injusto es esto: le pedimos a una sola persona que corte pelo, que atienda al cliente que tiene enfrente, y que además esté disponible en WhatsApp las 24 horas, como si fuera un negocio con cinco empleados. Eso no es un problema de disciplina. Es un problema de diseño — el negocio no está armado para eso, y no es culpa de nadie que no lo esté."
+
+**Texto en pantalla:** "No es falta de disciplina. Es falta de diseño."
+
+**Beat 6 — Apertura hacia adelante, sin nombrar producto (seg. ~38-45)**
+Tono se suaviza, esperanzador pero contenido — deja la puerta abierta sin vender nada:
+"La buena noticia es que esto sí tiene forma de resolverse, sin que tengas que estar pegada al celular 24/7. De eso voy a estar hablando más en los próximos días — por ahora, quería decir esto en voz alta, porque creo que muy pocos lo dicen claro."
+
+**Texto en pantalla:** "Esto se puede resolver. Sigue en la cuenta."
 
 ---
 
-## Borrador de caption
+## 3. CTA (awareness — comentar / seguir, no vender)
 
-Te cambiaron de RIMPE a Régimen General este año y nadie te lo explicó bien, ¿cierto?
+**Founder a cámara, cierre cálido, directo:**
+"Si esto te suena parecido a tu negocio, cuéntame en los comentarios cuántas citas crees que se te escapan a la semana. Y sígueme si quieres ver cómo se resuelve esto de verdad."
 
-No estás sola. El SRI reclasificó a muchos negocios pequeños de forma automática — y el aviso pasó sin que casi nadie lo notara, porque estabas ocupada atendiendo clientes, no leyendo boletines tributarios.
+**Texto en pantalla (cierre):** "¿Cuántas citas crees que pierdes a la semana? Cuéntame abajo 👇 — Sígueme para lo que viene."
 
-En este carrusel te explicamos, sin drama y sin jerga, qué cambia de verdad (spoiler: la factura electrónica ahora es en tiempo real), por qué importa el plazo, y 3 pasos simples para saber exactamente dónde estás parada hoy.
+*(Nota: sin link ni mención de WhatsApp de negocio en esta pieza — ese CTA de captura de leads es exclusivo de la pieza-04. Aquí el único llamado a la acción es interacción/seguimiento.)*
 
-Guárdalo para revisarlo con tu contador. Y si conoces a otra dueña de negocio a la que esto le sirva, compártele — nadie debería enterarse de esto por una multa.
+---
 
-📍 Ecuador | Quito y Guayaquil
-#RIMPE #SRIEcuador #FacturaciónElectrónica #NegociosEcuador #EmprendimientoEC
+## 4. Borrador de caption
+
+> Primera versión — `publicar` la refinará con hashtags y horario definitivo.
+
+No estás perdiendo clientes porque cortas mal el pelo, porque el servicio esté flojo o porque "la gente ya no es fiel".
+
+Los estás perdiendo por WhatsApp.
+
+Hablé con decenas de dueñas y dueños de negocios de servicios en Quito y Guayaquil — peluquerías, spas, consultorios — y casi todos tienen el mismo problema, aunque no lo vean así: entre 2 y 5 citas perdidas por semana, solo porque nadie alcanzó a contestar un mensaje a tiempo.
+
+No es falta de talento. No es falta de disciplina. Es que le estamos pidiendo a una sola persona hacer el trabajo de un negocio con cinco empleados.
+
+Esto sí tiene solución — y de eso voy a hablar más pronto.
+
+Por ahora: ¿cuántas citas crees que se te escapan a la semana? Cuéntame en los comentarios 👇
+
+#NegociosEcuador #Emprendimiento #PYMEEcuador #Quito #Guayaquil #BellezaYBienestar #Peluqueria #WhatsAppBusiness

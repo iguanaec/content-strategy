@@ -1,62 +1,73 @@
-# Guion — Pieza 02: "El cuaderno / Excel de las 11pm"
+# Guion — Pieza 02 (Reel POV, Ciclo 2026-09)
 
-> Formato: Reel "un día en la vida" (habla a cámara / detrás de cámaras). Etapa: awareness. Héroe: Amanda. Sin pricing, sin nombres de plan, sin dramatizar la tecnología, sin mencionar producto — este guion no nombra a Iguana en ningún momento (regla del plan para esta pieza).
+## Contexto rápido
+- Formato: Reel POV — cámara = los ojos de la dueña del negocio. 1 actor, 1 locación.
+- Etapa de funnel: awareness. No se menciona producto, marca, pricing ni nombres de plan.
+- Conflicto: puramente operativo — falta de manos para atender a la vez a la clienta presencial y al WhatsApp. Nada de tecnología como amenaza; el problema es la capacidad, no la herramienta.
+- Héroe: la dueña del negocio (genérica/Amanda).
+
+---
 
 ## 1. Hook
 
-(copiado tal cual de `hook.md`, hook recomendado #1)
+**Texto en pantalla (primer frame, 0-3s):**
+> "POV: son las 6pm, tienes clienta en la silla, y tu celular lleva 20 minutos vibrando sin parar."
 
-> Voz en off / texto quemado sobre plano del negocio cerrando:
-> **"Son las 11pm. El negocio cerró hace tres horas. Amanda todavía no ha terminado de trabajar."**
+(Copiado tal cual del hook recomendado en `hook.md`. Sin locución obligatoria — funciona con audio ambiente o trend de fondo.)
 
-Texto en pantalla: **11:00 PM** (grande, estilo cronómetro/reloj digital, se mantiene visible como ancla de tiempo para el resto de la pieza).
+---
 
-## 2. Desarrollo
+## 2. Desarrollo (beats narrativos)
 
-**Beat 1 — Recuento del día (rápido, en montaje)**
-Voz en off de Amanda (cercana, sin dramatismo, casi con humor cansado):
-"Hoy atendí ocho citas, contesté no sé cuántos mensajes, corté, peiné, cobré... cerré la puerta a las 8."
-Texto en pantalla superpuesto en fragmentos cortos: "8 citas" / "+30 mensajes" / "1 negocio"
+**Beat 1 — Establecer la escena (seg. 0-4)**
+Qué se ve/vive desde el punto de vista de la dueña: las manos trabajando en el servicio (cortando, aplicando, revisando — según el negocio que se grabe), la clienta hablando o relajada, y de fondo el celular sobre una repisa/mesa, pantalla encendiéndose con una notificación tras otra.
+- Texto en pantalla: el hook (se mantiene visible o hace fade en los primeros segundos).
+- Sonido: vibración del celular, ambiente del negocio (sin música dramática ni efectos de "alerta"/tensión tecnológica).
 
-**Beat 2 — El corte: cerrar el local no es terminar el día**
-Corte a Amanda sentada en la mesa de su cocina (o cualquier espacio doméstico, no el local), con la libreta o el Excel abierto en su celular/laptop.
-Voz en off: "Pero cerrar el local no es lo mismo que terminar el día."
-Texto en pantalla: **"El negocio sigue abierto... en su cabeza."**
+**Beat 2 — El conflicto se acumula (seg. 4-9)**
+La dueña alcanza a mirar de reojo el celular (la "cámara"/mirada se desvía brevemente hacia la pantalla) sin poder soltar lo que tiene entre manos. Se nota la tensión de querer atender dos cosas a la vez, no de "la tecnología me supera".
+- Texto en pantalla (contador que sube): "3 mensajes sin leer" → "5 mensajes sin leer" → "7 mensajes sin leer" (aparecen en sincronía con las miradas al celular).
+- Opcional hablado/susurrado (si la grabación lo permite, tono cómplice, no de queja): "Ya voy, ya voy..." dicho hacia el celular sin que la clienta lo note.
 
-**Beat 3 — El cuaderno/Excel en detalle**
-Plano del detalle: páginas escritas a mano, o columnas de Excel, sumas, tachones.
-Amanda (a cámara o en voz off, tono neutro, sin queja exagerada): "Cuadrar el día, ver quién pagó, quién quedó debiendo, qué falta para mañana."
-Texto en pantalla: **"Cuadrando cuentas... otra vez."**
+**Beat 3 — Texto de apoyo, interpelación directa (seg. 9-13)**
+Corte a la pantalla del celular vista desde los ojos de la dueña (notificaciones apiladas, sin mostrar contenido específico de marca ni apps de terceros de forma protagónica).
+- Texto en pantalla (hook de apoyo, recomendado en `hook.md`):
+  > "¿Cuántos mensajes sin contestar tienes ahorita mismo? Yo tengo 7 y todavía no termino con esta clienta."
+- Este beat funciona como el "giro" de interpelación: deja de ser solo la escena y empieza a hablarle directo a quien está viendo, para que haga memoria de su propio celular.
 
-**Beat 4 — El costo real: no es el dinero, es el tiempo**
-Cambio de tono, más íntimo. Plano de fondo: algo que sugiere familia sin mostrarla de forma forzada (una voz de fondo, una puerta de cuarto de niños entreabierta, una foto familiar en la mesa — sugerido, no prescrito, queda a criterio de diseño/grabación).
-Voz en off de Amanda: "Mi hija ya se durmió. Otra vez no le leí el cuento."
-Texto en pantalla: **"El cuaderno no le paga horas extra a Amanda. Pero se las quita igual."** (uso del hook alternativo #5 como remate de escena, consistente con la recomendación del archivo de hook)
+**Beat 4 — Vuelta a la escena, resolución realista sin dramatismo (seg. 13-18)**
+La dueña termina con la clienta, se despide, y recién ahí puede tomar el celular. Se ve el volumen real de mensajes acumulados (varios chats, sin detalle de contenido). No hay música triste ni gesto de derrota — el tono es de reconocimiento ("otra vez pasó"), no de crisis.
+- Texto en pantalla: "Y ahí recién puedes ver qué te escribieron hace media hora."
+- Gesto sutil (suspiro corto, sonrisa cansada) — transmite la fatiga sin victimizar a la dueña ni convertir el WhatsApp en el villano.
 
-**Beat 5 — Cierre de la escena, sin resolver el problema todavía**
-Amanda cierra la libreta/laptop, se soba los ojos, mira el reloj.
-Texto en pantalla: **11:47 PM** (el reloj avanzó desde el hook — refuerza que "un ratito" se volvió casi una hora).
-Voz en off, tono reflexivo, no resignado: "No es que no ame lo que hago. Es que quisiera que el día también me amara a mí un poco."
+**Beat 5 — Cierre reflexivo, sin producto (seg. 18-20)**
+Última línea de texto en pantalla, que resume el sentimiento sin ofrecer solución todavía (esta pieza es awareness puro):
+- Texto en pantalla: "No te falta ser más rápida. Te faltarían un par de manos más."
 
-> Nota para `diseño`: esta pieza es puramente de identificación/dolor emocional — no se resuelve el problema en este guion ni se menciona ninguna solución, herramienta o marca. Es intencional según el plan del ciclo (awareness puro).
+---
 
 ## 3. CTA
 
-Cierre a cámara, tono cálido y directo, sin venta:
-"Si a las 11pm todavía estás cuadrando cuentas del negocio... coméntame a qué hora terminaste tú hoy. Quiero saber si no soy la única."
+Esta pieza **no** pide escribir por WhatsApp ni menciona producto — ese CTA de conversión está reservado para la pieza 04. El objetivo aquí es alcance/interacción orgánica (construir seguidores y confianza).
 
-Texto en pantalla: **"¿A qué hora terminaste HOY? Cuéntame en los comentarios 👇"**
+**CTA en pantalla + hablado/escrito en el último segundo:**
+> "¿A cuántos mensajes sin contestar tienes ahorita? Cuéntanos en los comentarios."
 
-Llamado secundario (aparece al final, discreto, en texto): **"Sígueme si esto te suena conocido."**
+**Refuerzo (texto pequeño, últimos 2s o superpuesto al cierre):**
+> "Comenta tu número. Guarda este video para cuando te vuelva a pasar (va a volver a pasar)."
 
-> No incluye CTA de producto, demo, ni mención de marca como solución — corresponde a la etapa `awareness` del plan (ninguna pieza de este bloque vende ni menciona pricing).
+Esto empuja comentarios (prueba social entre dueñas de negocios que se van a identificar entre sí) y guardados, sin vender nada todavía.
+
+---
 
 ## 4. Borrador de caption
 
-Son las 11pm. El negocio cerró hace horas, pero para mí el día no termina ahí: cuadrar cuentas, ver quién pagó, qué falta para mañana... y ojalá todavía me quede algo de energía para lo que de verdad importa.
+> Son las 6pm, tienes clienta en la silla, y el celular no para. ¿Te suena? 📱⏰
+>
+> No es que te falte organización. Es que hacen falta más manos de las que tienes — y eso no se arregla con más disciplina.
+>
+> Cuéntanos en los comentarios: ¿cuántos mensajes sin contestar tienes ahorita mismo? Nosotros contamos 7 en este video 👀
+>
+> Guarda este reel para la próxima vez que te pase (porque va a volver a pasar).
 
-Si tú también le sigues "un ratito más" al cuaderno o al Excel cuando ya deberías estar descansando (o con tu familia), coméntame a qué hora terminaste hoy. Quiero saber si no soy la única. 👇
-
-#NegocioLocal #DueñaDeNegocio #EmprendimientoEcuador #Quito #Guayaquil #BelleceCentroEstetico #GestiónDeNegocio
-
-> Nota para `publicar`: este es un primer borrador; ajustar longitud, hashtags finales y horario de publicación según convenciones de esa etapa. Coherente con fecha objetivo del plan (2026-09-22) y sin mención de pricing/plan/producto.
+(Nota: sin hashtags ni horario — eso lo define `publicar` más adelante con el paquete de publicación completo. Sin link ni mención de producto, consistente con la regla de la pieza y del brand-brief.)
