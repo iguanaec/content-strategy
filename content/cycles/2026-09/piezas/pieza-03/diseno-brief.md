@@ -1,71 +1,73 @@
-# Brief de diseño — pieza-03 (Ciclo 2026-09)
+# Brief de dirección visual — Pieza 03 (Reel, founder/CEO a cámara)
 
-**Formato:** Carrusel informativo (Canva) · **Plataformas:** IG + Facebook · **Funnel:** awareness
-**Fuente:** `guion.md` de esta pieza (9 slides: hook + 7 de desarrollo + CTA). Este brief no cambia ni una palabra del guion — solo lo traduce a dirección visual para que el usuario lo arme en Canva.
+> Traducción visual del guion ya escrito (`guion.md`). No se modifica el hook ni el guion — este documento solo indica cómo grabar y editar. Formato: Reel, founder habla a cámara, 1 locación, tiempo de grabación muy limitado (una sola sesión). Subtítulos quemados **obligatorios**.
 
----
+## 0. Principio de grabación (léelo antes de grabar)
 
-## 1. Shotlist / storyboard (una tarjeta por slide)
+Dado el tiempo limitado, la recomendación es grabar **una sola toma continua** (Toma A) que cubra todo el guion de corrido — hook, los 6 beats y el CTA (~45-55 seg de habla) — con la cámara fija en trípode. La variación de encuadre que pide un shotlist normal aquí se resuelve en edición (punch-in / zoom digital sobre el mismo archivo), no regrabando. Si sobra tiempo después de la Toma A, graba una **Toma B opcional** (ver abajo) solo para el hook y el beat 5 (el clímax), que da a la edición un segundo ángulo para cortar sin depender 100% del punch-in digital.
 
-Nota: al ser carrusel estático, "duración" se traduce como *tiempo de lectura estimado* — útil para no saturar cada slide de texto. Regla general: si un slide tarda más de ~6-7 segundos en leerse cómodo, está sobrecargado y conviene recortar texto de apoyo, no el titular.
+- **Toma A (obligatoria):** plano medio (busto/pecho hacia arriba), trípode, fija, cubre el guion completo de corrido. Si te trabas en una frase, no cortes: respira y repite esa frase sola — en edición se reemplaza el fragmento, no hace falta regrabar todo.
+- **Toma B (opcional, si hay tiempo):** mismo lugar, cámara un poco más cerca (plano medio corto / casi primer plano), solo repites en voz alta el Hook completo y el Beat 5 completo (son las dos frases con más peso de opinión). Sirve como recurso de corte/énfasis en edición, no es obligatoria.
 
-| Slide | Contenido (del guion) | Tipo de visual | Lectura est. | Dirección de diseño |
-|---|---|---|---|---|
-| **1 — Portada/Hook** | "¿Te cambiaron de régimen este año y nadie te explicó bien qué significa eso para tu negocio?" + apoyo "RIMPE → Régimen General · lo que sí necesitas saber →" | 100% tipográfico, sin foto | ~5s | Fondo sólido verde `#2F5D50`. Titular grande centrado o alineado a la izquierda, en blanco o negro roca `#2B2420` (ver contraste en sección 3). Apoyo pequeño en coral `#C8683B` debajo, como "etiqueta". Sin rostro, sin selfie — este carrusel es 100% gráfico, no video. Indicador de swipe (flecha o "desliza →") en la esquina inferior derecha, color coral. |
-| **2 — Qué pasó** | Titular: "El SRI reclasificó a miles de negocios pequeños este año." Apoyo: recategorización automática, no es falla del dueño. | Tipográfico + 1 ícono simple (documento/sello) | ~6s | Fondo negro roca `#2B2420`. Titular en blanco, apoyo en gris claro o verde suave. Ícono de línea (line icon) simple en coral, sin ilustración recargada — tono "hecho administrativo", no alarma. |
-| **3 — Qué significa Régimen General** | Titular: "En corto: cambian tus obligaciones, no tu negocio." | Tipográfico, layout de contraste simple | ~6s | Fondo verde `#2F5D50`. Frase clave del guion ("cambian tus obligaciones, no tu negocio") como titular destacado — es la línea que más se repetirá en el caption, dale jerarquía visual (tamaño mayor que el resto del carrusel). Apoyo en texto más pequeño debajo. |
-| **4 — Tiempo real (dato técnico central)** | Titular: "La factura electrónica ahora se emite en tiempo real." | Tipográfico + ícono de reloj o rayo | ~6s | Fondo negro roca. Ícono coral de reloj/rayo como acento visual único (este es el dato técnico más importante del carrusel — dale un elemento gráfico distintivo para que se recuerde al pasar rápido). Texto de apoyo breve, sin tecnicismos extra. |
-| **5 — El dato duro (multas)** | Titular: "¿Por qué importa cumplir el plazo?" Apoyo: rango $470–$14.100, presentado como referencia informativa. | Tipográfico, "number-forward" | ~7s | Fondo verde `#2F5D50` (evitar rojo/alarma — el guion es explícito en no dramatizar). El rango de cifras puede ir grande pero en coral, no en rojo. Sin íconos de advertencia (⚠️, signos de exclamación grandes) — mantener tono informativo. Frase "no es para asustarte" puede ir como nota pequeña al pie, en itálica o menor tamaño. |
-| **6 — Validación empática** | Titular: "No es que no entiendas de impuestos." Apoyo: el aviso llegó silencioso mientras atendías clientes. | Tipográfico, cálido | ~6s | Fondo negro roca o un tono coral suave/desaturado de fondo (variar el patrón de color para marcar que este es el slide "emocional", distinto a los informativos). Texto centrado, tipografía algo más grande que el resto — este es el corazón del carrusel, dale aire (mucho espacio en blanco/negativo, sin íconos). |
-| **7 — Qué hacer (3 pasos)** | Titular: "3 pasos para saber dónde estás parada:" + lista numerada (portal SRI, contador, empezar a emitir ya) | Checklist visual, numerado | ~7s | Fondo verde `#2F5D50`. Números grandes (1, 2, 3) en coral, uno por línea, con el texto del paso al lado — formato lista clara, no párrafo corrido. Este slide se beneficia de ser el más "accionable" visualmente: usar un layout tipo checklist/lista con buen espaciado. |
-| **8 — Cierre de contenido** | Titular: "Cambiar de régimen no te hace menos negocio. Te hace uno que está creciendo." | Tipográfico, tono inspiracional | ~6s | Fondo negro roca `#2B2420` con titular en blanco/coral — frase de cierre con más peso visual (letra grande, centrada). Sin mencionar producto ni marca (regla del guion) — mantenerlo puramente como cierre de la idea, no como transición a venta. |
-| **9 — CTA final** | "Guarda este carrusel para cuando tengas que revisarlo con tu contador." + seguir/compartir | Tipográfico + íconos de guardar/compartir/seguir | ~5s | Fondo verde `#2F5D50`. 3 íconos pequeños en línea (guardar, compartir, seguir) en coral, con el texto de CTA arriba o al lado. CTA blando — nada de botones tipo "comprar" o flechas hacia link, coherente con la regla de no vender en esta pieza. |
+## 1. Shotlist / storyboard (por beat)
 
----
+Todas las filas usan la Toma A como base; la columna "Recurso de edición" indica qué hacer en post para dar variación sin regrabar.
 
-## 2. Concepto de portada / thumbnail (Slide 1)
+| # | Beat | Contenido (resumen) | Encuadre sugerido | Tipo | Duración aprox. | Recurso de edición |
+|---|---|---|---|---|---|---|
+| 1 | Hook | "No estás perdiendo clientes por cortar mal el pelo... los estás perdiendo por WhatsApp" | Plano medio, mirada fija a cámara, sin sonreír todavía (seriedad que genera curiosidad) | Trípode | ~4-5 seg | Si hay Toma B: abre con el primer d ella (más cerca) para enganchar de inmediato; si no, punch-in leve (zoom digital 5-10%) desde el segundo 1 |
+| 2 | Beat 1 — credencial | "Llevo meses sentado con dueñas y dueños..." | Mismo plano medio, tono cercano/confidencial, leve inclinación hacia la cámara | Trípode | ~4 seg | Overlay de texto entra con fade simple, sin distraer |
+| 3 | Beat 2 — el dato | "2 a 5 citas perdidas por semana..." | Mismo plano, sin cambios — el dato lo carga el texto en pantalla, no el gesto | Trípode | ~7 seg | Aquí el texto en pantalla es lo más importante del frame: dale jerarquía tipográfica (más grande o en acento coral) |
+| 4 | Beat 3 — escena concreta | "Esa señora cortando el pelo a las 6pm..." | Mismo plano; si quieres un recurso extra y tienes 30 segundos libres, una sola foto/B-roll de un celular con WhatsApp abierto (no obligatorio) | Trípode (+ B-roll opcional de celular, sin grabación adicional de personas) | ~8 seg | Si no hay B-roll, apóyate en el texto en pantalla + leve punch-in para simular "acercarse a la escena" |
+| 5 | Beat 4 — costo real | "No se siente como 'perdí una cita'..." | Mismo plano, tono más serio — deja que la cara sostenga el peso, no fuerces gestos | Trípode | ~8 seg | Sin efectos — es el beat más emocional, que respire |
+| 6 | Beat 5 — clímax de opinión | "Lo que me parece injusto es esto..." | Si hay Toma B: corta aquí al plano más cerrado para marcar el clímax | Trípode (Toma B si existe) | ~8 seg | Punch-in más marcado (10-15%) si no hay Toma B; es el momento de mayor intensidad del video |
+| 7 | Beat 6 — apertura hacia adelante | "La buena noticia es que esto sí se puede resolver..." | Vuelve al plano medio original (si usaste Toma B, aquí regresas a la Toma A) | Trípode | ~7 seg | Tono visual se suaviza: quita el punch-in, deja aire alrededor de la cara |
+| 8 | CTA | "Cuéntame en comentarios... sígueme para lo que viene" | Plano medio, gesto más cálido/sonrisa leve, cierre directo a cámara | Trípode | ~7-8 seg | Última pantalla puede incluir un sticker/flecha animada apuntando al ícono de comentarios (nativo de IG) |
 
-Lo que ve la audiencia en el feed **antes de tocar/deslizar** es el Slide 1 completo (a diferencia de un Reel, en carrusel la "portada" es el primer slide real, no un fotograma aparte). Debe transmitir, en el primer vistazo:
+**Nota de ritmo:** no hay cortes de escena en el guion — la variación arriba es solo digital (zoom/punch-in) para que el Reel no se sienta "plano fijo estático" de principio a fin, sin exigir una segunda locación ni más tiempo de grabación del que ya está presupuestado.
 
-- **Relevancia inmediata para Amanda**: la pregunta del hook debe leerse completa sin necesidad de zoom, incluso en el tamaño de miniatura del feed. Prioridad #1 del diseño: tamaño de fuente generoso, alto contraste, cero elementos decorativos que compitan con el texto.
-- **Tono informativo, no alarmista**: nada de signos de exclamación grandes, rojo, íconos de advertencia. La sensación debe ser "por fin alguien me lo va a explicar bien", no "cuidado, problema".
-- **Señal de que es contenido guardable/útil**: el apoyo "RIMPE → Régimen General · lo que sí necesitas saber →" funciona como subtítulo de categoría — debe distinguirse tipográficamente del titular (más pequeño, en coral, como etiqueta) para que en 1 segundo se entienda "esto es una guía", no una opinión.
-- **Sin foto ni cara**: coherente con que las piezas 01, 02 y 04 de este ciclo ya usan formato Reel con presencia en cámara — esta pieza diversifica visualmente el feed siendo 100% gráfica, lo cual además evita cualquier lectura de "vendiendo algo" al ser puramente informativa.
+## 2. Concepto de portada / thumbnail
 
----
+La primera imagen que alguien ve antes de reproducir (o el frame que Instagram usa como cover si no se define uno manual) debe transmitir: **una persona real, mirando directo a cámara, a punto de decir algo que incomoda un poco.** No debe verse como un video corporativo ni como un anuncio.
+
+- **Frame recomendado:** un fotograma del Hook (seg. 0-2), con la boca cerrada o a media palabra, ceja ligeramente levantada, mirada fija — no sonriente. Elegir manualmente ese frame como portada en Instagram (no dejar el cover automático al azar).
+- **Texto superpuesto en la portada (si se agrega uno estático):** reutilizar el texto en pantalla del hook, "No es tu trabajo. Es tu WhatsApp." — no inventar un texto nuevo de portada.
+- **Qué debe transmitir:** convicción y cercanía a la vez — "esta persona sabe de lo que habla y me está hablando a mí directamente" — no "empresa presentando producto".
+- **Qué evitar:** fondo genérico de oficina de coworking/tech, logo grande, sonrisa comercial de stock photo, cualquier tono azul de "app corporativa".
 
 ## 3. Estilo visual
 
-**Paleta — definida en `brand-brief.md`, úsala tal cual:**
-- Verde profundo `#2F5D50` (mar/adaptación) — fondo principal, alterna con negro roca.
-- Negro roca volcánica `#2B2420` (origen/solidez) — fondo alterno, para variar el ritmo visual slide a slide.
-- Coral/terracota `#C8683B` (calidez humana) — único color de acento: cifras clave, íconos, apoyos tipográficos, CTA. No lo uses como fondo de slide completo (queda muy fuerte a esa escala); resérvalo para detalles.
-- **Evitar explícitamente**: cualquier azul (regla de marca: "evitar el azul genérico de tech company"), rojo/naranja de alarma para la cifra de multas del Slide 5, íconos de advertencia tipo ⚠️.
-- Blanco o un gris muy claro como color de texto sobre los fondos oscuros — no hay un "blanco de marca" definido en el brief; usa blanco puro (`#FFFFFF`) o un blanco cálido/hueso si quieres suavizarlo, ambas opciones son razonables dado que no hay restricción explícita.
+**Paleta de marca** (definida en `brand-brief.md`, aplícala tal cual a overlays, textos en pantalla y cualquier gráfico):
+- Verde profundo `#2F5D50` — color de fondo de textos o acentos secundarios.
+- Negro roca `#2B2420` — para fondos de cajas de texto o el color de trazo/contorno del texto (mejor que negro puro, mantiene la calidez de marca).
+- Coral/terracota `#C8683B` — acento para la palabra o frase clave de cada beat (úsalo con moderación: 1-2 palabras resaltadas por texto en pantalla, no todo el bloque).
+- **Evitar activamente:** azules genéricos tipo "tech/SaaS" (ni en overlays, ni en fondo, ni en wardrobe) — es una regla explícita de marca.
 
-**Tipografía — no está definida en `brand-brief.md` (dice explícitamente "pendiente de validar en sesión de diseño formal").** No voy a inventar una tipografía como si fuera definitiva. Sugerencia razonable para Canva mientras no se defina algo oficial:
-- Una **sans-serif geométrica y cálida** para titulares (ej. en Canva: "Poppins", "Bogart" o "Gilroy" si está disponible) — transmite cercanía sin caer en look corporativo/tech.
-- Una sans-serif más neutra y legible para texto de apoyo (ej. "Inter", "Work Sans" o la sans por defecto de Canva) para no competir con el titular.
-- Evitar tipografías con look "software/SaaS" genérico (geométricas muy frías tipo Roboto Mono, monospace) — choca con el tono Mentor-Explorador cercano de la marca.
-- Si en una sesión de diseño futura se define tipografía oficial de marca, este es el primer material candidato a actualizarse.
+**Vestuario / fondo de grabación:** viste algo en tonos neutros, verde oscuro, negro/café tierra o con un detalle coral — evita camisas o fondos azules o con logos ajenos. Fondo de la locación: algo simple y con textura real del negocio (pared lisa, estantería, o el propio espacio de trabajo) — no un fondo blanco de estudio ni un fondo azul.
 
-**Referencias de tono:** carrusel informativo, calmado, "explicación de alguien de confianza" — no infografía corporativa fría ni contenido de miedo/urgencia fiscal. El slide 6 (validación empática) es el que marca el techo emocional del carrusel: si algún otro slide se siente más intenso que ese, se pasó de tono.
+**Tipografía de overlays — atención, esto NO está definido en `brand-brief.md`.** El brief de marca no especifica una tipografía. En vez de inventar una fuente como si fuera definitiva, sugiero una opción razonable de transición: una sans-serif humanista y gruesa (peso Bold/ExtraBold) — del estilo de las que trae CapCut/Canva por defecto (por ejemplo "Montserrat Bold" o "Poppins Bold") — porque es legible en móvil, tiene calidez (no es una geométrica fría tipo tech) y es fácil de conseguir sin licencias. **Esto debe confirmarse en la sesión de diseño formal pendiente** mencionada en `brand-brief.md`; hasta entonces, usar la misma fuente de forma consistente en todas las piezas del ciclo para no fragmentar la identidad.
 
----
+**Referencia de tono visual:** cercano, "cara real hablándole a otra cara real" — no un video pulido de agencia. Ligeramente crudo/hecho a mano está bien y es coherente con el arquetipo Mentor-Explorador de la marca (cercana, honesta, nunca condescendiente).
 
 ## 4. Checklist de assets
 
-- **Relación de aspecto:** 4:5 (1080×1350 px) recomendado para carrusel IG/Facebook — maximiza espacio vertical en feed sin recortarse. Alternativa aceptable: 1:1 (1080×1080 px) si se prefiere consistencia con piezas cuadradas anteriores del feed. Usar la misma proporción en los 9 slides.
-- **Número de slides a diseñar en Canva:** 9 (Slide 1 hook/portada, Slides 2-8 desarrollo, Slide 9 CTA), en ese orden exacto — no reordenar respecto al guion.
-- **Elementos gráficos a preparar:**
-  - Set de 2-3 íconos de línea simple, en coral, estilo consistente (documento/sello para slide 2, reloj o rayo para slide 4, guardar/compartir/seguir para slide 9). Buscar un solo pack de íconos en Canva ("line icons") para que no se vea mezclado.
-  - Numeración grande (1, 2, 3) para el slide 7 — puede ser texto grande en coral, no hace falta ilustración.
-  - Indicador de "desliza →" en el slide 1.
-- **Texto en pantalla a preparar (copiar tal cual del guion, no parafrasear):** los titulares y apoyos ya están redactados en `guion.md` — el trabajo de diseño es de layout/jerarquía, no de reescritura. Confirmar que el texto de apoyo de cada slide quepa sin achicar la fuente por debajo de un tamaño cómodo de lectura en móvil (mínimo ~28-32px equivalente a escala 1080px).
-- **Consistencia entre slides:** mismo margen/padding en los 9 slides, misma posición de "marca" (si se agrega logo/handle @iguana.ec, ponerlo en la misma esquina en todos los slides, tamaño discreto — este carrusel es awareness puro, el logo no debe competir con el mensaje).
-- **Revisión final antes de publicar:** confirmar que ningún slide mencione pricing, nombres de plan, ni al producto Iguana por nombre (regla de la pieza y del ciclo) — el guion ya lo respeta, pero es fácil que se cuele en diseño si se agrega un logo con claim adicional.
-- **Export:** exportar los 9 slides como imágenes individuales en el orden correcto, listos para subir como carrusel nativo en IG (y replicar en Facebook).
+- [ ] **Relación de aspecto:** 9:16 vertical (1080 × 1920 px) — Reel para IG + Facebook.
+- [ ] **Duración objetivo:** ~50-58 segundos totales (suma de hook + 6 beats + CTA según timestamps del guion, con algo de margen para respiraciones/edición).
+- [ ] **Subtítulos quemados (obligatorio en todo Reel):** generar con herramienta de auto-captions (CapCut) y luego corregir a mano — verificar que no se corte ninguna palabra ni queden errores de transcripción, especialmente en "SRI", "WhatsApp", "Iguana" (aunque esta pieza no nombra el producto, sí puede mencionar palabras técnicas mal transcritas). Estilo del subtítulo: fondo con caja en negro roca `#2B2420` semitransparente o contorno grueso, texto blanco con la palabra clave del beat resaltada en coral `#C8683B`, tamaño grande, en el tercio inferior pero sin tapar los botones de interacción de Instagram (dejar margen de ~250px desde el borde inferior).
+- [ ] **Textos en pantalla adicionales (además de los subtítulos):** son los 8 textos ya definidos en el guion (uno por beat + hook + cierre) — deben aparecer como texto grande destacado, no confundir con los subtítulos de la voz; van arriba o al centro del frame para no chocar con los subtítulos inferiores. Lista exacta a preparar en edición:
+  1. "No es tu trabajo. Es tu WhatsApp." (hook)
+  2. "Meses hablando con dueños de negocios de servicios en Ecuador"
+  3. "2–5 citas perdidas / semana (negocios de servicios en Ecuador)"
+  4. "6pm. Cliente al frente. WhatsApp esperando."
+  5. "No es falta de talento. Es falta de tiempo."
+  6. "No es falta de disciplina. Es falta de diseño."
+  7. "Esto se puede resolver. Sigue en la cuenta."
+  8. "¿Cuántas citas crees que pierdes a la semana? Cuéntame abajo 👇 — Sígueme para lo que viene."
+- [ ] **Audio:** voz limpia (grabar con el celular lo más cerca posible o micrófono de solapa si hay uno a mano; evitar eco de espacios muy vacíos). Sin música de fondo durante el habla, o música muy baja (cama sutil) solo si no compite con la voz — el peso de esta pieza es la opinión hablada, no el ritmo musical.
+- [ ] **Cover/portada manual:** seleccionar a mano el frame de portada (ver sección 2) al publicar — no dejar el cover automático de Instagram.
+- [ ] **Trípode y encuadre:** cámara a la altura de los ojos del founder, no en contrapicado ni picado — mantiene la sensación de conversación 1 a 1, no de "presentación desde arriba".
+- [ ] **Verificación de contenido antes de exportar:** confirmar que no se menciona pricing, nombres de plan, ni se nombra "Iguana" como producto en ningún texto en pantalla (regla dura de esta pieza, ya respetada en el guion — solo validar que la edición no la rompa agregando algo nuevo).
 
 ---
 
-**Recordatorio de límite:** este brief es guía de dirección visual para que el usuario arme el carrusel en Canva. No se generó ningún asset visual ni se modificó el guion o el hook.
+**Resumen para el orquestador:** Reel founder-a-cámara, grabación en toma única continua (plano medio, trípode) con variación de encuadre resuelta en edición (punch-in), sin necesidad de segunda locación. Paleta de marca aplicada (verde `#2F5D50` / negro roca `#2B2420` / coral `#C8683B`, sin azul tech); tipografía de overlays **no definida en `brand-brief.md`** — se sugiere una sans-serif bold tipo Montserrat/Poppins como opción de transición, pendiente de validar en sesión de diseño formal. Subtítulos quemados obligatorios incluidos en checklist. Archivo escrito en `content/cycles/2026-09/piezas/pieza-03/diseno-brief.md`.
