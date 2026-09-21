@@ -1,43 +1,67 @@
-# Brief de dirección visual — Pieza 02: "El cuaderno / Excel de las 11pm"
+# Brief de diseño — Pieza 02 (Reel POV, Ciclo 2026-09)
 
-> Formato: Reel "un día en la vida" (habla a cámara / detrás de cámaras). IG + Facebook. Etapa: awareness. No se menciona producto ni marca en ningún overlay (regla del guion). Subtítulos quemados obligatorios en todo el Reel (regla del ciclo, ver `02-plan.md`).
+> Formato: Reel POV, cámara subjetiva = ojos de la dueña. 1 actor, 1 locación, tiempo de grabación muy limitado. Este brief está optimizado para **minimizar tomas**: agrupa beats consecutivos en una sola toma continua siempre que la acción lo permite, y deja solo un insert corto aparte.
+
+---
 
 ## 1. Shotlist / storyboard
 
-| # | Beat (guion) | Encuadre / tipo de toma | Duración aprox. |
-|---|---|---|---|
-| 1 | Hook — "Son las 11pm..." | B-roll del negocio cerrando (persiana, letrero, luz apagándose). Trípode fijo, plano general/medio, noche, luz cálida/artificial. Texto quemado **"11:00 PM"** grande, estilo reloj digital, centrado o esquina superior. | 2-3s |
-| 2 | Beat 1 — Recuento del día | Montaje rápido de B-roll de la jornada: atendiendo cliente, cortando/peinando, cobrando, revisando el celular. Cortes cada 0.5-1s, ritmo ágil ("día en la vida"). Mezcla de trípode (planos de trabajo) y algún clip en mano (textura, inmediatez). Overlays en fragmentos: **"8 citas" / "+30 mensajes" / "1 negocio"**. | 5-6s |
-| 3 | Beat 2 — El corte (cocina/mesa doméstica) | Trípode, plano medio, Amanda sentada en espacio doméstico (no el local) con celular/laptop. Luz cálida hogareña (lámpara, no luz fría de "oficina tech"). Texto: **"El negocio sigue abierto... en su cabeza."** | 5s |
-| 4 | Beat 3 — El cuaderno/Excel en detalle | Close-up de manos escribiendo en libreta o navegando Excel: tachones, columnas, sumas. Cámara en mano o trípode con macro/zoom para dar textura íntima. Texto: **"Cuadrando cuentas... otra vez."** | 6-7s |
-| 5 | Beat 4 — El costo real (familia, sugerido no mostrado) | Plano detalle: puerta entreabierta de cuarto de niños, foto familiar en la mesa, o sonido ambiente sugerente — **sin mostrar el rostro de la hija** (privacidad de menor). Luz más tenue y cálida, tono íntimo. Texto: **"El cuaderno no le paga horas extra a Amanda. Pero se las quita igual."** | 7-8s |
-| 6 | Beat 5 — Cierre de la escena | Amanda cierra libreta/laptop, se soba los ojos, mira el reloj. Trípode, plano medio/primer plano. Texto: **"11:47 PM"** (mismo estilo tipográfico que el hook, para reforzar que avanzó el tiempo). | 5s |
-| 7 | CTA | Habla a cámara directa (selfie o trípode cercano), primer plano/medio, luz cálida, tono cercano y directo — sin venta. Texto: **"¿A qué hora terminaste HOY? Cuéntame en los comentarios 👇"** + llamado secundario discreto al final: **"Sígueme si esto te suena conocido."** | 6-7s |
+Resumen de tomas necesarias: **2 tomas en total** (1 toma principal continua + 1 insert de pantalla del celular). Todo lo demás (contadores, texto de interpelación, CTA, cierre) se agrega en edición como overlay de texto, no requiere grabación adicional.
 
-**Duración total objetivo del Reel: ~35-45s.**
+| # | Toma | Cubre (beats del guion) | Encuadre / cámara | Duración aprox. | Notas de grabación |
+|---|---|---|---|---|---|
+| **Toma 1** | Escena continua de servicio (POV) | Hook (0-3s) + Beat 1 "establecer la escena" (0-4s) + Beat 2 "el conflicto se acumula" (4-9s) + Beat 4 "vuelta a la escena, resolución" (13-18s) | Cámara en mano o con estabilizador, sostenida a la altura de los ojos/pecho de la actriz, simulando su mirada. Encuadre medio: manos trabajando en primer plano, clienta parcialmente en cuadro, celular visible de fondo sobre repisa/mesa (dentro de foco, aunque no sea el centro de atención). | ~14-15s (se puede grabar de corrido, incluso más largo, y recortar en edición) | Grabar **una sola toma larga sin cortes**: la actriz hace el servicio, mira de reojo al celular un par de veces (para el momento de "3-5-7 mensajes"), termina el servicio, despide a la clienta, y recién ahí toma el celular con un suspiro/sonrisa cansada. No hace falta repetir por partes — el editor corta y superpone texto sobre este material continuo. |
+| **Toma 2 (insert)** | Beat 3 "texto de apoyo, interpelación directa" (9-13s) | Plano cenital/POV corto: cámara mirando hacia abajo, como si la dueña bajara la vista al celular sobre la mesa — pantalla con varias notificaciones apiladas (sin mostrar apps ni contenido de marca de terceros de forma protagónica; puede ser una pantalla de bloqueo genérica con banners). | ~4-5s | Se puede grabar aparte, en cualquier momento, sin necesidad de la clienta ni de repetir el resto de la escena. Sugerencia: usar el celular real de la actriz con notificaciones simuladas/mock, o tapar nombres de apps si aparecen. |
+
+**Texto en pantalla (todo en edición, sin toma adicional):**
+- Hook inicial (0-3s, sobre Toma 1)
+- Contador "3 mensajes sin leer" → "5" → "7" (sincronizado con las miradas de reojo en Toma 1)
+- Texto de interpelación (sobre Toma 2)
+- "Y ahí recién puedes ver qué te escribieron hace media hora" (sobre el cierre de Toma 1)
+- Cierre reflexivo "No te falta ser más rápida..." (frame final, puede ir sobre un freeze del último segundo)
+- CTA de comentarios + refuerzo de guardar (últimos 2-3s)
+
+**Audio:** ambiente del negocio + sonido de vibración del celular (real o agregado en edición). Sin música dramática ni efectos de alerta tipo "amenaza tecnológica" — mantener el tono de reconocimiento cómplice que pide el guion, no de crisis. El opcional hablado "Ya voy, ya voy..." se graba en la Toma 1 si sale natural; si no sale bien, se omite sin problema (la pieza funciona solo con texto + audio ambiente).
+
+---
 
 ## 2. Concepto de portada / thumbnail
 
-La primera imagen (antes de dar play) debe comunicar en un vistazo "reconocimiento inmediato del cansancio nocturno invisible de una dueña de negocio" — sin caer en la tristeza exagerada (regla de marca: nunca dramatizar).
+La primera imagen que se ve antes de reproducir (frame de portada o miniatura de feed) debe transmitir **caos cotidiano relatable**, no drama. Sugerencia concreta:
 
-Opción recomendada: el frame del overlay **"11:00 PM"** en tipografía grande sobre el plano del negocio cerrando en penumbra (toma 1 del shotlist). Alternativa igualmente válida: el plano de Amanda en la mesa de cocina con el cuaderno/celular, luz cálida de lámpara, mirada hacia abajo (concentrada, no llorando ni desesperada) — toma 3.
+- Frame de la Toma 1 en el momento justo donde se ve, en un solo cuadro: las manos trabajando + la clienta + el celular encendido de fondo con notificación visible.
+- Overlay de texto quemado del hook ya visible en ese frame: *"POV: son las 6pm..."* — así el thumbnail comunica el gancho aunque el usuario no reproduzca el video (crítico para feed, donde compite por el scroll).
+- Evitar una cara de estrés exagerado o gesto de pánico — la expresión debe leerse como "ocupada, concentrada", no como emergencia. Consistente con la regla de marca de nunca dramatizar el problema como crisis.
 
-Cualquiera de las dos debe transmitir: hora tardía + trabajo que "no se ve" + calidez humana (no drama de oficina). Evitar cualquier imagen que parezca queja o crisis; el tono es de identificación serena, coherente con el arquetipo Mentor-Explorador.
+---
 
 ## 3. Estilo visual
 
-- **Paleta** (de `brand-brief.md`): verde profundo `#2F5D50` (base/ambiente), negro roca volcánica `#2B2420` (fondos de texto/franjas para contraste), acento coral/terracota `#C8683B` (para el reloj "11:00 PM" / "11:47 PM" y frases clave — es el color que más comunica calidez humana). Evitar cualquier azul genérico de "tech company".
-- **Tipografía de overlays**: `brand-brief.md` no define tipografía todavía (marca la identidad visual como "pendiente de validar en sesión de diseño formal"). No hay una fuente definitiva que usar. Sugerencia razonable mientras tanto: una sans-serif humanista, cálida y muy legible en subtítulos (ej. familia tipo Poppins, Montserrat o similar disponible en CapCut) — evitar fuentes condensadas o de aspecto corporativo/frío. Tratar esto como elección provisional, no como estándar de marca cerrado.
-- **Referencias de tono**: naturalista, luz práctica y cálida (lámparas de casa, luz de noche del negocio), estética "un día en la vida" sin sobreproducción — cámara en mano permitida en los planos íntimos (beats 3-4) para dar textura humana. Nada de iluminación fría, set styling de oficina, ni estética "startup tech". Consistente con arquetipo Mentor-Explorador: cercano, sereno, sin dramatismo forzado.
+**Paleta** (tomada de `brand-brief.md`, único dato de identidad visual definido hasta ahora):
+- Verde profundo `#2F5D50` — usar en el fondo de las cajas de texto/overlays o en el contador de mensajes.
+- Negro roca `#2B2420` — usar para texto principal o fondo de subtítulos, da buen contraste sobre casi cualquier escena real.
+- Coral/terracota `#C8683B` — usar como acento puntual: el contador "7 mensajes sin leer" en Beat 2, y el CTA final de comentarios, para que destaquen sin saturar la pieza de color.
+- Evitar cualquier azul tipo "tech company" (regla explícita de marca) — no usar azules genéricos de UI de apps de mensajería al mostrar el celular en la Toma 2 si se puede evitar (o desenfocar/generalizar la interfaz).
+
+**Tipografía de overlays:** no hay tipografía de marca definida todavía en `brand-brief.md` (pendiente de "sesión de diseño formal" según ese documento) — esto no está cerrado, es una sugerencia razonable, no una decisión definitiva: usar una sans-serif bold nativa de CapCut/Canva (ej. Montserrat Bold, Poppins Bold o equivalente) para los textos narrativos grandes (hook, contador, interpelación, cierre), y la fuente de subtítulos nativa/automática de CapCut para los subtítulos quemados, en blanco o negro roca `#2B2420` con contorno para legibilidad sobre video real.
+
+**Referencias de tono:** cercano, cotidiano, sin filtros ni gráficos que se sientan corporativos — el video debe verse como contenido nativo de Reels grabado con celular, no como pieza publicitaria producida. Nada de transiciones llamativas ni efectos de "alerta tecnológica" (parpadeos rojos, sonidos de sirena, etc.) — coherente con la regla de marca de no dramatizar el cambio/tecnología como amenaza.
+
+---
 
 ## 4. Checklist de assets
 
-- **Relación de aspecto**: 9:16 vertical (Reels IG + Facebook).
-- **Duración objetivo**: 35-45s total.
-- **Subtítulos quemados**: obligatorios en todo el Reel (regla del ciclo, ver `02-plan.md`), alto contraste, tercio inferior o medio, sin tapar el overlay del reloj.
-- **Overlay de reloj digital**: "11:00 PM" (hook) → "11:47 PM" (cierre), mismo estilo tipográfico y posición en ambas apariciones para reforzar continuidad temporal.
-- **Overlays de texto por beat**: "8 citas" / "+30 mensajes" / "1 negocio" (beat 1); "El negocio sigue abierto... en su cabeza." (beat 2); "Cuadrando cuentas... otra vez." (beat 3); "El cuaderno no le paga horas extra a Amanda. Pero se las quita igual." (beat 4); CTA "¿A qué hora terminaste HOY? Cuéntame en los comentarios 👇" + "Sígueme si esto te suena conocido." — texto en coral `#C8683B` o blanco sobre franja negro roca `#2B2420` para legibilidad.
-- **B-roll a preparar**: negocio cerrando de noche; clips de la jornada (atención a cliente, cortar/peinar, cobrar, revisar celular — pueden recrearse si no se grabaron en el momento real); espacio doméstico/cocina; detalle de cuaderno o Excel; puerta entreabierta de cuarto infantil o foto familiar (sin mostrar el rostro de la hija).
-- **Audio**: voz en off/habla a cámara de Amanda como eje; música de fondo instrumental suave y de bajo volumen — evitar música o tono que dramatice el cansancio (regla de marca: nunca dramatizar el cambio/dolor como crisis).
-- **Verificación de marca**: no debe aparecer logo, nombre de producto ni mención de Iguana en ningún overlay ni en el habla a cámara — consistente con el guion (pieza puramente de identificación emocional, awareness puro).
-- **Pendiente de decisión previa a grabar (no corresponde a este brief)**: el `02-plan.md` deja abierto el comodín de tendencia "Potential-Maxxing" para esta pieza — verificar vigencia cerca de la fecha de grabación (2026-09-22) antes de comprometerlo; es responsabilidad de `hook`/`guion`, se anota aquí solo para no perderlo de vista en producción.
+- **Relación de aspecto:** 9:16 (Reels/IG + Facebook feed vertical).
+- **Duración objetivo:** ~18-20s (según timing del guion, hook 0-3s hasta cierre en seg. 18-20; el CTA de comentarios puede extenderlo 2-3s más, total ≤ 23s).
+- **Subtítulos quemados:** obligatorios en toda la pieza (regla fija para todos los Reels) — cubrir cualquier línea hablada real (ej. "Ya voy, ya voy...") además de los textos narrativos ya descritos como overlay. Si no hay audio hablado, los overlays de texto narrativo ya cumplen la función pero deben mantenerse "quemados" (incrustados en el video, no como texto de plataforma editable aparte).
+- **Elementos gráficos/texto a preparar en edición:**
+  - Overlay hook (0-3s)
+  - Contador animado "3 → 5 → 7 mensajes sin leer"
+  - Overlay de interpelación (Beat 3, sobre Toma 2)
+  - Overlay "Y ahí recién puedes ver qué te escribieron hace media hora" (Beat 4)
+  - Overlay cierre reflexivo "No te falta ser más rápida. Te faltarían un par de manos más." (Beat 5)
+  - Overlay CTA final: "¿A cuántos mensajes sin contestar tienes ahorita? Cuéntanos en los comentarios." + refuerzo pequeño "Comenta tu número. Guarda este video..."
+  - Subtítulos quemados de cualquier audio hablado
+- **Sonido:** ambiente real del negocio (grabado in situ) + sonido de vibración de celular (real o foley/SFX libre de derechos); sin música de fondo dramática — opcional un trend/sonido suave de fondo de bajo perfil si el usuario quiere sumarse a tendencia, siempre que no compita con los subtítulos.
+- **Sin mención de producto/marca/pricing** en ningún overlay ni en el audio — esta pieza es awareness puro, consistente con el guion y con el rol de "diseño" que no debe alterar mensaje ni CTA, solo traducirlo a dirección visual.
+- **Nombre de archivo sugerido al exportar:** `pieza-02-reel-pov-final.mp4`, guardarlo en `content/cycles/2026-09/piezas/pieza-02/media/` una vez editado (gate humano — ningún agente actúa en esta carpeta).
