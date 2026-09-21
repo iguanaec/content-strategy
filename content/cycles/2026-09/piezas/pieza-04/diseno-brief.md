@@ -1,89 +1,134 @@
-# Brief de dirección visual — Pieza 04 (Ciclo 2026-09)
+# Brief de diseño — Pieza 04 (Motion/animación, conversión — captura de leads)
 
-**Formato:** Reel (habla a cámara + texto en pantalla) · **Plataformas:** IG + Facebook · **Etapa de funnel:** awareness
-**Duración objetivo:** 30-40 seg · **Fuente del guion:** `content/cycles/2026-09/piezas/pieza-04/guion.md`
-
-> Este brief traduce el guion ya escrito a dirección visual. No modifica hook, beats ni CTA — solo indica cómo grabar y editar.
+> Ciclo 2026-09. Formato: **motion graphics puro** (kinetic typography + formas/iconos animados + mockup de chat simulado). No hay grabación de cámara en ningún momento de esta pieza — todo se produce por diseño/animación en CapCut o Canva. Este documento traduce los 8 beats de `guion.md` en dirección visual de animación; no cambia texto, hook ni CTA.
 
 ---
 
-## 1. Shotlist / storyboard
+## 1. Storyboard de motion graphics (escena por escena)
 
-Una toma por beat. Todo es habla a cámara (selfie o trípode fijo, sin B-roll dedicado este Reel) para mantener el tono cercano/Mentor-Explorador; los cortes de plano sirven para marcar el ritmo entre beats, no para mostrar otra escena.
+Duración total objetivo: **~30 segundos**. Ritmo general: arranca con urgencia/caos contenido (beats 1-2), baja a calma en el reveal de marca (beats 3-4), sube de nuevo a ritmo rápido informativo (beat 5), y cierra sostenido y estático para que el CTA se lea sin prisa (beat 8).
 
-| # | Beat (guion) | Encuadre | Cámara | Duración aprox. | Notas de grabación |
-|---|---|---|---|---|---|
-| 1 | Hook — "No es que tu negocio sea informal..." | Plano medio corto (pecho hacia arriba), cámara a la altura de los ojos | Trípode o celular apoyado (no selfie a mano) para que la imagen esté estable desde el primer fotograma — es lo que decide el scroll-stop | 2 seg | Mirar directo a lente, tono directo/seguro, sin sonreír todavía — la frase es una confrontación suave, no una broma |
-| 2 | Beat 1 — Validación con evidencia ("agenda en cuaderno...") | Mismo plano medio corto, estático | Trípode | 6 seg | Ritmo pausado; dejar un micro-silencio entre cada uno de los 3 ejemplos hablados para que el texto en pantalla alcance a aparecer y leerse |
-| 3 | Beat 2 — Dolor social sin culpar ("el cliente nuevo no ve tu talento") | Igual plano, considerar acercar 5-10% (leve zoom o corte a plano más cerrado) para intensificar sin cambiar de escena | Trípode | 8 seg | Bajar el volumen/energía de la voz aquí — es el beat más vulnerable del guion, no debe sonar acusatorio |
-| 4 | Beat 3 — Punto de giro + guiño a la metáfora ("adaptarte, no convertirte en otra cosa") | Mismo plano medio; aquí es donde se introduce el guiño visual sutil (ver sección de estilo) | Trípode | 10 seg | Tono más cálido, casi de alivio — es el giro emocional del guion. Si se usa un objeto/prop verde como guiño, debe entrar en cuadro de forma natural (ej. sostenido en la mano, o visible en el fondo) sin que la cámara se mueva para "mostrarlo" |
-| 5 | Beat 4 — Reencuadre final ("tu talento ya está") | Vuelta al plano original, estático | Trípode | 6 seg | Cierre con seguridad/calidez, ligera sonrisa permitida aquí (primera del video) |
-| 6 | CTA — "cuéntame cuál es la tuya" + sígueme | Mismo plano, o leve acercamiento final | Trípode | 6-8 seg | Energía sube un poco respecto al resto — es el único momento que pide acción activa (comentar + seguir) |
+### Escena 1 — Hook (0:00–0:03)
+- **Fondo**: negro roca `#2B2420`, con textura sutil de líneas onduladas tipo "agua" en verde `#2F5D50` al 15-20% de opacidad, animación lenta tipo loop (da sensación de movimiento constante sin distraer).
+- **Elemento gráfico**: silueta/ícono flat en line-art (no fotorrealista) de una persona atendiendo a un cliente (ej. cortando cabello) apareciendo detrás o al lado del texto, en trazo fino verde o blanco — representa a Amanda sin necesidad de grabarla.
+- **Tipo de animación**: kinetic typography — el texto del hook entra por bloques de frase (no palabra por palabra) con easing suave (ease-out), centrado.
+- **Texto en pantalla** (quemado, obligatorio): "¿Y si tu WhatsApp respondiera, agendara y facturara... aunque tú estés cortando el pelo de alguien más?" — resaltar en coral `#C8683B` las tres palabras clave: "respondiera", "agendara", "facturara".
+- **Transición de salida**: corte seco o whip-pan suave hacia escena 2 (el cambio de ritmo debe sentirse, no ser un fade lento).
 
-**Nota de edición:** un solo entorno de grabación (mismo fondo, misma luz) para las 6 tomas — el guion no tiene B-roll, así que la consistencia visual entre cortes es lo que sostiene el ritmo. Si se graban varias tomas por beat para elegir la mejor en edición, mantener encuadre y distancia a cámara idénticos entre tomas para que los cortes no salten.
+### Escena 2 — El dolor (0:03–0:07)
+- **Fondo**: se mantiene negro roca, textura de agua se detiene (transmite "todo se acumula", sensación de pausa incómoda).
+- **Elemento gráfico**: tres íconos simples de burbuja de chat con signo de exclamación o reloj, apareciendo uno a la vez junto a cada línea de texto.
+- **Tipo de animación**: cada línea entra con un golpe seco (stamp/snap, no fade), ritmo rápido — aprox. 1.3s por línea. Opcional: leve "shake" de 2-3px en cada aparición para transmitir caos contenido, sin exagerar (la marca nunca dramatiza).
+- **Texto en pantalla** (en secuencia): "Mensajes sin contestar." / "Citas que se pierden." / "Cuadernos que no cuadran." — blanco o gris claro sobre negro roca, sin color de acento aquí (se reserva el coral para momentos clave).
+- **Transición de salida**: corte a escena 3.
+
+### Escena 3 — Giro de tono (0:07–0:09)
+- **Fondo**: transición de negro roca a un degradado hacia verde `#2F5D50` (animada, ~0.8s), la textura de agua vuelve a moverse pero ahora con más presencia — simboliza el cambio hacia algo esperanzador.
+- **Tipo de animación**: texto único, grande, centrado, entra con ease-in lento (contraste deliberado con el ritmo rápido de la escena anterior — aquí se respira).
+- **Texto en pantalla**: "No puedes estar en todo a la vez." — blanco, tipografía bold.
+- **Transición de salida**: el fondo verde se queda y da paso al reveal (no cortar, dejar que fluya).
+
+### Escena 4 — Reveal de marca (0:09–0:13)
+- **Fondo**: verde `#2F5D50` sólido o degradado suave hacia negro roca en los bordes.
+- **Elemento gráfico**: aquí es el único momento donde se sugiere usar la metáfora visual de marca — ondas concéntricas suaves (como si algo se sumergiera en el agua con calma, nunca un salto brusco) y, si existe un ícono/wordmark de Iguana ya definido, animarlo entrando con esas ondas. Si no hay logo formal todavía, usar únicamente el wordmark tipográfico "Iguana" en coral como placeholder — no inventar un ícono de reptil nuevo sin validación de marca.
+- **Tipo de animación**: entrada suave, ease-out, sin golpes secos (coherente con "se desliza al agua con calma, nunca salta dramáticamente").
+- **Texto en pantalla**: "Iguana. Tu WhatsApp, cubierto." — "Iguana" en coral `#C8683B` y destacado en tamaño mayor al resto de la frase.
+- **Transición de salida**: corte a ritmo rápido para escena 5 (contraste marcado).
+
+### Escena 5 — Las tres capacidades (0:13–0:20)
+- **Fondo**: negro roca o verde oscuro, consistente para las tres micro-escenas (no cambiar de fondo entre ellas, solo el contenido central).
+- **Elemento gráfico central**: mockup de chat simulado tipo WhatsApp (burbujas de conversación) adaptado a la paleta de marca (burbujas en tono verde/coral en vez del verde WhatsApp genérico, para no salirse de la identidad) — mostrando de forma simplificada: 1) un mensaje que recibe respuesta automática, 2) un ícono de calendario/cita confirmándose, 3) un ícono de documento/check tipo factura.
+- **Tipo de animación**: ritmo rápido tipo "stamp", cada capacidad ocupa ~2.3s, con un ícono simple (reloj, calendario, documento) apareciendo con un pequeño rebote (bounce sutil, no exagerado) junto al texto.
+- **Texto en pantalla** (uno por micro-beat, grande, bold):
+  - "Responde 24/7"
+  - "Agenda automático"
+  - "Factura ante el SRI"
+- **Nota**: no usar iconografía de software (nada de nubes, API, engranajes tipo "tech") — mantener iconos cotidianos y reconocibles (reloj, calendario, documento).
+- **Transición de salida**: corte a escena 6.
+
+### Escena 6 — La protagonista sigue siendo Amanda (0:20–0:24)
+- **Fondo**: vuelve a verde `#2F5D50`, ritmo más calmo (contraste con la escena anterior).
+- **Elemento gráfico**: el mismo ícono/silueta de la escena 1 (la dueña del negocio) vuelve a aparecer, esta vez en primer plano/centrado, con un ícono pequeño de Iguana al costado (apoyo, no protagonista) — refuerza visualmente que el negocio y la dueña son el centro, no el producto.
+- **Tipo de animación**: entrada suave, ease-out.
+- **Texto en pantalla**: "Tú mandas. Iguana solo te ayuda a sostener el ritmo."
+- **Transición de salida**: fade corto hacia escena 7.
+
+### Escena 7 — Puente al CTA (0:24–0:26)
+- **Fondo**: negro roca, minimalista.
+- **Elemento gráfico**: un signo de interrogación animado (entra y se queda estático un instante) o simplemente el fondo respirando sin texto — decisión de edición, mantenerlo simple y breve (son solo ~2s).
+- **Texto en pantalla**: ninguno adicional (según guion, es opcional/decisión de diseño — se recomienda dejarlo sin texto para que el corte al CTA final tenga más impacto).
+- **Transición de salida**: corte seco hacia la pantalla de cierre (el CTA debe sentirse como una llegada, no un fade).
+
+### Escena 8 — CTA / Cierre (0:26–0:30)
+- **Fondo**: pantalla estática sostenida (no animar de más aquí — el objetivo es que se lea completo incluso pausado), verde `#2F5D50` o negro roca con bloque de texto en coral para máximo contraste.
+- **Elemento gráfico**: ícono de WhatsApp reconocible (outline, recoloreado a los tonos de marca — coral o blanco, no verde WhatsApp genérico para no romper la paleta), wordmark/logo de Iguana en la parte inferior.
+- **Tipo de animación**: el texto de CTA entra con un golpe (stamp) y se queda fijo, sin más movimiento, los 3-4 segundos finales — dale tiempo a que alguien sin sonido pueda leerlo completo y pausarlo si quiere.
+- **Texto en pantalla** (grande, sostenido, máximo contraste): **"ESCRÍBENOS POR WHATSAPP — LINK EN LA BIO"**
+- **Importante**: NO escribir la URL dentro del motion (Instagram no permite links clicables en video). Solo el texto "link en la bio", tal como indica el guion.
 
 ---
 
 ## 2. Concepto de portada / thumbnail
 
-La miniatura (primer fotograma antes de dar play, o el fotograma que IG selecciona por defecto) debe transmitir, sin sonido y sin haber leído el caption:
+En feed de Instagram/Facebook, el primer frame del video suele tomarse como miniatura por defecto — **no dejar que sea el frame 0 del hook en construcción** (texto apareciendo a medias se ve roto como portada estática). Se recomienda:
 
-- **Cara visible, expresión neutra-seria** (no sonriente) — coherente con el hook de confrontación suave. Debe leerse como "esto me interesa, no es otro reel motivacional genérico".
-- El **texto en pantalla del hook** ("INFORMAL ≠ SE VE INFORMAL") debe estar visible y legible incluso en miniatura pequeña (feed, no solo pantalla completa) — usar tipografía grande, alto contraste, y dejar los primeros 2 seg del hook como el fotograma candidato a portada.
-- Fondo simple, sin desorden visual, para que el texto no compita con elementos del entorno.
-- No incluir ningún elemento del producto (celular, WhatsApp, capturas de pantalla) — el gancho es 100% el dolor social, no la solución.
+- Diseñar una **portada/cover específica** (CapCut y el editor nativo de Instagram permiten elegir un frame o subir una imagen de portada distinta al video).
+- La portada debe transmitir, sin necesidad de reproducir: **de qué trata la pieza y que hay una acción a tomar**, no repetir el hook completo. Sugerencia: usar el momento de mayor impacto visual — el reveal del wordmark "Iguana" (escena 4) o el texto "Tu WhatsApp, cubierto." ya completamente formado en pantalla, con la paleta de marca visible (fondo verde/negro roca, texto coral).
+- Alternativa si se quiere priorizar la conversión desde el scroll: una portada con el propio texto del CTA parcial ("Tu WhatsApp, cubierto.") + un pequeño ícono de WhatsApp, para que quien vea el feed sin sonido entienda de inmediato el tema antes de decidir reproducir.
+- Evitar: dejar la portada en negro roca sin ningún elemento (se pierde entre otros posts), o un frame intermedio con texto cortado a la mitad.
 
 ---
 
 ## 3. Estilo visual
 
-`brand-brief.md` define paleta pero **no** define tipografía de overlays ni referencias de tono visual específicas para Reels — esa parte está marcada como "pendiente de validar en sesión de diseño formal". Lo que sigue: lo tomado directo del brief está marcado como definido; el resto es una sugerción razonable, no una decisión cerrada.
+### Paleta (definida en `brand-brief.md`, usar tal cual)
+- Verde profundo `#2F5D50` — color dominante de fondo, transmite mar/adaptación/calma.
+- Negro roca volcánica `#2B2420` — fondo alterno, origen/solidez, momentos de "problema" (escenas 1-2).
+- Coral/terracota `#C8683B` — acento exclusivo para calidez humana y para destacar palabras clave / CTA. Usarlo con moderación, como acento, no como color de fondo grande.
+- **Evitar explícitamente** cualquier azul genérico de "tech company" (incluyendo el azul/verde oficial de WhatsApp sin recolorear) — si se usa el ícono de WhatsApp, adaptarlo a la paleta de marca en vez de dejarlo en su verde oficial, para que la pieza no se sienta genérica.
 
-**Paleta (definida en brand-brief.md):**
-- Verde profundo `#2F5D50` — usar como color principal de acento (texto en pantalla, subrayados, o el guiño visual del beat 3).
-- Negro roca volcánica `#2B2420` — para fondos de caja de texto o contornos, da solidez sin ser negro puro.
-- Coral/terracota `#C8683B` — acento secundario, usar con moderación (ej. para resaltar una sola palabra clave por texto, no todo el bloque).
-- **Evitar explícitamente:** azul genérico de "tech company" — no usar plantillas de CapCut con overlays azules por defecto.
+### Tipografía de overlays
+`brand-brief.md` **no define una tipografía formal todavía** (pendiente de sesión de diseño). En ausencia de definición, esta es una sugerencia razonable y no definitiva — validar cuando la marca cierre su sistema tipográfico:
+- Una sans-serif humanista/geométrica con algo de personalidad y buena legibilidad en móvil a tamaño pequeño (ej. Poppins, Nunito, Montserrat, o similar disponible en las librerías de fuentes de CapCut/Canva).
+- Evitar fuentes corporate-tech frías tipo Roboto/Inter sin tratamiento — no encajan con el tono "cercana, serena, orgullosamente local" de la marca.
+- Peso bold para los textos de impacto (hook, CTA, capacidades) y un peso regular/medium para las líneas de transición, para crear jerarquía visual sin cambiar de familia tipográfica.
 
-**Tipografía de overlays (no definida en brand-brief.md — sugerencia, a validar):**
-- Una fuente sans-serif redondeada/humana (ej. estilo "Poppins", "Montserrat" o equivalente disponible en CapCut), no condensada ni tipo "corporativo técnico" — coherente con el arquetipo Mentor-Explorador (cercano, no institucional).
-- Jerarquía simple: texto de hook y de cierre en mayúsculas y más grande; texto de los 3 ejemplos del beat 1 en formato lista corta, tamaño uniforme.
-
-**Referencias de tono visual (no definidas en brand-brief.md — sugerencia):**
-- Estética "creador auténtico" (luz natural, cámara fija, sin filtros pesados) — no estética de producción de agencia. Coherente con la regla de marca de no dramatizar y con el formato "habla a cámara" ya elegido en el plan.
-- Subrayado o resaltado de una sola palabra clave por pantalla de texto (ej. "informal", "señales", "adaptarte") en el color coral, resto del texto en blanco o negro roca — evita que el overlay se sienta genérico.
-
----
-
-## 4. Guiño visual sutil a la metáfora de marca (beat 3)
-
-Ubicación exacta: **Beat 3** (seg. 16-26), coincide con la frase hablada "aprender a adaptarte un poco, sin dejar de ser tú" y el texto en pantalla "Adaptarte. No convertirte en otra cosa."
-
-Reglas (según nota del guionista y `brand-brief.md`): sembrar sin nombrar ni explicar — la explicación completa de la metáfora de la iguana marina es exclusiva de la pieza-06 de este ciclo.
-
-Sugerencias de ejecución (elegir una, no combinar varias para no sobrecargar el plano):
-- **Opción A — color:** un objeto o detalle en cuadro de color verde `#2F5D50` que no estaba presente (o no era protagonista) en los beats anteriores — ej. una prenda, un vaso, un detalle del fondo — que aparece o se hace notorio justo en este beat. Debe sentirse casual, no como attrezzo puesto a propósito.
-- **Opción B — textura del overlay:** el texto en pantalla de este beat único usa un fondo o subrayado con una textura sutil tipo "ondas de agua" (muy discreta, casi imperceptible como decoración, no como ilustración literal de una iguana ni de agua).
-- **Opción C — movimiento de cámara mínimo:** un leve empuje/zoom-in suave (no corte brusco) durante este beat, evocando "acercarse con calma" — coherente con "se desliza al agua con calma" de la metáfora, sin ningún elemento gráfico explícito.
-
-Recomendación: Opción A es la más fácil de ejecutar en una grabación de una sola persona sin attrezzo especial — basta con planear qué prenda o detalle de fondo verde estará en cuadro antes de grabar.
+### Referencias de tono
+- Animaciones con easing suave en los momentos de calma (reveal de marca, cierre) y cortes/golpes secos en los momentos de ritmo rápido (dolor, capacidades) — el contraste de ritmo es el recurso narrativo principal de esta pieza, dado que no hay cámara ni actuación real que aporte energía.
+- Coherente con la metáfora de marca: nunca un movimiento "salta dramáticamente"; el reveal de Iguana se desliza, no aparece con explosión ni golpe fuerte.
+- Sin literalidad de reptil/iguana como chiste visual recurrente — si no hay un ícono de marca ya validado, usar el wordmark tipográfico antes que inventar una ilustración de iguana no aprobada.
 
 ---
 
-## 5. Checklist de assets (para preparar en edición)
+## 4. Checklist de assets
 
-- [ ] **Relación de aspecto:** 9:16 (Reel, IG + Facebook) — grabar ya en vertical, no recortar en post.
-- [ ] **Duración final:** 30-40 seg (según guion) — verificar que la suma de tomas + pausas para lectura de texto no exceda ~40 seg.
-- [ ] **Subtítulos quemados: obligatorios** (regla fija de este ciclo para todos los Reels, ver `02-plan.md`) — cubren el 100% de las líneas habladas, no solo los overlays de énfasis. Los overlays de texto (frases cortas tipo "INFORMAL ≠ SE VE INFORMAL") son adicionales a los subtítulos, no un reemplazo.
-- [ ] **Overlays de texto en pantalla** (copiar tal cual del guion, no parafrasear):
-  - Hook: "INFORMAL ≠ SE VE INFORMAL"
-  - Beat 1: "Agenda en cuaderno" / "Cobro sin factura" / "'Ahorita te contesto' → mañana" (3 líneas, una por ejemplo)
-  - Beat 2: "El cliente nuevo no ve tu talento. Ve tus señales."
-  - Beat 3: "Adaptarte. No convertirte en otra cosa." + guiño visual sutil (ver sección 4)
-  - Beat 4: "Tu talento ya está. Falta que se note."
-  - Cierre/CTA: "Cuéntame cuál es la tuya 👇 · Sígueme para lo que viene"
-- [ ] **Paleta de overlays:** verde `#2F5D50`, negro roca `#2B2420`, coral `#C8683B` — sin azul genérico de tech.
-- [ ] **Portada/thumbnail:** fotograma del hook (cara + texto "INFORMAL ≠ SE VE INFORMAL"), expresión seria, sin elementos de producto en cuadro.
-- [ ] **Consistencia de grabación:** mismo entorno, luz y distancia a cámara en las 6 tomas para que los cortes entre beats no salten.
-- [ ] **Sin B-roll ni imágenes de stock** — este Reel es 100% habla a cámara, según formato definido en `02-plan.md`.
-- [ ] **Sin elementos de producto/precio en pantalla** — coherente con etapa awareness y regla de no mencionar pricing.
+**Formato y especificaciones técnicas**
+- [ ] Relación de aspecto: **9:16** (vertical, feed de Instagram/Facebook favorece este formato incluso fuera de Stories/Reels; además maximiza espacio para texto en pantalla legible en móvil).
+- [ ] Duración objetivo: **~30 segundos** (según beats del guion, 0:00–0:30).
+- [ ] Zona segura: mantener texto y elementos clave fuera de los ~250px superiores e inferiores (evita que la UI de Instagram/Facebook —nombre de usuario, ícono de like, caption— tape el CTA).
+- [ ] Subtítulos/texto en pantalla **quemados en el video, obligatorio en todos los beats** (contenido silencioso-friendly — el guion ya especifica el texto de cada beat, usarlo tal cual como overlay, no solo como guion de voz en off).
+- [ ] Contraste de texto verificado: coral sobre verde oscuro y blanco sobre negro roca deben probarse a tamaño de miniatura de feed (no solo a pantalla completa) para confirmar legibilidad.
+
+**Elementos gráficos a preparar antes de animar**
+- [ ] Wordmark/logo de Iguana (usar el existente si ya hay uno validado; si no, texto tipográfico tratado como placeholder).
+- [ ] Set de iconos flat/line-art: persona atendiendo un negocio, burbuja de chat, reloj, calendario, documento/factura, ícono de WhatsApp recoloreado a paleta de marca.
+- [ ] Textura de fondo tipo "ondas de agua" animable en loop (para escenas 1 y 4).
+- [ ] Mockup de conversación de WhatsApp simplificado y recoloreado a la paleta de marca (para escena 5).
+- [ ] Portada/cover diseñada aparte (ver sección 2), no depender del frame 0 automático.
+
+**Texto en pantalla a preparar en la edición (copiar tal cual del guion, sin parafrasear)**
+- [ ] "¿Y si tu WhatsApp respondiera, agendara y facturara... aunque tú estés cortando el pelo de alguien más?"
+- [ ] "Mensajes sin contestar." / "Citas que se pierden." / "Cuadernos que no cuadran."
+- [ ] "No puedes estar en todo a la vez."
+- [ ] "Iguana. Tu WhatsApp, cubierto."
+- [ ] "Responde 24/7" / "Agenda automático" / "Factura ante el SRI"
+- [ ] "Tú mandas. Iguana solo te ayuda a sostener el ritmo."
+- [ ] **"ESCRÍBENOS POR WHATSAPP — LINK EN LA BIO"** (texto final, grande, sostenido 3-4s, sin escribir la URL dentro del video).
+
+**Recordatorio crítico para `publicar` y para configurar la bio antes de publicar esta pieza**
+- [ ] El link real que debe estar activo en la bio de Instagram y repetido en el caption/descripción del post (NUNCA dentro del video) es:
+  `https://wa.me/593959420676?text=Hola%2C%20vi%20el%20video%20de%20Iguana%20y%20quiero%20saber%20m%C3%A1s`
+- [ ] Confirmar que el link en la bio de @iguana.ec esté actualizado a esta URL antes de que la pieza 04 se publique — si la bio apunta a otro sitio, el CTA "link en la bio" no cumple su función.
+
+---
+**Archivo escrito por**: subagente `diseño`.
