@@ -1,34 +1,19 @@
-# Hook — Pieza 01: "El cliente que se fue por no contestar a tiempo"
+# Hook — Pieza 01 (Carrusel: "3 señales de que estás perdiendo clientes por WhatsApp")
 
-Formato: Reel (dramatización corta, subtítulos quemados) · Funnel: awareness · IG + Facebook
+> Slide 1 del carrusel. Awareness puro: sin mencionar pricing, nombres de plan, ni a Iguana como producto.
 
 ## Hooks candidatos
 
-**1. Pain point directo**
-"Amanda no perdió a ese cliente por mal servicio. Lo perdió por 4 minutos."
-*(Ángulo: dolor funcional puro — plantea el conflicto sin explicarlo todavía, obliga a ver qué pasó en esos 4 minutos.)*
+1. **(Dato sorprendente)** "Los negocios de servicios pierden entre 2 y 5 citas por semana por WhatsApp — y casi nunca es porque el cliente se arrepintió."
 
-**2. Dato sorprendente**
-"Los salones como el de Amanda pierden hasta 5 citas a la semana. Y casi nunca es porque el cliente no confiaba."
-*(Ángulo: estadística de respaldo del research — 2-5 citas perdidas/semana — usada como gancho de curiosidad, no de miedo.)*
+2. **(Pregunta directa)** "¿Cuántos mensajes de WhatsApp se te quedaron 'para responder en la noche' esta semana?"
 
-**3. Pregunta directa**
-"¿Cuántos clientes se te han ido este mes... sin que tú te dieras cuenta?"
-*(Ángulo: interpela directo a la audiencia, dolor que ya viven pero no cuantifican — genera comentarios/identificación.)*
+3. **(Pain point / relatable)** "No perdiste ese cliente por precio. Lo perdiste porque tardaste 3 horas en contestarle."
 
-**4. Curiosidad / escena cortada**
-"Mientras Amanda terminaba un corte, alguien más ya le estaba escribiendo a otro salón."
-*(Ángulo: abre la escena in media res, sin nombrar el problema todavía — invita a quedarse a ver el desenlace.)*
+4. **(Curiosidad)** "3 señales de que tu WhatsApp te está costando clientes sin que te des cuenta."
 
-**5. Controversia suave**
-"No es que Amanda no responda rápido. Es que no puede estar en dos lados a la vez."
-*(Ángulo: reencuadra la culpa — no es falta de esfuerzo de Amanda, es un problema estructural de tener un solo par de manos. Protege a Amanda como héroe, nunca la culpa.)*
+5. **(Controversia suave)** "Tu negocio no tiene un problema de clientes. Tiene un problema de WhatsApp desordenado."
 
 ## Recomendación
 
-Usar el **hook 1** ("Amanda no perdió a ese cliente por mal servicio. Lo perdió por 4 minutos."): es el más específico y verificable, crea una brecha de curiosidad inmediata (¿qué pasó en 4 minutos?) sin dramatizar tecnología ni mencionar producto, y deja a Amanda como protagonista neutral —no culpable— desde el primer segundo. El hook 5 es la mejor alternativa si en edición se prioriza más el reencuadre emocional que el dato concreto.
-
-## Notas de cumplimiento
-- Ningún hook menciona pricing, nombres de plan, ni a Iguana como actor de la historia.
-- Ningún hook dramatiza la tecnología como riesgosa; el conflicto es puramente operativo (un mensaje que se enfría), no un "peligro" de usar o no usar herramientas.
-- Amanda es la protagonista en los 5 hooks; ninguno la retrata como incompetente, solo como alguien con un problema estructural (estar en dos lados a la vez).
+Usar el **hook 3** ("No perdiste ese cliente por precio...") como slide 1. Es el más directo al dolor funcional y emocional de Amanda (confirma que ya hizo todo bien —su servicio— pero pierde por gestión, no por competencia ni precio), genera fricción suave sin sonar alarmista ni acusatorio, y engancha con un "eso me pasó a mí" inmediato que invita a deslizar al slide 2 para ver las 3 señales. Como alternativa fuerte si se quiere un ángulo más informativo/dato-duro, el hook 1 respaldado por la cifra de investigación (2-5 citas/semana) también funciona bien para awareness.
