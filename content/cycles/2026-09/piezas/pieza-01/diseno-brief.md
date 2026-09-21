@@ -1,72 +1,95 @@
-# Brief de dirección visual — Pieza 01: "El cliente que se fue por no contestar a tiempo"
+# Brief de diseño — Pieza 01 (Carrusel: "3 señales de que estás perdiendo clientes por WhatsApp")
 
-Formato: Reel (dramatización corta) · IG + Facebook · Funnel: awareness · Fecha objetivo: 2026-09-18
-Referencia de guion: `content/cycles/2026-09/piezas/pieza-01/guion.md` (hook y texto no se modifican, solo se traducen a dirección visual).
-
----
-
-## 1. Shotlist / storyboard
-
-Una toma sugerida por beat del guion. Duraciones aproximadas suman ~28-30s totales (hook incluido), ajustable al ritmo real de grabación.
-
-| # | Beat (guion) | Duración aprox. | Encuadre / tipo de toma | Notas de dirección |
-|---|---|---|---|---|
-| 0 | Hook ("Amanda no perdió a ese cliente...") | 0-2s | Selfie o trípode, plano medio de "Amanda" (tú o quien grabe) mirando a cámara, quieta, expresión neutra-serena | Arranca ya en movimiento/acción, no en pantalla en blanco. El hook es texto+voz, no necesita imagen especial, pero evita que la primera toma sea estática o vacía — que ya se vea "en situación" (delantal, tijeras, producto de trabajo en mano). |
-| 1 | Establecer la escena (0-3s) | ~3s | Trípode, plano medio-general, "Amanda" atendiendo a una clienta (real o simulada), manos ocupadas, concentrada | Mostrar competencia y buen trabajo, no torpeza. Luz natural de local, sin urgencia en el movimiento. |
-| 2 | Aparece el conflicto en paralelo (3-7s) | ~4s | Toma cenital o macro (puede ser con el celular mismo o cámara secundaria) del teléfono sobre el mostrador, pantalla iluminándose con notificación de WhatsApp | Si se puede, simular la notificación real (screenshot editado en CapCut) en vez de depender de que llegue en el momento exacto de grabar. Volver brevemente a plano de Amanda sin poder verlo (manos ocupadas). |
-| 3 | El tiempo pasa (7-13s) | ~6s | Trípode, mismo encuadre que beat 1 pero repetido/prolongado; overlay gráfico de reloj o contador de minutos en pantalla | Sin música de suspenso, sin zoom dramático ni corte rápido — ritmo calmado, tal como pide el guion. El overlay del reloj se agrega en edición (CapCut), no hace falta prop físico. |
-| 4 | El desenlace (13-18s) | ~5s | Macro/cenital del celular con el chat abierto (mensaje sin respuesta) + inserto pequeño de ícono genérico de "cita confirmada" | Evitar cualquier logo o nombre real de competencia — usar ícono genérico o silueta, como indica el guion. |
-| 5 | El reencuadre (18-24s) | ~6s | Selfie o trípode, primer plano de Amanda mirando el celular, respirando, expresión pensativa (no derrotada) | Este es el plano emocional más importante — vale la pena repetir la toma hasta que la expresión lea "reconoce un patrón", no "tristeza" ni "vergüenza". |
-| 6 | Generalización (24-28s) | ~4s | B-roll corto, 3 micro-clips (1-1.5s c/u): otro negocio tipo barbería, spa, consultorio — pueden ser stock/B-roll genérico o fotos fijas con leve zoom (Ken Burns en CapCut) | No hace falta grabar en 3 locales distintos si no es viable: se puede resolver con fotos/B-roll de stock con licencia libre + texto en pantalla que generalice, o repetir el mismo local con vestuario/props distintos si se prefiere producción propia. |
-| 7 | CTA | ~2-3s | Selfie o trípode, Amanda mirando a cámara, tono cálido | Cierre con pregunta directa a la audiencia, luego overlay final de marca (ver estilo visual). |
-
-**Duración objetivo total: 25-30s** (Reel corto, ritmo de dramatización + gancho fuerte en los primeros 2s).
+> Formato: Carrusel (IG + Facebook), 7 slides, cero grabación — se arma entero en Canva. Etapa: awareness. Regla dura heredada del guion: **ningún slide ni el caption nombra a Iguana como producto/solución ni menciona pricing.** El héroe visual es la dueña del negocio (Amanda), no una marca.
 
 ---
 
-## 2. Concepto de portada / thumbnail (frame de apertura antes de reproducir)
+## 1. Storyboard — diseño por slide
 
-- El frame que se ve antes de dar play debe transmitir: una persona real, trabajando, competente — no una situación de "problema" o "queja". La emoción a transmitir en el primer fotograma es *concentración serena*, no urgencia ni drama.
-- Sugerencia concreta: usar el plano del beat 1 (Amanda atendiendo, manos ocupadas, mirada en su trabajo) como frame de portada — es el fotograma más "humano y competente" del reel, coherente con la regla de marca de que el héroe es siempre la dueña del negocio, no el problema.
-- Evitar como portada: el celular con la notificación (beat 2) o el reloj (beat 3) — generan lectura de "contenido de ansiedad/urgencia" antes de tiempo, lo cual contradice el tono Mentor-Explorador (sereno, nunca dramatiza el cambio como riesgoso).
-- Si se agrega texto de portada superpuesto (opcional, no obligatorio en Reels): usar solo 2-4 palabras que no revelen el giro, ej. "4 minutos" — genera curiosidad sin spoilear el hook de audio.
+Cada slide es una "toma" de diseño: fondo, jerarquía de texto y elemento visual de apoyo. No hay fotografía/video real — todo es tipografía + color + (opcional) ilustración/icono simple, coherente con que esta pieza no requiere grabación.
+
+**Slide 1 — Hook / portada**
+- Contenido: "No perdiste ese cliente por precio." / "Lo perdiste porque tardaste 3 horas en contestarle." (partido en dos líneas, con pausa visual entre ambas — ver punto 2, es también el concepto de portada).
+- Fondo: negro roca `#2B2420` sólido o con textura muy sutil (grano/ruido leve) para que no se vea plano.
+- Tipografía: la frase 1 en un peso más liviano/pequeño, la frase 2 en el peso más grande/bold, en coral `#C8683B`, para que el ojo aterrice en "3 horas en contestarle" — es la parte que más incomoda y más recuerda.
+- Sin logo, sin ícono de producto. Solo texto. Duración de lectura estimada: 2-3 seg (debe leerse rápido en el feed).
+
+**Slide 2 — Puente / validación del dolor**
+- Título: "Tu servicio es bueno. El problema está en lo que pasa ANTES de que el cliente se siente en tu silla."
+- Subtítulo pequeño (parte inferior): "Aquí van 3 señales para que las identifiques tú misma →"
+- Fondo: verde `#2F5D50`, contraste de color respecto al slide 1 (marca el cambio de "golpe" a "acompañamiento").
+- Texto principal en blanco o crema claro (no coral aquí — el coral se reserva para lo que más duele, este slide es de alivio/validación).
+- Elemento visual de apoyo (opcional, simple): una flecha o línea punteada horizontal que sugiere continuidad hacia el siguiente slide.
+
+**Slide 3 — Señal 1: Respuesta tardía**
+- Etiqueta superior pequeña: "Señal 1 / 3" (numerador visual, ayuda a que el usuario sienta que va avanzando — clave para que deslice hasta el final).
+- Título: "Contestas cuando puedes, no cuando el cliente escribe."
+- Cuerpo (texto de apoyo, tamaño menor): "Un mensaje que se queda 'para responder en la noche' es una cita que ya se está enfriando. El cliente no espera — te escribe a ti y, si tarda, le escribe a la competencia."
+- Fondo: negro roca `#2B2420`.
+- Ícono/motivo simple sugerido: reloj o burbuja de chat con signos de "..." (escribiendo) para reforzar el concepto sin necesitar foto real.
+
+**Slide 4 — Señal 2: Agenda dispersa**
+- Etiqueta: "Señal 2 / 3"
+- Título: "Tu agenda vive en 3 lugares distintos."
+- Cuerpo: "Un cliente en el cuaderno, otro en las notas del celular, otro que 'ya luego lo anoto'. Ahí es donde aparecen los cruces de horario y los 'perdón, ya tengo esa hora ocupada'."
+- Fondo: alterna a verde `#2F5D50` (mantener el patrón de alternancia negro/verde entre señales ayuda a que el carrusel no se sienta monótono y marca ritmo de lectura).
+- Ícono/motivo sugerido: tres formas simples (cuaderno, nota de celular, signo de interrogación) dispersas, sin alinear — refuerza visualmente "dispersión".
+
+**Slide 5 — Señal 3: Seguimiento que no pasa**
+- Etiqueta: "Señal 3 / 3"
+- Título: "El cliente que preguntó precio... y nunca volviste a saber de él."
+- Cuerpo: "No te escribió para no volver. Se quedó esperando una respuesta y, mientras tanto, encontró a alguien que sí le contestó."
+- Fondo: negro roca `#2B2420` (cierra el patrón de alternancia: 3-negro, 4-verde, 5-negro).
+- Detalle de énfasis: la palabra "nunca" o el silencio implícito puede resaltarse en coral `#C8683B`, ya que este es el slide más doloroso del trío — coherente con el uso del coral en el hook.
+
+**Slide 6 — Reflexión / mini-resumen (sin vender nada)**
+- Título: "Ninguna de estas 3 señales tiene que ver con lo buena que eres en tu oficio."
+- Subtítulo: "Tiene que ver con cuánto tiempo humano le exige atender el WhatsApp sola."
+- Fondo: verde `#2F5D50` — vuelve al color de "alivio/acompañamiento" del slide 2, cerrando el círculo visual del problema antes del CTA.
+- Sin ícono de producto ni flecha hacia una solución — este slide es deliberadamente de cierre reflexivo, no de venta.
+
+**Slide 7 — CTA (cierre)**
+- Título: "¿Cuál de las 3 te pasó esta semana?"
+- Subtítulo: "Cuéntamelo en los comentarios 👇"
+- Texto de apoyo secundario, más pequeño: "Guarda este post para releerlo la próxima vez que se te acumulen los mensajes."
+- Fondo: negro roca `#2B2420` (vuelve al color del hook, da sensación de cierre/simetría con el slide 1).
+- Íconos sugeridos: uno de comentario (💬) y uno de guardado (🔖) junto a cada CTA, para reforzar visualmente la acción pedida sin depender solo del texto.
+
+**Nota de decisión pendiente (marca/atribución):** el guion pide no nombrar a Iguana como producto/solución en ningún slide. Esto no debería impedir la atribución estándar de autoría (el handle @iguana.ec ya aparece automáticamente en el feed vía IG/Facebook), así que **no** se sugiere agregar logo ni wordmark dentro de los slides — se deja limpio. Si el usuario prefiere un watermark discreto de handle en la esquina del slide 7 (práctica común para evitar reposts sin crédito), es una decisión de marca a confirmar con el usuario antes de publicar, no algo que este brief asuma por defecto.
+
+---
+
+## 2. Concepto de portada / thumbnail
+
+El slide 1 ES la portada (en carrusel, la primera imagen es lo único que se ve antes de que alguien decida deslizar). Debe transmitir, en menos de 2 segundos de scroll:
+- **Incomodidad reconocible, no acusación**: la frase suena a algo que la propia Amanda pensaría de sí misma, no a un extraño juzgándola.
+- **Cero estética de "anuncio"**: nada de logos, nada de flechas de "desliza", nada de íconos de producto — debe parecer una observación honesta, casi un post de alguien que entiende el negocio, no una pieza publicitaria.
+- **Contraste alto**: fondo oscuro (negro roca) + texto claro + el remate en coral, para que se lea incluso en miniatura dentro del feed (pensar en cómo se ve reducido, no solo a tamaño completo).
 
 ---
 
 ## 3. Estilo visual
 
-`brand-brief.md` sí define paleta e identidad visual (marcada como "pendiente de validar en sesión de diseño formal", así que se toma como guía vigente pero no 100% cerrada):
+**Paleta (definida en `brand-brief.md`, usar tal cual):**
+- Verde profundo `#2F5D50` — color de "acompañamiento/alivio" (slides 2 y 6).
+- Negro roca volcánica `#2B2420` — color de "golpe/observación seca" (slides 1, 3, 5, 7).
+- Coral/terracota `#C8683B` — acento para la palabra o frase que más debe doler/recordarse en cada slide (nunca como fondo completo, solo como énfasis puntual).
+- Evitar cualquier azul genérico de "tech company" — regla explícita de marca.
 
-- **Paleta**
-  - Verde profundo `#2F5D50` — color dominante para overlays de texto y fondo de tarjetas de dato (ej. "2 a 5 citas perdidas por semana").
-  - Negro roca volcánica `#2B2420` — para fondos de texto secundarios o contraste de subtítulos.
-  - Coral/terracota `#C8683B` — acento puntual: úsalo para resaltar la palabra clave de cada overlay (ej. "4 minutos", "12:11 pm") o para el subrayado del CTA final, no como color de fondo grande.
-  - **Evitar explícitamente** cualquier azul genérico de "tech company" en overlays, íconos o gráficos del reloj/notificación — si el editor de CapCut sugiere azul por defecto para íconos de chat/reloj, cambiarlo a uno de los tres colores de marca o a un gris neutro.
+**Tipografía de overlays:** no hay una tipografía de marca definida todavía en `brand-brief.md` (dice "pendiente de validar en sesión de diseño formal"). No lo doy por definitivo — sugerencia razonable para esta pieza: una sans-serif geométrica con peso variable disponible en Canva (ej. "Poppins", "Montserrat" o "Sora" — cualquiera de estas cubre bien títulos bold + cuerpo liviano sin verse "tech corporativo"). Usar como máximo dos pesos de la misma familia (bold para títulos/remates, regular/liviano para cuerpo) para mantener consistencia entre los 7 slides.
 
-- **Tipografía de overlays**: `brand-brief.md` no define una tipografía específica todavía. Como no hay nada definido, esto es una sugerencia razonable y no una decisión cerrada: usar una fuente sans-serif humanista con buena legibilidad en móvil (ej. Poppins, Montserrat o la fuente "Bold" nativa de CapCut), peso semi-bold para overlays cortos tipo dato/hora, y evitar fuentes condensadas o de aspecto corporativo-frío que remitan a "tech genérico". Validar tipografía definitiva en la sesión de diseño formal pendiente mencionada en el brand brief.
-
-- **Referencias de tono**: cercano, sereno, sin dramatizar — nada de música de suspenso, zooms bruscos, cortes tipo "jump scare" ni texto en rojo/alarmante. El ritmo visual debe sentirse como una observación honesta de un hecho cotidiano, coherente con el arquetipo Mentor-Explorador y la regla de que nunca se dramatiza el cambio como riesgoso.
+**Referencias de tono:** el estilo debe sentirse como una nota personal/honesta, no como una infografía corporativa — texto grande, mucho espacio en blanco (o negro/verde, en este caso), sin recargar de íconos. Los motivos gráficos sugeridos (reloj, burbujas de chat, cuaderno/notas) deben ser simples, tipo línea o silueta plana, no ilustraciones detalladas ni fotos de stock — coherente con que esta pieza no tiene producción de foto/video.
 
 ---
 
-## 4. Checklist de assets
+## 4. Checklist de assets para armar en Canva
 
-- [ ] **Formato de exportación**: 9:16 (1080x1920) — obligatorio para Reels en IG y Facebook.
-- [ ] **Duración objetivo**: 25-30 segundos.
-- [ ] **Subtítulos quemados en pantalla**: OBLIGATORIO en todas las piezas Reel de este ciclo (regla del plan, ver `02-plan.md`). Sincronizar con la voz en off completa, incluyendo hook y CTA.
-- [ ] **Overlays de texto en pantalla a preparar** (usar frases exactas del guion, no parafrasear):
-  - "Amanda — dueña de su salón, 6 años."
-  - "12:03 pm — mensaje nuevo."
-  - "12:07 pm — sin respuesta."
-  - "12:11 pm — cliente agendó en otro salón."
-  - "No es que no respondas rápido. Es que no puedes estar en dos lados a la vez."
-  - "2 a 5 citas perdidas por semana, en promedio."
-  - "¿Te ha pasado? Cuéntanos abajo."
-  - "Iguana — Aprende a nadar en el ecosistema digital." (cierre de marca, último 1-2s, texto pequeño y sobrio, sin logo si aún no está validado formalmente)
-- [ ] **Elementos gráficos a preparar en edición**:
-  - Overlay de notificación de WhatsApp simulada (o captura editada) para el beat 2.
-  - Overlay/animación simple de reloj o contador de minutos para el beat 3 (puede ser un sticker o texto animado de CapCut, no requiere prop físico).
-  - Ícono genérico de "cita confirmada" para el desenlace (sin logos de competencia real).
-  - 2-3 clips de B-roll genérico (barbería, spa, consultorio) si no se graban en locales reales — verificar licencia libre de uso si se usa stock.
-- [ ] **Audio**: voz en off narrada (tono cercano, sereno, ritmo pausado — no hay que dramatizar). Sin música de suspenso; música de fondo opcional debe ser suave y de bajo volumen para no competir con la voz ni los subtítulos.
-- [ ] **Consistencia de marca**: aplicar paleta verde/negro roca/coral en todos los overlays; evitar azul genérico de tech en cualquier ícono o gráfico agregado en edición.
+- [ ] **Formato/relación de aspecto**: 1080x1350 px (4:5) para feed de IG y Facebook — maximiza espacio vertical en el feed frente al 1:1, sin llegar al recorte agresivo del 9:16 (que no aplica bien a carrusel de lectura).
+- [ ] **Cantidad de slides**: 7 (hook, puente, señal 1, señal 2, señal 3, reflexión, CTA) — no agregar slides extra, el guion está cerrado en 7 beats.
+- [ ] **Duración objetivo de lectura por slide**: 2-4 seg cada uno (~20-25 seg de lectura total si alguien desliza a ritmo normal) — mantener los bloques de texto cortos, ya extraídos directamente del guion.
+- [ ] **Plantilla base en Canva**: crear 1 plantilla maestra con los 3 fondos de color + 2 estilos de jerarquía de texto (título+cuerpo / título+subtítulo), y duplicarla para los 7 slides — ahorra tiempo y garantiza consistencia visual.
+- [ ] **Textos en pantalla**: copiar tal cual del guion (no parafrasear) — los 7 bloques de texto ya están en `guion.md` y quedaron listados slide por slide arriba.
+- [ ] **Numerador visual "Señal X/3"**: preparar como elemento repetible en slides 3, 4 y 5.
+- [ ] **Íconos/motivos simples**: reloj o chat (slide 3), cuaderno/nota/interrogación dispersos (slide 4), comentario y guardado (slide 7) — usar librería de íconos línea/silueta de Canva, no fotos de stock.
+- [ ] **Sin logo ni nombre de producto en los slides** (ver nota de decisión pendiente arriba) — confirmar con el usuario si se agrega watermark discreto de handle en el último slide antes de publicar.
+- [ ] **Exportar** como carrusel de imágenes (no PDF) en el orden 1→7, listo para subir directo a IG/Facebook.
