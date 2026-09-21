@@ -1,25 +1,24 @@
-# Hook — pieza-03 (Ciclo 2026-09)
+# Hook — Pieza 03 (Reel CEO a cámara)
 
-**Tema/ángulo (de `02-plan.md`):** "¿Te cambiaron de régimen sin avisarte bien?" — RIMPE → Régimen General, facturación electrónica en tiempo real, multas $470-$14,100.
-**Formato:** Carrusel informativo · **Funnel:** awareness · **Tono:** informativo/empático, no catastrofista.
+> Contexto: founder de Iguana habla directo a cámara, opinión fuerte sobre por qué los negocios de servicios en Ecuador pierden dinero por el WhatsApp desatendido. No vende, no menciona producto ni pricing — el objetivo es poner una cara real y creíble detrás de la marca, justo antes del CTA de la pieza 4. Tono Mentor-Explorador: cercano, serio pero sereno, nunca alarmista.
 
 ## Hooks candidatos
 
-1. **Pregunta directa (empatía + reconocimiento)**
-   "¿Te cambiaron de régimen este año y nadie te explicó bien qué significa eso para tu negocio?"
+**1. Controversia suave**
+"Voy a decir algo que casi nadie en este negocio quiere admitir: no estás perdiendo clientes porque cortas mal el pelo. Los estás perdiendo por WhatsApp."
 
-2. **Dato sorprendente (autoridad informativa, sin alarmismo)**
-   "Este año el SRI recategorizó a miles de negocios pequeños de RIMPE a Régimen General — así de simple, así de silencioso."
+**2. Dato sorprendente**
+"Cada semana, un negocio de servicios en Ecuador — peluquería, spa, consultorio — pierde entre 2 y 5 citas. Y no es porque el cliente sea informal."
 
-3. **Pain point / validación (voz del negocio, no de la marca)**
-   "No es que no entiendas de impuestos. Es que nadie te avisó bien qué cambió."
+**3. Pregunta directa**
+"¿Sabes cuánta plata dejaste sobre la mesa este mes solo por no alcanzar a contestar un WhatsApp a tiempo?"
 
-4. **Curiosidad (invita a quedarse a leer el carrusel)**
-   "Hay un cambio de régimen que ya afecta a negocios como el tuyo — y la mayoría se entera por una multa, no por un aviso claro."
+**4. Pain point / empatía compartida**
+"Llevo meses hablando con dueños de peluquerías, spas y consultorios en Quito y Guayaquil. Y casi todos tienen el mismo problema — pero no el que ellos creen que tienen."
 
-5. **Pregunta directa + costo concreto (informativo, cifra real sin dramatizar)**
-   "¿Sabes si ya te toca facturar electrónicamente en tiempo real? La diferencia entre saberlo y no saberlo son hasta $14,100."
+**5. Opinión fuerte, en primera persona**
+"Esto es algo que me parece injusto: negocios que hacen un trabajo buenísimo están perdiendo plata por algo tan simple como no llegar a contestar el celular."
 
 ## Recomendación
 
-Usar el **hook 1** ("¿Te cambiaron de régimen este año y nadie te explicó bien qué significa eso para tu negocio?"). Es el que mejor cumple el tono informativo/empático sin asustar: parte de una pregunta que la propia Amanda se ha hecho, la posiciona como protagonista (no víctima), y abre naturalmente la explicación del carrusel sin necesitar la cifra de multa como gancho de miedo. El hook 5 queda como alternativa si en `guion` se prefiere abrir con el dato duro en vez de la pregunta.
+Usar el **hook 1**. Es el que mejor cumple "opinión fuerte" sin sonar a queja ni a venta: abre con una afirmación que contradice lo que el dueño de negocio cree que es su problema (la calidad de su trabajo), genera un gap de curiosidad inmediato ("¿entonces qué es?"), y deja al founder posicionado como alguien que se atreve a decir algo directo — construyendo confianza antes del CTA de la pieza 4. Se apoya en el dato de investigación (2-5 citas perdidas/semana) como desarrollo del guion, no en el hook mismo, para mantener el hook corto y punchy.
