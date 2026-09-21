@@ -15,6 +15,7 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 - Instagram: @iguana.ec
 - Facebook: página "Iguana Ec"
 - Geografía objetivo: Ecuador, foco inicial Quito y Guayaquil.
+- **WhatsApp Business (captura de leads)**: `+593 95 942 0676`. Ya tiene mensaje de bienvenida/auto-respuesta configurado por el usuario — el lead solo necesita tocar "enviar". Link a usar en bio de Instagram y en captions de piezas de conversión: `https://wa.me/593959420676?text=Hola%2C%20vi%20el%20video%20de%20Iguana%20y%20quiero%20saber%20m%C3%A1s` (mensaje precargado, editable por pieza si aplica).
 
 ## Volumen y cadencia
 - **Piezas por ciclo**: 4-8
@@ -24,7 +25,7 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 - **ad_account_id**: `1083791537588443` (cuenta "Iguana Ec" — falta confirmar formato `act_...` con `ads_get_ad_accounts` antes de usarlo en `pauta`).
 - **page_id**: pendiente — resolver con `ads_get_ad_account_pages` cuando se vaya a activar `pauta` (fase 3 del roadmap, ver notas de estrategia).
 - **ig_account_id**: pendiente — resolver con `ads_get_ig_accounts` cuando se vaya a activar `pauta`.
-- **Tope de presupuesto mensual (pauta)**: N/A por ahora. El usuario tiene $20-50 USD/mes reservados, pero **no son para el subagente `pauta`** — son para que el usuario mismo impulse (boost) manualmente, desde la app de Instagram/Facebook, los posts orgánicos que mejor funcionen. No usar este monto para crear campañas/ad sets/anuncios vía `pauta` todavía.
+- **Tope de presupuesto mensual (pauta)**: N/A por ahora. El usuario tiene $20-50 USD/mes reservados, más $20 USD adicionales que puede meter puntualmente si una pieza de leads lo justifica (tope total ~$70/mes) — pero **no son para el subagente `pauta`** — son para que el usuario mismo impulse (boost) manualmente, desde la app de Instagram/Facebook, los posts orgánicos que mejor funcionen. No usar este monto para crear campañas/ad sets/anuncios vía `pauta` todavía.
 - **Objetivo publicitario por defecto**: N/A por ahora (fase orgánica + boost manual del usuario). Se define cuando se active `pauta` con campaña estructurada en la fase 3 del roadmap (conversión), una vez que el pricing esté definido.
 
 ## Notas / decisiones de estrategia
@@ -41,3 +42,19 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 - No mencionar pricing ni nombres de plan en ninguna pieza hasta que el usuario confirme que están definidos.
 - No invocar al subagente `pauta` mientras estemos en fase 1-2 del roadmap — el pipeline llega hasta `publicar` y se detiene ahí; el boost es una acción manual del usuario, fuera de este sistema.
 - Cada ciclo, `planificador` debe pesar la mezcla de "etapa de funnel" según la fase vigente de este roadmap (ver tabla arriba), y `analista` (desde el ciclo 2) debe usar el desempeño orgánico real para decidir cuándo pasar de fase.
+
+**Ejecución del ciclo 2026-09 (revisada — reemplaza el plan original de 7 piezas).** Dado presupuesto muy limitado y poco tiempo de grabación disponible, este ciclo se redujo a **4 piezas** en vez de 4-8: 3 en `awareness` (formatos rápidos/baratos de producir) y 1 orientada a **captura de leads** por WhatsApp (sin revelar pricing — pedir el contacto no requiere precio). Todas se publican en feed (no Stories) y se potencian desde ahí con boost manual, nunca vía `pauta`.
+
+| Pieza | Formato | Tema/ángulo | Etapa de funnel | Producción |
+|---|---|---|---|---|
+| 01 | Carrusel | 3 señales de que estás perdiendo clientes por WhatsApp | Awareness | Solo diseño (Canva), cero grabación |
+| 02 | Reel POV | "POV: eres dueña de tu negocio y son las 6pm..." | Awareness | 1 locación, grabación corta |
+| 03 | Reel CEO | Founder a cámara: por qué los negocios pierden dinero por el WhatsApp desatendido | Awareness / confianza | 1 locación, habla a cámara |
+| 04 | Motion | Presenta a Iguana + CTA directo a WhatsApp (leads) | Conversión (captura de leads, sin pricing) | Solo diseño/animación (CapCut/Canva) |
+
+Lógica del orden: construye de frío (carrusel educativo) a cálido (POV relatable → cara real del CEO que genera confianza) y recién ahí pide la acción (motion con CTA a WhatsApp) — la única pieza que nombra a Iguana explícitamente.
+
+**Presupuesto equilibrado para este ciclo** (el usuario pidió explícitamente no concentrar todo en la pieza de leads, porque primero quiere seguidores/confianza):
+- Piezas 1-2: $0 al publicar, corren orgánico como señal de qué ángulo/formato funciona mejor.
+- Entre pieza 3 y 4: boost manual (~$10-15) a la pieza de mejor desempeño orgánico de las 3 primeras, objetivo alcance/interacción — esto compra seguidores/confianza.
+- Pieza 4 (leads): ~$25-35 del presupuesto base, objetivo mensajes/clics a WhatsApp, targeting Quito + Guayaquil; usar los $20 adicionales solo si el desempeño orgánico de la pieza 4 lo justifica (tope total ~$70 para el ciclo).
