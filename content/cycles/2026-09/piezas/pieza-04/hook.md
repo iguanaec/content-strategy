@@ -1,22 +1,29 @@
-# Hook — Pieza 04 (Ciclo 2026-09)
+# Hook — Pieza 04 (Motion, conversión / captura de leads)
 
-**Tema/ángulo (de `02-plan.md`):** "Se ve informal, aunque no lo sea" — negocios excelentes en su oficio que se sienten poco profesionales por agenda en papelitos, cobros sin factura, respuestas tardías. Etapa: awareness. Formato: Reel (habla a cámara + texto en pantalla).
-
-**Recordatorios de marca aplicados:** sin pricing/nombres de plan, promesa de capacidad (no de identidad), héroe = dueño del negocio (no Iguana), metáfora de marca solo sembrada — no explicada.
+> Ciclo 2026-09. Única pieza que nombra a Iguana y pide la acción (WhatsApp). Sin pricing. Hook pensado para los primeros 2-3 segundos del motion (texto en pantalla + posible voz en off/narración), antes de que aparezca el producto.
 
 ## Hooks candidatos
 
-1. **(Contraste / controversia suave)** "No es que tu negocio sea informal. Es que se *ve* informal."
-   *Texto en pantalla: "INFORMAL ≠ SE VE INFORMAL"*
+1. **Pregunta directa (dolor → capacidad)**
+   "¿Y si tu WhatsApp respondiera, agendara y facturara aunque tú estés cortando el pelo de alguien más?"
 
-2. **(Pregunta directa)** "¿Eres el mejor en lo que haces... pero igual sientes que tienes que disculparte por cómo manejas tu negocio?"
+2. **Dato sorprendente (respaldo en research, cifra de LatAm)**
+   "Los negocios de servicios pierden hasta 5 citas por semana solo por no contestar el WhatsApp a tiempo."
 
-3. **(Dato/observación específica — pain point)** "Agenda en un cuaderno. Cobros por transferencia sin factura. Un 'ahora te contesto' que llega al día siguiente. Así se ve, desde afuera, un negocio serio."
+3. **Pain point relatable (continúa el hilo de las piezas 1-3)**
+   "Ese cliente que escribió y nunca le contestaste... probablemente ya agendó con otro negocio."
 
-4. **(Curiosidad)** "Hay un tipo de negocio que pierde clientes no porque haga mal su trabajo — sino porque *se ve* como si lo hiciera."
+4. **Curiosidad / teaser de nombre**
+   "Hay algo que aprendió a nadar sin dejar de ser lagarto — y ahora hace lo mismo por tu WhatsApp."
 
-5. **(Pain point + siembra sutil de metáfora, sin nombrarla)** "Puedes ser excelente en tu oficio y aun así sentir que no encajas... hasta que aprendes a adaptarte sin dejar de ser tú."
+5. **Controversia suave (cuestiona la solución casera)**
+   "Tu chatbot de WhatsApp contesta 'hola' y ya no sabe qué más decir. Esto sí sabe."
 
 ## Recomendación
 
-Usar el **hook 1** ("No es que tu negocio sea informal. Es que se *ve* informal."). Es el más corto y el más "quotable" para los primeros 1-2 segundos: reformula de inmediato la creencia de la audiencia (dolor social validado, no señalado como culpa), funciona igual de bien dicho a cámara que como texto quemado en pantalla, y no necesita contexto previo para aterrizar — condición clave para un hook de Reel. Como plan B, el hook 3 es la opción más "mostrar, no decir" (tres ejemplos concretos y verificables) si en el guion se prefiere abrir con evidencia en vez de con la reformulación.
+Usar el **hook 1** (pregunta directa dolor → capacidad). Es el que mejor cumple el rol de esta pieza específica: conecta en una sola línea el dolor ya sembrado en las piezas 1-3 (WhatsApp desatendido) con la promesa de capacidad de Iguana ("responde, agenda y factura"), sin nombrar el producto todavía —deja 1-2 segundos de intriga antes del reveal— y sin jerga técnica ni mención de precio, cumpliendo las reglas de tono del brand-brief.
+
+Como alternativa fuerte si se quiere priorizar scroll-stop con datos duros (formato "maxxing" mencionado en research), usar el **hook 2**.
+
+---
+**Archivo escrito por**: subagente `hook`.
