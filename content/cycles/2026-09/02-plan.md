@@ -1,0 +1,18 @@
+# Plan — Ciclo 2026-09 (revisado: 4 piezas, presupuesto y tiempo de grabación limitados)
+
+> Este plan reemplaza la versión original de 7 piezas (ver historial de git). Mezcla de funnel: 3 piezas `awareness` + 1 pieza `conversión` (captura de leads por WhatsApp, sin pricing). Todas se publican en feed y se potencian desde ahí con boost manual del usuario — ninguna es candidata al subagente `pauta`. Ver razonamiento completo, orden y política de presupuesto en `content/brand-brief.md` ("Ejecución del ciclo 2026-09").
+
+| Pieza | Tema/ángulo | Formato | Plataforma | Etapa de funnel | Fecha objetivo | Candidata a pauta | Razón breve |
+|---|---|---|---|---|---|---|---|
+| pieza-01 | "3 señales de que estás perdiendo clientes por WhatsApp" — carrusel informativo/listicle sobre el dolor operativo (respuesta tardía, agenda dispersa, cobros sin registro). Sin mencionar producto. | Carrusel | IG + Facebook | awareness | 2026-09-22 | No | Cero grabación, el más rápido de producir — abre el ciclo mientras se coordina la grabación de las piezas 2 y 3. |
+| pieza-02 | "POV: eres dueña de tu negocio y son las 6pm..." — Reel en formato POV (cámara = los ojos de la dueña) mostrando el caos de atender clientes presenciales y WhatsApp a la vez. | Reel (POV) | IG + Facebook | awareness | 2026-09-26 | No | Formato de tendencia, barato de grabar (1 actor, 1 locación), alto potencial de alcance orgánico. |
+| pieza-03 | Founder/CEO habla a cámara: opinión fuerte sobre por qué los negocios de servicios en Ecuador siguen perdiendo dinero por algo tan simple como el WhatsApp desatendido. No vende, no menciona producto todavía. | Reel (CEO a cámara) | IG + Facebook | awareness / confianza | 2026-09-30 | No | Pone una cara real detrás de la marca justo antes del pedido de la pieza 4 — la gente confía más en personas que en logos. |
+| pieza-04 | Presenta a Iguana por primera vez en el ciclo + CTA directo a WhatsApp ("Escríbenos por WhatsApp, link en la bio"). Única pieza que nombra el producto; sigue sin mencionar pricing. | Motion (animación, sin grabación) | IG + Facebook | conversión (captura de leads) | 2026-10-04 | No (boost manual, no vía `pauta`) | Cierre del ciclo: pide la única acción concreta (escribir por WhatsApp) apoyándose en la confianza construida por las 3 piezas anteriores. |
+
+## Notas de ejecución
+- Ninguna de las piezas 1-3 menciona pricing, nombres de plan, ni nombra a Iguana como producto — son awareness puro / construcción de confianza.
+- La pieza 4 sí nombra a Iguana y pide la acción, pero tampoco menciona pricing — el CTA es "escríbenos por WhatsApp", no "compra" ni "agenda demo pagada".
+- Link `wa.me` de la pieza 4 (usar tal cual, con mensaje precargado): `https://wa.me/593959420676?text=Hola%2C%20vi%20el%20video%20de%20Iguana%20y%20quiero%20saber%20m%C3%A1s`. Instagram no permite links clicables dentro de Reels/motion — el link va en la bio y en el caption, el CTA en pantalla dice "link en la bio".
+- Piezas 1 y 4 no requieren grabación (solo diseño/animación); piezas 2 y 3 sí requieren una sesión corta de grabación cada una (1 locación, sin producción compleja).
+- Presupuesto: piezas 1-2 sin boost al publicar; boost manual (~$10-15) a la pieza de mejor desempeño orgánico de 1-3 antes de publicar la 4; ~$25-35 del presupuesto base para potenciar la pieza 4, con hasta $20 adicionales si el desempeño orgánico lo justifica (tope ~$70 para el ciclo). Ver detalle en `brand-brief.md`.
+- El héroe de las piezas 1-2 es la dueña del negocio (genérica/Amanda); en la pieza 3 el protagonista es el founder de Iguana; en la pieza 4 el foco es el producto + la acción de escribir.
