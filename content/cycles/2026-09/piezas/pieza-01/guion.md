@@ -1,64 +1,66 @@
-# Guion — Pieza 01: "El cliente que se fue por no contestar a tiempo"
+# Guion — Pieza 01 (Carrusel: "3 señales de que estás perdiendo clientes por WhatsApp")
 
-Formato: Reel (dramatización corta, subtítulos quemados) · Funnel: awareness · IG + Facebook · Fecha objetivo: 2026-09-18
+> Etapa de funnel: awareness. Regla dura de esta pieza: no se menciona pricing, nombres de plan, ni a Iguana como producto/marca en ningún slide ni en el caption. El héroe es la dueña del negocio, no una solución.
 
-## Hook
+## Hook (slide 1 — copiado tal cual de `hook.md`, hook recomendado)
 
-"Amanda no perdió a ese cliente por mal servicio. Lo perdió por 4 minutos."
+**"No perdiste ese cliente por precio. Lo perdiste porque tardaste 3 horas en contestarle."**
 
-*(Hook recomendado en `hook.md`, usado tal cual — no se modifica.)*
+Texto en pantalla: la frase completa, partida en dos líneas para dar pausa visual:
+"No perdiste ese cliente por precio."
+"Lo perdiste porque tardaste 3 horas en contestarle."
 
-## Desarrollo
+Voz/tono del texto: directo, sin signo de exclamación, como una observación seca que incomoda un poco (no acusatoria, más "te entiendo, a mí también me pasó").
 
-**1. Establecer la escena (0-3s, entra justo después del hook)**
-- Voz en off (narradora, tono cercano y sereno, no acusatorio): "Amanda no perdió a ese cliente por mal servicio. Lo perdió por 4 minutos."
-- Se ve a Amanda en plena atención: terminando un corte/servicio, concentrada, haciéndolo bien.
-- Texto en pantalla: **"Amanda — dueña de su salón, 6 años."** (establece que es buena en lo suyo, protagonista competente, no el problema).
+---
 
-**2. Aparece el conflicto en paralelo (3-7s)**
-- Corte a un celular sobre el mostrador, notificación de WhatsApp entrando: un mensaje nuevo de un posible cliente ("Hola, ¿tienen espacio para hoy en la tarde?").
-- Voz en off: "En ese momento, alguien más le estaba escribiendo."
-- Texto en pantalla: **"12:03 pm — mensaje nuevo."**
-- La cámara vuelve a Amanda, que no puede ver el celular: tiene las manos ocupadas, está con su clienta presente.
+## Desarrollo — beats narrativos por slide
 
-**3. El tiempo pasa (7-13s)**
-- Se muestra el paso del tiempo sin exagerar ni dramatizar (nada de música de suspenso ni "peligro"): un reloj o el contador de minutos en pantalla avanzando con calma, mientras Amanda sigue trabajando bien, sin prisa, con su clienta presente.
-- Voz en off: "No es que no quiera responder rápido. Es que no puede estar en dos lugares a la vez."
-- Texto en pantalla: **"12:07 pm — sin respuesta."**
-- Importante: el tono aquí es de constatar un hecho operativo, no de culpar a Amanda ni de generar ansiedad.
+**Slide 2 — Puente / validación del dolor**
+Texto en pantalla: "Tu servicio es bueno. El problema está en lo que pasa ANTES de que el cliente se siente en tu silla."
+Qué se dice/muestra: se confirma que el problema no es la calidad del negocio (evita que Amanda se sienta juzgada), y se nombra dónde está la fuga real: la gestión del WhatsApp antes de la cita. Este slide funciona como transición: "si te identificaste con el hook, aquí van las 3 señales".
+Texto de apoyo (subtítulo pequeño): "Aquí van 3 señales para que las identifiques tú misma →"
 
-**4. El desenlace (13-18s)**
-- Se ve el chat: el mensaje sigue ahí, sin leer o leído pero sin respuesta. En paralelo, una notificación de "cita confirmada" en otro salón (sugerido con un ícono genérico, sin nombrar marca de competencia).
-- Voz en off: "Y para cuando Amanda por fin pudo mirar el celular... ese cliente ya había agendado en otro lado."
-- Texto en pantalla: **"12:11 pm — cliente agendó en otro salón."**
+**Slide 3 — Señal 1: Respuesta tardía**
+Texto en pantalla (título de la señal): "Señal 1: Contestas cuando puedes, no cuando el cliente escribe."
+Texto de apoyo: "Un mensaje que se queda 'para responder en la noche' es una cita que ya se está enfriando. El cliente no espera — te escribe a ti y, si tarda, le escribe a la competencia."
+Qué se dice/muestra: se describe el patrón (mensajes acumulados mientras atiende presencialmente, revisa el chat en la noche) sin culpar a la dueña — se nombra como consecuencia lógica de estar sola gestionando todo.
 
-**5. El reencuadre (18-24s) — el corazón del mensaje**
-- Amanda mira el mensaje ya tarde, respira, no se ve derrotada ni humillada — se ve pensativa, como quien reconoce un patrón que ya conoce.
-- Voz en off: "No fue falta de ganas. No fue falta de talento. Fue que un solo par de manos no alcanza para atender a quien tienes en frente... y a quien te escribe al mismo tiempo."
-- Texto en pantalla: **"No es que no respondas rápido. Es que no puedes estar en dos lados a la vez."**
+**Slide 4 — Señal 2: Agenda dispersa**
+Texto en pantalla (título de la señal): "Señal 2: Tu agenda vive en 3 lugares distintos."
+Texto de apoyo: "Un cliente en el cuaderno, otro en las notas del celular, otro que 'ya luego lo anoto'. Ahí es donde aparecen los cruces de horario y los 'perdón, ya tengo esa hora ocupada'."
+Qué se dice/muestra: pinta la escena relatable de la agenda fragmentada (cuaderno + notas + memoria) y su consecuencia directa (doble reserva, cliente perdido por error humano, no por mala voluntad).
 
-**6. Generalización / identificación con la audiencia (24-28s)**
-- Corte a otras escenas breves y reales (sugerido, sin necesidad de producción compleja): una barbería, un spa, un consultorio — mismo patrón, distintos negocios.
-- Voz en off: "Le pasa a Amanda. Le pasa a cientos de negocios como el suyo, todas las semanas."
-- Texto en pantalla: **"2 a 5 citas perdidas por semana, en promedio."** *(dato de respaldo del research, presentado como hecho, no como amenaza).*
+**Slide 5 — Señal 3: Seguimiento que no pasa**
+Texto en pantalla (título de la señal): "Señal 3: El cliente que preguntó precio... y nunca volviste a saber de él."
+Texto de apoyo: "No te escribió para no volver. Se quedó esperando una respuesta y, mientras tanto, encontró a alguien que sí le contestó."
+Qué se dice/muestra: cierra el trío de señales con el punto más doloroso — el lead que preguntó y se perdió en el silencio, sin reclamo ni explicación, solo silencio.
 
-## CTA
+**Slide 6 — Reflexión / mini-resumen (sin vender nada)**
+Texto en pantalla: "Ninguna de estas 3 señales tiene que ver con lo buena que eres en tu oficio. Tiene que ver con cuánto tiempo humano le exige atender el WhatsApp solo."
+Qué se dice/muestra: se resume el hilo conductor de las 3 señales (respuesta tardía, agenda dispersa, seguimiento perdido) y se deja instalada la idea de que el problema es estructural/de gestión, no de talento ni de precio — sin nombrar ninguna solución todavía. Este slide cierra el "problema" y deja la puerta abierta para futuras piezas del ciclo (POV, founder, presentación del producto) sin adelantarlas.
 
-- Voz en off (cierre, tono cálido, sin vender nada): "Si esto te suena conocido, no estás sola. Cuéntanos en los comentarios: ¿cuántas veces te ha pasado esta semana?"
-- Texto en pantalla: **"¿Te ha pasado? Cuéntanos abajo."**
-- Texto en pantalla (cierre de marca, aparece último 1-2s): **"Iguana — Aprende a nadar en el ecosistema digital."** *(solo la línea de marca/tagline como cierre suave de identidad; no se menciona producto, función ni pricing en ningún momento del guion, cumpliendo la regla de la pieza).*
-- Llamado a la acción explícito: comentar + seguir la cuenta para la próxima pieza de la serie (sin mencionar oferta ni agendar demo — esta pieza es awareness puro).
+---
+
+## CTA (slide 7 — cierre)
+
+Texto en pantalla: "¿Cuál de las 3 te pasó esta semana? Cuéntamelo en los comentarios 👇"
+Texto de apoyo secundario: "Guarda este post para releerlo la próxima vez que se te acumulen los mensajes."
+
+Qué se dice/muestra: CTA de engagement puro (comentar + guardar), coherente con una pieza de awareness que no vende ni nombra producto. El objetivo es generar comentarios (señal de alcance orgánico) y guardados (señal de valor percibido), no clics ni conversión — eso se reserva para la pieza 4 del ciclo.
+
+---
 
 ## Borrador de caption
 
-Amanda no perdió a ese cliente por mal servicio. Lo perdió por 4 minutos.
+Tú sabes hacer tu trabajo mejor que nadie. El problema casi nunca es tu servicio.
 
-Mientras atendía a alguien con toda la dedicación del mundo, otro cliente le escribía por WhatsApp. Para cuando pudo revisar el celular, esa persona ya había agendado en otro salón.
+Es lo que pasa en tu WhatsApp mientras estás ocupada atendiendo, cocinando, o por fin durmiendo: mensajes que se quedan "para después", una agenda que vive repartida entre el cuaderno y la memoria, y clientes que preguntaron algo... y se quedaron esperando.
 
-No es falta de ganas ni de talento. Es que un solo par de manos no alcanza para atender a quien tienes en frente y a quien te escribe al mismo tiempo.
+Ninguna de esas 3 señales significa que hagas mal tu trabajo. Significa que estás sola gestionando algo que necesitaría más de un par de manos.
 
-Esto les pasa a negocios como el de Amanda entre 2 y 5 veces por semana, en promedio.
+Desliza y dime: ¿cuál de las 3 te ha pasado esta semana? 👇
 
-¿Te ha pasado a ti? Cuéntanos en los comentarios cuántas veces esta semana.
+#NegociosEcuador #Emprendimiento #DueñaDeNegocio #GestiónDeCitas #WhatsAppBusiness
 
-*(Nota para `publicar`: falta agregar hashtags y horario óptimo; caption pensado para IG + Facebook por igual, sin CTA de venta ni mención de producto/pricing, consistente con la etapa awareness de esta pieza.)*
+> Nota para `publicar`: este borrador se puede ajustar en tono/longitud/hashtags en la etapa de publicación; no incluye link ni mención de marca/producto por regla del ciclo (awareness puro, pieza 1 de 4).
