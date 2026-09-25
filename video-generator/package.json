@@ -1,0 +1,14 @@
+{
+  "name": "video-generator",
+  "version": "1.0.0",
+  "description": "VideoFlow: dashboard local para generar videos con Higgsfield",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local server.js",
+    "example": "node --env-file-if-exists=.env.local example.js"
+  },
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6"
+  },
+  "type": "module",
+  "private": true
+}
