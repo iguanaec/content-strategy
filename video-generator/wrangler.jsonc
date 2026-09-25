@@ -1,0 +1,32 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "videoflow",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "videoflow",
+      "database_id": "f17d32a7-6008-4355-8734-aaeb2e934cb1",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Descomenta cuando actives R2 en el panel de Cloudflare y crees el bucket
+  // (npx wrangler r2 bucket create videoflow-media). Sin R2 las imágenes se guardan en D1
+  // y los videos quedan en el CDN de Higgsfield (7 días).
+  // "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "videoflow-media" }],
+  "triggers": { "crons": ["*/10 * * * *"] },
+  "vars": {
+    "GITHUB_REPO": "iguanaec/content-strategy",
+    "GITHUB_BRANCH": "claude/wonderful-feynman-a2q0ln",
+    "CLAUDE_MODEL": "claude-opus-5"
+  },
+  "observability": { "enabled": true }
+}

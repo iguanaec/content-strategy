@@ -1,0 +1,58 @@
+# Lo dispara el Worker de VideoFlow (botón "A ciclo"): descarga un video generado
+# y lo guarda en content/cycles/<ciclo>/piezas/<pieza>/media/.
+name: VideoFlow · guardar video en ciclo
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: URL del video (firmada por el Worker o CDN de Higgsfield)
+        required: true
+      cycle:
+        description: ID del ciclo (ej. 2026-10)
+        required: true
+      pieza:
+        description: Carpeta de la pieza (ej. pieza-01)
+        required: true
+      filename:
+        description: Nombre del archivo .mp4
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videoflow-save
+  cancel-in-progress: false
+
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar video
+        env:
+          VIDEO_URL: ${{ inputs.video_url }}
+          CYCLE: ${{ inputs.cycle }}
+          PIEZA: ${{ inputs.pieza }}
+          FILENAME: ${{ inputs.filename }}
+        run: |
+          for v in "$CYCLE" "$PIEZA" "$FILENAME"; do
+            [[ "$v" =~ ^[A-Za-z0-9_][A-Za-z0-9_.-]{0,80}$ ]] || { echo "Nombre inválido: $v"; exit 1; }
+          done
+          [[ "$FILENAME" == *.mp4 ]] || { echo "El archivo debe ser .mp4"; exit 1; }
+          [[ "$VIDEO_URL" =~ ^https:// ]] || { echo "URL inválida"; exit 1; }
+          dir="content/cycles/$CYCLE/piezas/$PIEZA/media"
+          mkdir -p "$dir"
+          curl -fsSL --max-filesize 200000000 -o "$dir/$FILENAME" "$VIDEO_URL"
+          echo "DEST=$dir/$FILENAME" >> "$GITHUB_ENV"
+
+      - name: Commit
+        run: |
+          git config user.name "videoflow-bot"
+          git config user.email "videoflow-bot@users.noreply.github.com"
+          git add "$DEST"
+          git commit -m "VideoFlow: añade $DEST"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

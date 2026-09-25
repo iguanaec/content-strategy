@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VideoFlow Studio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%23c6f432'/><path d='M9 7l8 5-8 5z' fill='%230b0b0f'/></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- LOGIN -->
+  <div class="login hidden" id="login">
+    <form class="login-card" id="login-form">
+      <div class="logo big"><svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg></div>
+      <h1>VideoFlow Studio</h1>
+      <p class="muted" id="login-msg">Ingresa la contraseña del estudio.</p>
+      <input type="password" id="login-password" placeholder="Contraseña" autocomplete="current-password" required>
+      <button class="btn-primary wide" type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg></div>
+      <strong>VideoFlow</strong>
+    </div>
+    <div class="context">
+      <div class="ctx">
+        <span class="ctx-dot" id="ctx-client-dot"></span>
+        <select id="ctx-client" aria-label="Cliente"></select>
+        <button class="icon-btn" id="btn-client-edit" title="Nuevo / editar cliente">＋</button>
+      </div>
+      <span class="ctx-sep">/</span>
+      <div class="ctx">
+        <select id="ctx-project" aria-label="Proyecto"></select>
+        <button class="icon-btn" id="btn-project-edit" title="Nuevo / editar proyecto">＋</button>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span class="spend" id="spend" title="Gasto estimado de este mes (generaciones completadas)"></span>
+      <button class="btn-secondary" id="btn-library"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg><span>Biblioteca</span></button>
+      <button class="icon-btn" id="btn-settings" title="Conexiones y respaldo"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></button>
+    </div>
+  </header>
+
+  <div class="studio">
+    <!-- COMPOSITOR -->
+    <aside class="composer" id="composer">
+      <section class="block">
+        <div class="block-head"><h2>Modelo</h2><a class="link" id="model-docs" target="_blank" rel="noreferrer">Docs ↗</a></div>
+        <button class="model-picker" id="model-picker" type="button">
+          <span class="model-vendor" id="model-vendor"></span>
+          <span class="model-name" id="model-name"></span>
+          <span class="model-caret">▾</span>
+        </button>
+        <div class="chips small" id="model-tiers"></div>
+        <div class="mode-row">
+          <label class="mini-label" for="model-mode">Modo</label>
+          <select id="model-mode"></select>
+        </div>
+        <p class="hint" id="model-hint"></p>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Referencias</h2><span class="hint" id="refs-hint"></span></div>
+        <div class="slots" id="slots"></div>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Prompt</h2><span class="hint" id="prompt-count"></span></div>
+        <textarea id="prompt" rows="4" placeholder="Describe la escena: quién, qué hace, dónde, luz, cámara, ritmo…"></textarea>
+        <div class="suggestions hidden" id="suggestions"></div>
+        <div class="ai-row">
+          <button class="btn-ghost" id="btn-enhance" type="button" title="Reescribe tu idea como prompt cinematográfico con Claude (usa tus referencias y el estilo)">✨ Mejorar</button>
+          <button class="btn-ghost" id="btn-variations" type="button">Variaciones</button>
+          <button class="btn-ghost" id="btn-manual" type="button" title="Abre Claude.ai con el pedido listo para pegar (usa tu suscripción, sin API key)">Claude.ai ↗</button>
+          <button class="btn-ghost push" id="btn-preview-prompt" type="button">Ver prompt final</button>
+        </div>
+        <textarea id="negative" rows="2" class="hidden" placeholder="Prompt negativo: lo que NO quieres ver"></textarea>
+        <pre class="final-prompt hidden" id="final-prompt"></pre>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Dirección</h2><button class="link" id="btn-new-style" type="button">+ Estilo</button></div>
+        <div class="mini-label">Estilo visual</div>
+        <div class="chips" id="styles"></div>
+        <div class="mini-label">Cámara</div>
+        <div class="chips" id="cameras"></div>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Formato</h2><button class="link" id="btn-new-format" type="button">+ Formato</button></div>
+        <div class="chips" id="formats"></div>
+        <div class="params" id="params"></div>
+        <details class="advanced" id="advanced">
+          <summary>Avanzado</summary>
+          <div class="params" id="params-advanced"></div>
+        </details>
+      </section>
+
+      <div class="generate-bar">
+        <div class="cost" id="cost">
+          <strong id="cost-main">—</strong>
+          <span id="cost-sub"></span>
+        </div>
+        <button class="btn-generate" id="btn-generate" type="button">Generar <span class="kbd">⌘↵</span></button>
+      </div>
+      <p class="gen-warning hidden" id="gen-warning"></p>
+    </aside>
+
+    <!-- FEED -->
+    <main class="feed-area">
+      <div class="feed-head">
+        <div>
+          <h1 id="feed-title">Generaciones</h1>
+          <p class="muted small" id="feed-sub"></p>
+        </div>
+        <div class="feed-tools">
+          <input type="search" id="feed-search" placeholder="Buscar prompt…">
+          <div class="chips small" id="feed-filters">
+            <button class="chip active" data-filter="all">Todas</button>
+            <button class="chip" data-filter="completed">Listas</button>
+            <button class="chip" data-filter="pending">En curso</button>
+            <button class="chip" data-filter="failed">Fallidas</button>
+            <button class="chip" data-filter="fav">★</button>
+          </div>
+        </div>
+      </div>
+      <div class="feed" id="feed"></div>
+    </main>
+  </div>
+
+  <!-- BIBLIOTECA (panel lateral, sin cambiar de página) -->
+  <div class="drawer-backdrop hidden" id="drawer-backdrop"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <header class="drawer-head">
+      <div>
+        <h2 id="drawer-title">Biblioteca</h2>
+        <p class="hint" id="drawer-sub">Personajes, productos, estilos, locaciones, frames, videos y audios.</p>
+      </div>
+      <button class="icon-btn" id="drawer-close" aria-label="Cerrar">✕</button>
+    </header>
+    <div class="chips small drawer-tabs" id="drawer-tabs"></div>
+    <div class="drawer-tools">
+      <input type="search" id="lib-search" placeholder="Buscar por nombre, etiqueta o descripción…">
+      <label class="toggle small"><input type="checkbox" id="lib-client-only"><span class="toggle-track"></span><span>Solo cliente actual</span></label>
+    </div>
+    <label class="dropzone" id="dropzone">
+      <input type="file" id="lib-files" multiple hidden>
+      <strong>Arrastra archivos aquí</strong> o haz clic para subir
+      <small id="drop-hint">JPG, PNG, WEBP · MP4 · WAV</small>
+    </label>
+    <div class="lib-grid" id="lib-grid"></div>
+    <div class="drawer-foot hidden" id="drawer-foot">
+      <span id="pick-count"></span>
+      <button class="btn-primary" id="pick-done">Usar selección</button>
+    </div>
+  </aside>
+
+  <dialog class="modal" id="modal">
+    <form method="dialog" class="modal-inner" id="modal-form">
+      <header class="modal-head">
+        <h2 id="modal-title"></h2>
+        <button type="button" class="icon-btn" id="modal-close" aria-label="Cerrar">✕</button>
+      </header>
+      <div class="modal-body" id="modal-body"></div>
+      <footer class="modal-foot" id="modal-foot"></footer>
+    </form>
+  </dialog>
+
+  <div class="toasts" id="toasts"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

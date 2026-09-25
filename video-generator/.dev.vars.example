@@ -1,0 +1,8 @@
+# Para desarrollo local (npm run dev). Copia a .dev.vars — está en .gitignore.
+# En la nube estos valores son secrets de Cloudflare (npx wrangler secret put NOMBRE).
+HF_CREDENTIALS=your-key-id:your-key-secret
+APP_PASSWORD=una-contraseña
+SESSION_SECRET=cadena-aleatoria-larga
+# Opcionales
+# ANTHROPIC_API_KEY=sk-ant-...
+# GITHUB_TOKEN=github_pat_...
