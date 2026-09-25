@@ -3,227 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VideoFlow</title>
+  <title>VideoFlow Studio</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%23c6f432'/><path d='M9 7l8 5-8 5z' fill='%230b0b0f'/></svg>">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <aside class="rail">
-    <div class="rail-logo" title="VideoFlow">
-      <svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg>
+  <!-- LOGIN -->
+  <div class="login hidden" id="login">
+    <form class="login-card" id="login-form">
+      <div class="logo big"><svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg></div>
+      <h1>VideoFlow Studio</h1>
+      <p class="muted" id="login-msg">Ingresa la contraseña del estudio.</p>
+      <input type="password" id="login-password" placeholder="Contraseña" autocomplete="current-password" required>
+      <button class="btn-primary wide" type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 24 24"><path d="M9 7l8 5-8 5z"/></svg></div>
+      <strong>VideoFlow</strong>
     </div>
-    <nav class="rail-nav">
-      <button class="rail-btn active" data-view="create">
-        <svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg>
-        <span>Crear</span>
-      </button>
-      <button class="rail-btn" data-view="projects">
-        <svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
-        <span>Proyectos</span>
-      </button>
-      <button class="rail-btn" data-view="references">
-        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg>
-        <span>Referencias</span>
-      </button>
-      <button class="rail-btn" data-view="clients">
-        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0113 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.2a5 5 0 014.5 5.8"/></svg>
-        <span>Clientes</span>
-      </button>
-      <button class="rail-btn" data-view="styles">
-        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
-        <span>Estilos</span>
-      </button>
-    </nav>
-    <button class="rail-btn rail-bottom" data-view="settings">
-      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.8l.1.1a2 2 0 11-2.8 2.8l-.1-.1a1.7 1.7 0 00-1.8-.3 1.7 1.7 0 00-1 1.5V21a2 2 0 11-4 0v-.1a1.7 1.7 0 00-1.1-1.5 1.7 1.7 0 00-1.8.3l-.1.1a2 2 0 11-2.8-2.8l.1-.1a1.7 1.7 0 00.3-1.8 1.7 1.7 0 00-1.5-1H3a2 2 0 110-4h.1a1.7 1.7 0 001.5-1.1 1.7 1.7 0 00-.3-1.8l-.1-.1a2 2 0 112.8-2.8l.1.1a1.7 1.7 0 001.8.3H9a1.7 1.7 0 001-1.5V3a2 2 0 114 0v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.8-.3l.1-.1a2 2 0 112.8 2.8l-.1.1a1.7 1.7 0 00-.3 1.8V9a1.7 1.7 0 001.5 1H21a2 2 0 110 4h-.1a1.7 1.7 0 00-1.5 1z"/></svg>
-      <span>Ajustes</span>
-    </button>
-  </aside>
-
-  <div class="shell">
-    <header class="topbar">
-      <div class="context">
-        <label class="ctx">
-          <span class="ctx-label">Cliente</span>
-          <select id="ctx-client"></select>
-        </label>
-        <span class="ctx-sep">/</span>
-        <label class="ctx">
-          <span class="ctx-label">Proyecto</span>
-          <select id="ctx-project"></select>
-        </label>
+    <div class="context">
+      <div class="ctx">
+        <span class="ctx-dot" id="ctx-client-dot"></span>
+        <select id="ctx-client" aria-label="Cliente"></select>
+        <button class="icon-btn" id="btn-client-edit" title="Nuevo / editar cliente">＋</button>
       </div>
-      <div class="status">
-        <span class="pill" id="status-hf" title="API de Higgsfield">Higgsfield</span>
-        <span class="pill" id="status-claude" title="Claude vía CLI (tu suscripción)">Claude</span>
+      <span class="ctx-sep">/</span>
+      <div class="ctx">
+        <select id="ctx-project" aria-label="Proyecto"></select>
+        <button class="icon-btn" id="btn-project-edit" title="Nuevo / editar proyecto">＋</button>
       </div>
-    </header>
+    </div>
+    <div class="top-actions">
+      <span class="spend" id="spend" title="Gasto estimado de este mes (generaciones completadas)"></span>
+      <button class="btn-secondary" id="btn-library"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg><span>Biblioteca</span></button>
+      <button class="icon-btn" id="btn-settings" title="Conexiones y respaldo"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></button>
+    </div>
+  </header>
 
-    <main class="views">
-      <!-- CREAR -->
-      <section class="view active" id="view-create">
-        <div class="feed-head">
+  <div class="studio">
+    <!-- COMPOSITOR -->
+    <aside class="composer" id="composer">
+      <section class="block">
+        <div class="block-head"><h2>Modelo</h2><a class="link" id="model-docs" target="_blank" rel="noreferrer">Docs ↗</a></div>
+        <button class="model-picker" id="model-picker" type="button">
+          <span class="model-vendor" id="model-vendor"></span>
+          <span class="model-name" id="model-name"></span>
+          <span class="model-caret">▾</span>
+        </button>
+        <div class="chips small" id="model-tiers"></div>
+        <div class="mode-row">
+          <label class="mini-label" for="model-mode">Modo</label>
+          <select id="model-mode"></select>
+        </div>
+        <p class="hint" id="model-hint"></p>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Referencias</h2><span class="hint" id="refs-hint"></span></div>
+        <div class="slots" id="slots"></div>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Prompt</h2><span class="hint" id="prompt-count"></span></div>
+        <textarea id="prompt" rows="4" placeholder="Describe la escena: quién, qué hace, dónde, luz, cámara, ritmo…"></textarea>
+        <div class="suggestions hidden" id="suggestions"></div>
+        <div class="ai-row">
+          <button class="btn-ghost" id="btn-enhance" type="button" title="Reescribe tu idea como prompt cinematográfico con Claude (usa tus referencias y el estilo)">✨ Mejorar</button>
+          <button class="btn-ghost" id="btn-variations" type="button">Variaciones</button>
+          <button class="btn-ghost" id="btn-manual" type="button" title="Abre Claude.ai con el pedido listo para pegar (usa tu suscripción, sin API key)">Claude.ai ↗</button>
+          <button class="btn-ghost push" id="btn-preview-prompt" type="button">Ver prompt final</button>
+        </div>
+        <textarea id="negative" rows="2" class="hidden" placeholder="Prompt negativo: lo que NO quieres ver"></textarea>
+        <pre class="final-prompt hidden" id="final-prompt"></pre>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Dirección</h2><button class="link" id="btn-new-style" type="button">+ Estilo</button></div>
+        <div class="mini-label">Estilo visual</div>
+        <div class="chips" id="styles"></div>
+        <div class="mini-label">Cámara</div>
+        <div class="chips" id="cameras"></div>
+      </section>
+
+      <section class="block">
+        <div class="block-head"><h2>Formato</h2><button class="link" id="btn-new-format" type="button">+ Formato</button></div>
+        <div class="chips" id="formats"></div>
+        <div class="params" id="params"></div>
+        <details class="advanced" id="advanced">
+          <summary>Avanzado</summary>
+          <div class="params" id="params-advanced"></div>
+        </details>
+      </section>
+
+      <div class="generate-bar">
+        <div class="cost" id="cost">
+          <strong id="cost-main">—</strong>
+          <span id="cost-sub"></span>
+        </div>
+        <button class="btn-generate" id="btn-generate" type="button">Generar <span class="kbd">⌘↵</span></button>
+      </div>
+      <p class="gen-warning hidden" id="gen-warning"></p>
+    </aside>
+
+    <!-- FEED -->
+    <main class="feed-area">
+      <div class="feed-head">
+        <div>
           <h1 id="feed-title">Generaciones</h1>
-          <div class="feed-filters" id="feed-filters">
+          <p class="muted small" id="feed-sub"></p>
+        </div>
+        <div class="feed-tools">
+          <input type="search" id="feed-search" placeholder="Buscar prompt…">
+          <div class="chips small" id="feed-filters">
             <button class="chip active" data-filter="all">Todas</button>
             <button class="chip" data-filter="completed">Listas</button>
             <button class="chip" data-filter="pending">En curso</button>
             <button class="chip" data-filter="failed">Fallidas</button>
+            <button class="chip" data-filter="fav">★</button>
           </div>
         </div>
-        <div class="feed" id="feed"></div>
-
-        <div class="composer" id="composer">
-          <div class="suggestions hidden" id="suggestions"></div>
-          <div class="composer-main">
-            <div class="frames">
-              <button class="frame-slot" id="slot-start" data-slot="start" title="Frame inicial (image-to-video)">
-                <span class="frame-plus">+</span><span class="frame-label">Inicio</span>
-              </button>
-              <button class="frame-slot" id="slot-end" data-slot="end" title="Frame final (transición)">
-                <span class="frame-plus">+</span><span class="frame-label">Final</span>
-              </button>
-            </div>
-            <textarea id="prompt" rows="2" placeholder="Describe la escena: sujeto, acción, lugar, luz, cámara…"></textarea>
-            <div class="composer-ai">
-              <button class="btn-ghost" id="btn-enhance" title="Reescribe tu idea como un prompt cinematográfico usando tu cuenta de Claude">✨ Mejorar</button>
-              <button class="btn-ghost" id="btn-variations" title="3 variaciones del prompt">Variaciones</button>
-            </div>
-          </div>
-          <div class="composer-bar">
-            <div class="opt">
-              <span class="opt-label">Formato</span>
-              <select id="opt-format"></select>
-            </div>
-            <div class="opt" id="opt-aspect-wrap">
-              <span class="opt-label">Aspecto</span>
-              <div class="seg" id="opt-aspect"></div>
-            </div>
-            <div class="opt">
-              <span class="opt-label">Estilo</span>
-              <select id="opt-style"></select>
-            </div>
-            <div class="opt">
-              <span class="opt-label">Duración</span>
-              <select id="opt-duration"></select>
-            </div>
-            <div class="opt">
-              <span class="opt-label">Calidad</span>
-              <div class="seg" id="opt-resolution">
-                <button data-value="480p">480p</button>
-                <button data-value="720p" class="active">720p</button>
-              </div>
-            </div>
-            <label class="toggle">
-              <input type="checkbox" id="opt-audio" checked>
-              <span class="toggle-track"></span>
-              <span>Audio</span>
-            </label>
-            <button class="btn-generate" id="btn-generate">
-              Generar <span class="kbd">⌘↵</span>
-            </button>
-          </div>
-          <div class="composer-model" id="composer-model">Seedance 2.5 · text-to-video</div>
-        </div>
-      </section>
-
-      <!-- PROYECTOS -->
-      <section class="view" id="view-projects">
-        <div class="page-head">
-          <div>
-            <h1>Proyectos</h1>
-            <p class="muted">Cada proyecto agrupa sus generaciones y pertenece a un cliente.</p>
-          </div>
-          <button class="btn-primary" id="btn-new-project">+ Nuevo proyecto</button>
-        </div>
-        <div class="card-grid" id="projects-grid"></div>
-      </section>
-
-      <!-- REFERENCIAS -->
-      <section class="view" id="view-references">
-        <div class="page-head">
-          <div>
-            <h1>Referencias visuales</h1>
-            <p class="muted">Organiza tus referencias en tableros. Úsalas como frame inicial o final.</p>
-          </div>
-          <button class="btn-primary" id="btn-new-board">+ Nuevo tablero</button>
-        </div>
-        <div class="boards-layout">
-          <ul class="boards-list" id="boards-list"></ul>
-          <div class="board-body">
-            <div class="board-head">
-              <h2 id="board-title">Todas las referencias</h2>
-              <div class="board-actions" id="board-actions"></div>
-            </div>
-            <div class="refs-toolbar">
-              <input type="search" id="refs-search" placeholder="Buscar por nombre o etiqueta…">
-            </div>
-            <label class="dropzone" id="dropzone">
-              <input type="file" id="ref-files" accept="image/png,image/jpeg,image/webp" multiple hidden>
-              <strong>Arrastra imágenes aquí</strong> o haz clic para subir · PNG, JPG, WEBP
-            </label>
-            <div class="refs-grid" id="refs-grid"></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- CLIENTES -->
-      <section class="view" id="view-clients">
-        <div class="page-head">
-          <div>
-            <h1>Clientes</h1>
-            <p class="muted">Su contexto de marca se usa al mejorar prompts con Claude; sus valores por defecto se aplican al compositor.</p>
-          </div>
-          <button class="btn-primary" id="btn-new-client">+ Nuevo cliente</button>
-        </div>
-        <div class="card-grid" id="clients-grid"></div>
-      </section>
-
-      <!-- ESTILOS -->
-      <section class="view" id="view-styles">
-        <div class="page-head">
-          <div>
-            <h1>Estilos y formatos</h1>
-            <p class="muted">Los estilos añaden dirección visual al prompt. Los formatos fijan aspecto, duración y calidad por plataforma.</p>
-          </div>
-        </div>
-        <div class="section-head">
-          <h2>Estilos visuales</h2>
-          <button class="btn-secondary" id="btn-new-style">+ Nuevo estilo</button>
-        </div>
-        <div class="card-grid" id="styles-grid"></div>
-        <div class="section-head">
-          <h2>Formatos / dimensiones</h2>
-          <button class="btn-secondary" id="btn-new-format">+ Nuevo formato</button>
-        </div>
-        <div class="card-grid" id="formats-grid"></div>
-      </section>
-
-      <!-- AJUSTES -->
-      <section class="view" id="view-settings">
-        <div class="page-head">
-          <div>
-            <h1>Ajustes</h1>
-            <p class="muted">Todo se guarda en este navegador (IndexedDB). Las credenciales viven solo en el servidor local.</p>
-          </div>
-        </div>
-        <div class="settings-grid">
-          <div class="panel">
-            <h2>Conexiones</h2>
-            <ul class="conn-list" id="conn-list"></ul>
-          </div>
-          <div class="panel">
-            <h2>Respaldo</h2>
-            <p class="muted">Exporta clientes, proyectos, estilos, referencias (con imágenes) e historial a un archivo JSON.</p>
-            <div class="row">
-              <button class="btn-secondary" id="btn-export">Exportar</button>
-              <label class="btn-secondary">Importar<input type="file" id="import-file" accept="application/json" hidden></label>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+      <div class="feed" id="feed"></div>
     </main>
   </div>
+
+  <!-- BIBLIOTECA (panel lateral, sin cambiar de página) -->
+  <div class="drawer-backdrop hidden" id="drawer-backdrop"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <header class="drawer-head">
+      <div>
+        <h2 id="drawer-title">Biblioteca</h2>
+        <p class="hint" id="drawer-sub">Personajes, productos, estilos, locaciones, frames, videos y audios.</p>
+      </div>
+      <button class="icon-btn" id="drawer-close" aria-label="Cerrar">✕</button>
+    </header>
+    <div class="chips small drawer-tabs" id="drawer-tabs"></div>
+    <div class="drawer-tools">
+      <input type="search" id="lib-search" placeholder="Buscar por nombre, etiqueta o descripción…">
+      <label class="toggle small"><input type="checkbox" id="lib-client-only"><span class="toggle-track"></span><span>Solo cliente actual</span></label>
+    </div>
+    <label class="dropzone" id="dropzone">
+      <input type="file" id="lib-files" multiple hidden>
+      <strong>Arrastra archivos aquí</strong> o haz clic para subir
+      <small id="drop-hint">JPG, PNG, WEBP · MP4 · WAV</small>
+    </label>
+    <div class="lib-grid" id="lib-grid"></div>
+    <div class="drawer-foot hidden" id="drawer-foot">
+      <span id="pick-count"></span>
+      <button class="btn-primary" id="pick-done">Usar selección</button>
+    </div>
+  </aside>
 
   <dialog class="modal" id="modal">
     <form method="dialog" class="modal-inner" id="modal-form">
@@ -237,7 +169,6 @@
   </dialog>
 
   <div class="toasts" id="toasts"></div>
-
   <script type="module" src="app.js"></script>
 </body>
 </html>

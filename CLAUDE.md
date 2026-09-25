@@ -18,7 +18,7 @@ El skill (`.claude/skills/content-cycle/SKILL.md`) es el playbook completo: en q
 2. **`investigador`** — tendencias, competencia, ángulos de audiencia.
 3. **`planificador`** — decide las 4-8 piezas del ciclo (tema, formato, fecha, si lleva pauta).
 4. Por pieza, en cascada: **`hook`** → **`guion`** → **`diseño`**.
-5. **[GATE HUMANO]** — el usuario graba y edita en CapCut/Canva y deja el archivo final en `piezas/pieza-0N/media/`. Ningún agente actúa en esta fase. Opcional: generar clips con IA en `video-generator/` (VideoFlow, Higgsfield) y usar su botón "A ciclo" para dejarlos en esa carpeta.
+5. **[GATE HUMANO]** — el usuario graba y edita en CapCut/Canva y deja el archivo final en `piezas/pieza-0N/media/`. Ningún agente actúa en esta fase. Opcional: generar clips con IA en VideoFlow (`video-generator/`, Cloudflare Workers + Higgsfield) y usar su botón "A ciclo", que hace commit del video en esa carpeta vía GitHub Actions.
 6. **`publicar`** — arma el paquete de publicación (caption, hashtags, horario) solo para piezas con media ya presente.
 7. **`pauta`** — crea campaña/ad set/creativo/anuncio en Meta Ads, **siempre en estado PAUSADO**, para las piezas marcadas como candidatas a pauta.
 
@@ -39,7 +39,7 @@ Los subagentes no comparten contexto de conversación entre sí. Todo el traspas
 ```
 content-strategy/
   CLAUDE.md
-  video-generator/              # VideoFlow: dashboard local de video IA (npm start; ver su README)
+  video-generator/              # VideoFlow: estudio de video IA en Cloudflare Workers (ver su README)
   .claude/agents/*.md           # 8 subagentes
   .claude/skills/content-cycle/ # playbook del orquestador
   content/

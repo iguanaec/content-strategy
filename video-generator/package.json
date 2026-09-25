@@ -1,14 +1,19 @@
 {
-  "name": "video-generator",
-  "version": "1.0.0",
-  "description": "VideoFlow: dashboard local para generar videos con Higgsfield",
+  "name": "videoflow",
+  "version": "2.0.0",
+  "description": "VideoFlow: estudio de video IA con Higgsfield en Cloudflare Workers",
+  "type": "module",
+  "private": true,
   "scripts": {
-    "start": "node --env-file-if-exists=.env.local server.js",
-    "example": "node --env-file-if-exists=.env.local example.js"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply videoflow --remote",
+    "catalog": "node scripts/build-catalog.mjs"
   },
   "dependencies": {
-    "@higgsfield/client": "^0.2.6"
+    "@anthropic-ai/sdk": "^0.128.0"
   },
-  "type": "module",
-  "private": true
+  "devDependencies": {
+    "wrangler": "^4.140.0"
+  }
 }
