@@ -1,95 +1,94 @@
-# Brief de diseño — Pieza 01 (Carrusel: "3 señales de que estás perdiendo clientes por WhatsApp")
+# Brief de diseño — Pieza 01 (Carrusel: "No perdiste al cliente por caro, lo perdiste por lento.")
 
-> Formato: Carrusel (IG + Facebook), 7 slides, cero grabación — se arma entero en Canva. Etapa: awareness. Regla dura heredada del guion: **ningún slide ni el caption nombra a Iguana como producto/solución ni menciona pricing.** El héroe visual es la dueña del negocio (Amanda), no una marca.
-
----
-
-## 1. Storyboard — diseño por slide
-
-Cada slide es una "toma" de diseño: fondo, jerarquía de texto y elemento visual de apoyo. No hay fotografía/video real — todo es tipografía + color + (opcional) ilustración/icono simple, coherente con que esta pieza no requiere grabación.
-
-**Slide 1 — Hook / portada**
-- Contenido: "No perdiste ese cliente por precio." / "Lo perdiste porque tardaste 3 horas en contestarle." (partido en dos líneas, con pausa visual entre ambas — ver punto 2, es también el concepto de portada).
-- Fondo: negro roca `#2B2420` sólido o con textura muy sutil (grano/ruido leve) para que no se vea plano.
-- Tipografía: la frase 1 en un peso más liviano/pequeño, la frase 2 en el peso más grande/bold, en coral `#C8683B`, para que el ojo aterrice en "3 horas en contestarle" — es la parte que más incomoda y más recuerda.
-- Sin logo, sin ícono de producto. Solo texto. Duración de lectura estimada: 2-3 seg (debe leerse rápido en el feed).
-
-**Slide 2 — Puente / validación del dolor**
-- Título: "Tu servicio es bueno. El problema está en lo que pasa ANTES de que el cliente se siente en tu silla."
-- Subtítulo pequeño (parte inferior): "Aquí van 3 señales para que las identifiques tú misma →"
-- Fondo: verde `#2F5D50`, contraste de color respecto al slide 1 (marca el cambio de "golpe" a "acompañamiento").
-- Texto principal en blanco o crema claro (no coral aquí — el coral se reserva para lo que más duele, este slide es de alivio/validación).
-- Elemento visual de apoyo (opcional, simple): una flecha o línea punteada horizontal que sugiere continuidad hacia el siguiente slide.
-
-**Slide 3 — Señal 1: Respuesta tardía**
-- Etiqueta superior pequeña: "Señal 1 / 3" (numerador visual, ayuda a que el usuario sienta que va avanzando — clave para que deslice hasta el final).
-- Título: "Contestas cuando puedes, no cuando el cliente escribe."
-- Cuerpo (texto de apoyo, tamaño menor): "Un mensaje que se queda 'para responder en la noche' es una cita que ya se está enfriando. El cliente no espera — te escribe a ti y, si tarda, le escribe a la competencia."
-- Fondo: negro roca `#2B2420`.
-- Ícono/motivo simple sugerido: reloj o burbuja de chat con signos de "..." (escribiendo) para reforzar el concepto sin necesitar foto real.
-
-**Slide 4 — Señal 2: Agenda dispersa**
-- Etiqueta: "Señal 2 / 3"
-- Título: "Tu agenda vive en 3 lugares distintos."
-- Cuerpo: "Un cliente en el cuaderno, otro en las notas del celular, otro que 'ya luego lo anoto'. Ahí es donde aparecen los cruces de horario y los 'perdón, ya tengo esa hora ocupada'."
-- Fondo: alterna a verde `#2F5D50` (mantener el patrón de alternancia negro/verde entre señales ayuda a que el carrusel no se sienta monótono y marca ritmo de lectura).
-- Ícono/motivo sugerido: tres formas simples (cuaderno, nota de celular, signo de interrogación) dispersas, sin alinear — refuerza visualmente "dispersión".
-
-**Slide 5 — Señal 3: Seguimiento que no pasa**
-- Etiqueta: "Señal 3 / 3"
-- Título: "El cliente que preguntó precio... y nunca volviste a saber de él."
-- Cuerpo: "No te escribió para no volver. Se quedó esperando una respuesta y, mientras tanto, encontró a alguien que sí le contestó."
-- Fondo: negro roca `#2B2420` (cierra el patrón de alternancia: 3-negro, 4-verde, 5-negro).
-- Detalle de énfasis: la palabra "nunca" o el silencio implícito puede resaltarse en coral `#C8683B`, ya que este es el slide más doloroso del trío — coherente con el uso del coral en el hook.
-
-**Slide 6 — Reflexión / mini-resumen (sin vender nada)**
-- Título: "Ninguna de estas 3 señales tiene que ver con lo buena que eres en tu oficio."
-- Subtítulo: "Tiene que ver con cuánto tiempo humano le exige atender el WhatsApp sola."
-- Fondo: verde `#2F5D50` — vuelve al color de "alivio/acompañamiento" del slide 2, cerrando el círculo visual del problema antes del CTA.
-- Sin ícono de producto ni flecha hacia una solución — este slide es deliberadamente de cierre reflexivo, no de venta.
-
-**Slide 7 — CTA (cierre)**
-- Título: "¿Cuál de las 3 te pasó esta semana?"
-- Subtítulo: "Cuéntamelo en los comentarios 👇"
-- Texto de apoyo secundario, más pequeño: "Guarda este post para releerlo la próxima vez que se te acumulen los mensajes."
-- Fondo: negro roca `#2B2420` (vuelve al color del hook, da sensación de cierre/simetría con el slide 1).
-- Íconos sugeridos: uno de comentario (💬) y uno de guardado (🔖) junto a cada CTA, para reforzar visualmente la acción pedida sin depender solo del texto.
-
-**Nota de decisión pendiente (marca/atribución):** el guion pide no nombrar a Iguana como producto/solución en ningún slide. Esto no debería impedir la atribución estándar de autoría (el handle @iguana.ec ya aparece automáticamente en el feed vía IG/Facebook), así que **no** se sugiere agregar logo ni wordmark dentro de los slides — se deja limpio. Si el usuario prefiere un watermark discreto de handle en la esquina del slide 7 (práctica común para evitar reposts sin crédito), es una decisión de marca a confirmar con el usuario antes de publicar, no algo que este brief asuma por defecto.
+> Formato: carrusel de 7 slides, 4:5 (1080x1350 px), IG + Facebook. Se arma en Canva con **fotografía real** + tipografía + elementos de color. Awareness: ningún slide ni el caption nombra a Iguana como producto ni menciona pricing. Producción: fotos propias del equipo en la **sesión única del 07/10** (el CEO y la persona de marketing son los únicos en cámara; no hay clientes ni acceso a un salón).
 
 ---
 
-## 2. Concepto de portada / thumbnail
+## 1. Línea gráfica aplicada
 
-El slide 1 ES la portada (en carrusel, la primera imagen es lo único que se ve antes de que alguien decida deslizar). Debe transmitir, en menos de 2 segundos de scroll:
-- **Incomodidad reconocible, no acusación**: la frase suena a algo que la propia Amanda pensaría de sí misma, no a un extraño juzgándola.
-- **Cero estética de "anuncio"**: nada de logos, nada de flechas de "desliza", nada de íconos de producto — debe parecer una observación honesta, casi un post de alguien que entiende el negocio, no una pieza publicitaria.
-- **Contraste alto**: fondo oscuro (negro roca) + texto claro + el remate en coral, para que se lea incluso en miniatura dentro del feed (pensar en cómo se ve reducido, no solo a tamaño completo).
+- **Blanco, negro y verde fosforescente.** Verde de trabajo: `#39FF14` (**por confirmar con el HEX oficial**).
+- Fondo negro, texto blanco, verde solo como acento (palabra clave, íconos, marcador, CTA).
+- **Contraste:** el verde neón se lee bien sobre negro y mal sobre blanco. Si algún slide lleva fondo blanco, texto negro y el verde como marcador detrás de la palabra.
+- **Fotos reales, nunca IA ni ilustraciones.** Tratamiento base en Canva: *Editar foto → Ajustes → blanco y negro (saturación 0), contraste +15 a +25, sombras −10*. Opcional para variar el ritmo en un slide: filtro *Duotono* negro → verde.
+- **Tipografía:** sigue sin estar definida. Sugerencia: sans bold y legible en móvil (por ejemplo Archivo, Inter Tight o Space Grotesk); máximo 2 pesos de una familia. Pendiente de validar.
 
----
+## 2. Kit de "elementos para darle color" (todos en verde)
 
-## 3. Estilo visual
+Usa un máximo de **2 elementos por slide** para que no se sature:
 
-**Paleta (definida en `brand-brief.md`, usar tal cual):**
-- Verde profundo `#2F5D50` — color de "acompañamiento/alivio" (slides 2 y 6).
-- Negro roca volcánica `#2B2420` — color de "golpe/observación seca" (slides 1, 3, 5, 7).
-- Coral/terracota `#C8683B` — acento para la palabra o frase que más debe doler/recordarse en cada slide (nunca como fondo completo, solo como énfasis puntual).
-- Evitar cualquier azul genérico de "tech company" — regla explícita de marca.
-
-**Tipografía de overlays:** no hay una tipografía de marca definida todavía en `brand-brief.md` (dice "pendiente de validar en sesión de diseño formal"). No lo doy por definitivo — sugerencia razonable para esta pieza: una sans-serif geométrica con peso variable disponible en Canva (ej. "Poppins", "Montserrat" o "Sora" — cualquiera de estas cubre bien títulos bold + cuerpo liviano sin verse "tech corporativo"). Usar como máximo dos pesos de la misma familia (bold para títulos/remates, regular/liviano para cuerpo) para mantener consistencia entre los 7 slides.
-
-**Referencias de tono:** el estilo debe sentirse como una nota personal/honesta, no como una infografía corporativa — texto grande, mucho espacio en blanco (o negro/verde, en este caso), sin recargar de íconos. Los motivos gráficos sugeridos (reloj, burbujas de chat, cuaderno/notas) deben ser simples, tipo línea o silueta plana, no ilustraciones detalladas ni fotos de stock — coherente con que esta pieza no tiene producción de foto/video.
+1. **Marcador/resaltado** detrás de la palabra clave (rectángulo verde ligeramente girado, texto negro encima).
+2. **Círculos, flechas y tachones dibujados a mano** (herramienta *Dibujo* de Canva, grosor 6-8 px).
+3. **Stickers estilo WhatsApp recoloreados:** contador de no leídos (badge), palomitas de "visto", marca de hora.
+4. **Píldora de numeración** "3/7" o "SEÑAL 1" (cápsula verde con texto negro).
+5. **Marco o esquinas finas** (línea de 3 px) para encerrar la foto.
 
 ---
 
-## 4. Checklist de assets para armar en Canva
+## 3. Slide por slide: texto, foto real recomendada y elementos de color
 
-- [ ] **Formato/relación de aspecto**: 1080x1350 px (4:5) para feed de IG y Facebook — maximiza espacio vertical en el feed frente al 1:1, sin llegar al recorte agresivo del 9:16 (que no aplica bien a carrusel de lectura).
-- [ ] **Cantidad de slides**: 7 (hook, puente, señal 1, señal 2, señal 3, reflexión, CTA) — no agregar slides extra, el guion está cerrado en 7 beats.
-- [ ] **Duración objetivo de lectura por slide**: 2-4 seg cada uno (~20-25 seg de lectura total si alguien desliza a ritmo normal) — mantener los bloques de texto cortos, ya extraídos directamente del guion.
-- [ ] **Plantilla base en Canva**: crear 1 plantilla maestra con los 3 fondos de color + 2 estilos de jerarquía de texto (título+cuerpo / título+subtítulo), y duplicarla para los 7 slides — ahorra tiempo y garantiza consistencia visual.
-- [ ] **Textos en pantalla**: copiar tal cual del guion (no parafrasear) — los 7 bloques de texto ya están en `guion.md` y quedaron listados slide por slide arriba.
-- [ ] **Numerador visual "Señal X/3"**: preparar como elemento repetible en slides 3, 4 y 5.
-- [ ] **Íconos/motivos simples**: reloj o chat (slide 3), cuaderno/nota/interrogación dispersos (slide 4), comentario y guardado (slide 7) — usar librería de íconos línea/silueta de Canva, no fotos de stock.
-- [ ] **Sin logo ni nombre de producto en los slides** (ver nota de decisión pendiente arriba) — confirmar con el usuario si se agrega watermark discreto de handle en el último slide antes de publicar.
-- [ ] **Exportar** como carrusel de imágenes (no PDF) en el orden 1→7, listo para subir directo a IG/Facebook.
+> Para fotografiar chats **sin datos de terceros**: la persona de marketing le escribe al CEO desde su propio WhatsApp ("Hola, ¿tienen cupo hoy en la tarde?"), el CEO no contesta y se fotografía la pantalla. Es una escena real, con datos del propio equipo y sin clientes.
+
+### Slide 1 — Portada
+- **Texto:** "No perdiste al cliente por caro," / "lo perdiste por **lento**."
+- **Foto real:** una mano sostiene un celular con el chat abierto: mensaje entrante "Hola, ¿tienen cupo hoy en la tarde?" y debajo **nada** (sin respuesta). Toma cenital, el celular en el tercio inferior derecho, luz de ventana. Quien sostiene el celular: el CEO.
+- **Tratamiento:** blanco y negro; degradado negro de arriba hacia abajo para que el título se lea.
+- **Elementos de color:** "lento" con marcador verde; sticker "visto hace 3 h" junto al mensaje.
+- **Alternativa de stock:** Pexels/Unsplash, buscar "hand holding phone messaging" (verificar licencia).
+
+### Slide 2 — Puente / validación
+- **Texto:** "Tu servicio es bueno. El problema está en lo que pasa ANTES de que el cliente llegue a tu silla." / apoyo: "Hay 3 formas de ser lento sin darte cuenta →".
+- **Foto real:** estación de peluquería vacía (silla, espejo, tijeras y peines). Como no hay salón propio: pedir 5 minutos a una peluquería amiga o conocida para fotografiar **sin personas ni clientes**, o usar stock libre ("empty barber chair", "hair salon station", "silla de peluquería").
+- **Tratamiento:** a pantalla completa, blanco y negro, oscurecida ~40 % para que el texto blanco se lea.
+- **Elementos de color:** píldora verde "ANTES de la cita"; flecha punteada verde hacia la derecha.
+
+### Slide 3 — Señal 1: lento para responder
+- **Texto:** píldora "SEÑAL 1/3" · "Contestas cuando puedes, no cuando el cliente escribe." · apoyo del guion.
+- **Foto real:** celular boca arriba sobre una mesa, pantalla bloqueada llena de notificaciones de WhatsApp; al fondo, **desenfocadas**, unas manos ocupadas (la persona de marketing cepillando cabello o escribiendo). Para la foto: el equipo se manda 8-10 mensajes de prueba entre sí, modo retrato o apertura baja para desenfocar el fondo.
+- **Tratamiento:** blanco y negro; foto en la mitad inferior, texto en la superior sobre negro.
+- **Elementos de color:** badge verde con "12" sobre el celular (contador de no leídos); píldora verde.
+
+### Slide 4 — Señal 2: lento para agendar
+- **Texto:** píldora "SEÑAL 2/3" · "Tu agenda vive en 3 lugares distintos." · apoyo del guion.
+- **Foto real:** toma cenital sobre un escritorio de los **3 lugares**: un cuaderno con citas escritas a mano (nombres ficticios), el celular con la app de notas abierta y un post-it con una hora. Luz natural lateral, objetos ligeramente desordenados (que se vea real).
+- **Tratamiento:** a pantalla completa, blanco y negro, oscurecida ~30 %.
+- **Elementos de color:** un círculo verde dibujado a mano alrededor de cada objeto numerados 1-2-3, flechas hacia un "?" grande en verde; un tachón verde sobre una de las citas del cuaderno.
+
+### Slide 5 — Señal 3: lento para dar seguimiento
+- **Texto:** píldora "SEÑAL 3/3" · "El cliente que preguntó precio... y nunca volviste a saber de él." · apoyo del guion.
+- **Foto real:** pantalla del celular en primer plano con un chat donde el cliente pregunta "Hola, ¿cuánto cuesta el alisado?" y abajo las palomitas de **"visto"** sin respuesta. Mismo método de mensajes entre el equipo. Primer plano, fondo oscuro.
+- **Tratamiento:** blanco y negro; la pantalla del celular puede quedar con su brillo natural.
+- **Elementos de color:** palomitas de "visto" recoloreadas en **verde**; sticker verde "sin respuesta".
+
+### Slide 6 — Reflexión (sin foto, para dar ritmo)
+- **Texto:** "Ninguna de estas 3 señales tiene que ver con lo buena que eres en tu oficio. Tiene que ver con cuánto **tiempo humano** le exige atender el WhatsApp sola."
+- **Imagen:** ninguna. Fondo negro, texto grande en blanco, un solo marcador verde sobre "tiempo humano". Es el slide de pausa antes del CTA.
+- **Elementos de color:** marcador verde; marco fino verde alrededor del slide.
+
+### Slide 7 — CTA
+- **Texto:** "¿Cuál de las 3 te pasó **esta semana**?" · "Cuéntamelo en los comentarios." · "Guarda este post para releerlo la próxima vez que se te acumulen los mensajes."
+- **Foto real:** retrato candid de la persona de marketing o del CEO (el que se sienta más natural), plano medio-busto, mirada a cámara o al celular, fondo de oficina desenfocado, luz de ventana. Humaniza el "cuéntamelo".
+- **Tratamiento:** blanco y negro; foto en la mitad derecha o inferior, texto a la izquierda/arriba.
+- **Elementos de color:** burbuja de comentario verde con "..." y ícono de guardar verde; "esta semana" con marcador.
+
+---
+
+## 4. Concepto de portada
+
+El slide 1 **es** la portada: en carrusel es lo único que se ve antes de deslizar. Debe leerse en menos de 2 segundos incluso en miniatura: título blanco enorme sobre negro, "lento" en verde, y la foto del chat sin respuesta como prueba silenciosa. Cero estética de anuncio: sin logo, sin flechas de "desliza", sin íconos de producto.
+
+## 5. Checklist de assets y producción
+
+- [ ] **Sesión de fotos (07/10, ~20 min de los 60-90 de la sesión única):** 5 tomas de cada una; elegir la mejor. Celular limpio, brillo al máximo, evitar reflejos de ventana en la pantalla, **vertical 4:5**.
+- [ ] Fotos necesarias: chat sin respuesta (S1), estación de peluquería (S2, externa o stock), celular con notificaciones (S3), flat-lay de agenda (S4), chat con "visto" (S5), retrato (S7). S6 no lleva foto.
+- [ ] **Props:** 2 celulares (el del CEO y el de marketing), cuaderno, lapicero, post-it, mesa junto a una ventana.
+- [ ] **Datos y permisos:** chats simulados entre el propio equipo, sin nombres ni números de terceros; el CEO y la persona de marketing autorizan el uso de su imagen.
+- [ ] **Formato:** 1080x1350 px, 7 slides exactos en el orden del guion; exportar como imágenes PNG (no PDF).
+- [ ] **Plantilla maestra en Canva:** fondo negro, 2 niveles de texto, píldora verde, marcador verde; duplicar para los 7 slides.
+- [ ] **Copiar el texto tal cual del guion** (no parafrasear).
+- [ ] **Sin logo ni nombre de producto** en los slides; el handle @iguana.ec aparece en el feed por defecto. Decisión pendiente: watermark discreto del handle en el slide 7.
+
+## 6. Pendientes por confirmar
+
+- HEX oficial del verde fosforescente (se usa `#39FF14` mientras tanto).
+- Tipografía oficial de marca.
+- Si el slide 7 lleva watermark del handle.

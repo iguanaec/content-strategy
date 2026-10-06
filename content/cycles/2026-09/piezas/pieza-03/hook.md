@@ -8,13 +8,14 @@
 "Voy a decir algo que casi nadie en este negocio quiere admitir: no estás perdiendo clientes porque cortas mal el pelo. Los estás perdiendo por WhatsApp."
 
 **2. Dato sorprendente**
-"Cada semana, un negocio de servicios en Ecuador — peluquería, spa, consultorio — pierde entre 2 y 5 citas. Y no es porque el cliente sea informal."
+"Un análisis del sector calcula que los salones de Latinoamérica pierden entre 2 y 5 citas por semana. Y no es porque el cliente sea informal." *(Citar con su alcance real: LatAm, no Ecuador ni cifra propia.)*
 
 **3. Pregunta directa**
 "¿Sabes cuánta plata dejaste sobre la mesa este mes solo por no alcanzar a contestar un WhatsApp a tiempo?"
 
 **4. Pain point / empatía compartida**
-"Llevo meses hablando con dueños de peluquerías, spas y consultorios en Quito y Guayaquil. Y casi todos tienen el mismo problema — pero no el que ellos creen que tienen."
+*(Descartado: el candidato original afirmaba haber hablado durante meses con dueños de negocios en Quito y Guayaquil, algo que el equipo no puede respaldar todavía. Se reemplaza por una versión que no inventa experiencia.)*
+"Hay un problema que le cuesta citas a casi cualquier negocio de servicios, y casi nunca es el que sus dueños creen que tienen."
 
 **5. Opinión fuerte, en primera persona**
 "Esto es algo que me parece injusto: negocios que hacen un trabajo buenísimo están perdiendo plata por algo tan simple como no llegar a contestar el celular."

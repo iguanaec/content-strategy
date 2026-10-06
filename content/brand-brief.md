@@ -9,7 +9,12 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 - **Tono / voz de marca**: arquetipo Mentor-Explorador — cercana, serena, orgullosamente local, resiliente, con humor sutil (sin forzar el chiste de reptiles en cada pieza). Simple ("si sabes mandar un WhatsApp, ya sabes usar Iguana"), honesta, nunca condescendiente. Reglas que nunca se rompen: sin jerga técnica de software de cara al cliente (nada de API/backend/IA generativa), nunca dramatizar el cambio como riesgoso, nunca prometer transformación de identidad (la promesa es de capacidad, no de identidad), el héroe de cada historia es siempre el dueño del negocio, no Iguana.
   - Metáfora central de marca: la iguana marina de Galápagos, único lagarto que aprendió a nadar sin dejar de ser lagarto. Se desliza al agua con calma (nunca salta dramáticamente), nada con el cuerpo entero (solución integral, no un parche), bucea y aguanta la respiración (el negocio sigue funcionando aunque la dueña esté desconectada), se alimenta sin ser depredadora (la IA no reemplaza a la persona), vuelve a la roca a tomar sol (la automatización libera tiempo para lo esencial). Usar la metáfora con propósito, en momentos clave — no como chiste recurrente en cada pieza.
   - Tagline: "La iguana se adaptó. ¿Qué esperas tú?" / Línea de marca: "Iguana — Aprende a nadar en el ecosistema digital."
-- **Identidad visual** (opcional): verde profundo `#2F5D50` (mar/adaptación), negro roca volcánica `#2B2420` (origen/solidez), acento coral/terracota `#C8683B` (calidez humana). Evitar el azul genérico de "tech company". Pendiente de validar en sesión de diseño formal.
+- **Identidad visual** (línea gráfica confirmada por el usuario el 2026-10-06; reemplaza la paleta verde `#2F5D50` / negro `#2B2420` / coral `#C8683B` de `Iguana_Brand_Guide.md`, que estaba marcada como pendiente de validar): **blanco, negro y verde fosforescente**.
+  - HEX de trabajo del verde fosforescente: `#39FF14` — **por confirmar con el HEX oficial** (hacer buscar/reemplazar si cambia).
+  - Uso: fondo negro, texto blanco, verde solo como acento (palabra clave, íconos, marcador, CTA). El verde neón se lee bien sobre negro y **mal sobre blanco**: en fondos blancos, texto negro y el verde como resaltado detrás de la palabra.
+  - Imágenes: **fotografía real** (propia o stock libre real), nunca ilustraciones ni imágenes generadas con IA; en blanco y negro o con un velo verde ligero para cohesión. Chats y notificaciones se **simulan** con datos ficticios (sin conversaciones reales de personas).
+  - Elementos de color permitidos: marcador/subrayado verde, círculos/flechas/tachones dibujados a mano en verde, stickers estilo WhatsApp recoloreados (contador, "visto", hora), píldora de numeración, marco o esquinas finas. No introducir colores fuera de esta línea.
+  - Tipografía: sigue sin definirse; sugerida una sans bold legible en móvil, pendiente de validar.
 
 ## Plataformas
 - Instagram: @iguana.ec
@@ -47,10 +52,14 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 
 | Pieza | Formato | Tema/ángulo | Etapa de funnel | Producción |
 |---|---|---|---|---|
-| 01 | Carrusel | 3 señales de que estás perdiendo clientes por WhatsApp | Awareness | Solo diseño (Canva), cero grabación |
-| 02 | Reel POV | "POV: eres dueña de tu negocio y son las 6pm..." | Awareness | 1 locación, grabación corta |
-| 03 | Reel CEO | Founder a cámara: por qué los negocios pierden dinero por el WhatsApp desatendido | Awareness / confianza | 1 locación, habla a cámara |
+| 01 | Carrusel | "No perdiste al cliente por caro, lo perdiste por lento." — 3 señales de lentitud en WhatsApp | Awareness | Fotos reales propias + diseño (Canva), sin grabación de video |
+| 02 | Reel POV | "POV: son las 6pm, tienes clienta en la silla..." con remate "Ya no importa, gracias" | Awareness | Escenificado en un cuarto con luz de ventana, 2 tomas |
+| 03 | Reel CEO | Founder a cámara: por qué los negocios pierden dinero por el WhatsApp desatendido | Awareness / confianza | Oficina o casa, toma única |
 | 04 | Motion | Presenta a Iguana + CTA directo a WhatsApp (leads) | Conversión (captura de leads, sin pricing) | Solo diseño/animación (CapCut/Canva) |
+
+**Restricciones reales de producción (confirmadas por el usuario el 2026-10-06):** todavía no hay clientes, así que **no se puede grabar en una peluquería**. Quienes aparecen en cámara son el **CEO** y una **persona de marketing** del equipo. Todo se produce en **una sola sesión corta** (~60-90 min: POV, reel del CEO y fotos del carrusel). Calendario re-propuesto desde 06/10: sesión 07/10; carrusel 09/10; POV 13/10; CEO 16/10; motion 20/10.
+
+**Honestidad en el contenido:** ninguna pieza afirma experiencia o contactos que el equipo no pueda respaldar (p. ej. "hablé con decenas de dueños"). El dato "2-5 citas perdidas por semana" proviene de un blog de un proveedor de software sobre **salones de Latinoamérica** (ver `01-research.md`); debe citarse con ese alcance, no como cifra propia ni de Ecuador.
 
 Lógica del orden: construye de frío (carrusel educativo) a cálido (POV relatable → cara real del CEO que genera confianza) y recién ahí pide la acción (motion con CTA a WhatsApp) — la única pieza que nombra a Iguana explícitamente.
 

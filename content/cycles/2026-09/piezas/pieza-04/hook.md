@@ -8,7 +8,7 @@
    "¿Y si tu WhatsApp respondiera, agendara y facturara aunque tú estés cortando el pelo de alguien más?"
 
 2. **Dato sorprendente (respaldo en research, cifra de LatAm)**
-   "Los negocios de servicios pierden hasta 5 citas por semana solo por no contestar el WhatsApp a tiempo."
+   "Un análisis del sector calcula que los salones de Latinoamérica pierden hasta 5 citas por semana por no contestar el WhatsApp a tiempo." *(Citar con su alcance real; no presentarlo como cifra propia ni de Ecuador.)*
 
 3. **Pain point relatable (continúa el hilo de las piezas 1-3)**
    "Ese cliente que escribió y nunca le contestaste... probablemente ya agendó con otro negocio."
