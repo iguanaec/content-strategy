@@ -53,13 +53,13 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 | Pieza | Formato | Tema/ángulo | Etapa de funnel | Producción |
 |---|---|---|---|---|
 | 01 | Carrusel | "No perdiste al cliente por caro, lo perdiste por lento." — 3 señales de lentitud en WhatsApp | Awareness | Fotos reales propias + diseño (Canva), sin grabación de video |
-| 02 | Reel POV | "POV: son las 6pm, tienes clienta en la silla..." con remate "Ya no importa, gracias" | Awareness | Escenificado en un cuarto con luz de ventana, 2 tomas |
-| 03 | Reel CEO | Founder a cámara: por qué los negocios pierden dinero por el WhatsApp desatendido | Awareness / confianza | Oficina o casa, toma única |
+| 02 | Reel POV de pantalla (~11 s) | "«Ya le contesto en 5 minutos». Cinco minutos después:" + chat con remate "Ya no importa, gracias" | Awareness | Celular real en una mano real, sin actores ni salón (~10 min) |
+| 03 | Reel CEO (≤ 22 s) | Founder a cámara: "las dueñas de peluquería tienen un segundo trabajo que nadie les paga" (ser recepcionistas por WhatsApp) | Awareness / confianza | Oficina o casa, una toma, ~62 palabras |
 | 04 | Motion | Presenta a Iguana + CTA directo a WhatsApp (leads) | Conversión (captura de leads, sin pricing) | Solo diseño/animación (CapCut/Canva) |
 
-**Restricciones reales de producción (confirmadas por el usuario el 2026-10-06):** todavía no hay clientes, así que **no se puede grabar en una peluquería**. Quienes aparecen en cámara son el **CEO** y una **persona de marketing** del equipo. Todo se produce en **una sola sesión corta** (~60-90 min: POV, reel del CEO y fotos del carrusel). Calendario re-propuesto desde 06/10: sesión 07/10; carrusel 09/10; POV 13/10; CEO 16/10; motion 20/10.
+**Restricciones reales de producción (confirmadas por el usuario el 2026-10-06):** todavía no hay clientes, así que **no se puede grabar en una peluquería**. Quienes aparecen en cámara son el **CEO** y una **persona de marketing** del equipo. Todo se produce en **una sola sesión corta** (~60 min: fotos del carrusel, POV de pantalla y reel del CEO; los 4 mensajes del POV se envían durante el día). **Estilo de hook preferido por el usuario: humor / situación cotidiana + curiosidad. Los reels deben ser cortos (POV ≤ 12 s, CEO ≤ 22 s) y no depender de actuar escenas que no se vean creíbles.** Calendario re-propuesto desde 06/10: sesión 07/10; carrusel 09/10; POV 13/10; CEO 16/10; motion 20/10.
 
-**Honestidad en el contenido:** ninguna pieza afirma experiencia o contactos que el equipo no pueda respaldar (p. ej. "hablé con decenas de dueños"). El dato "2-5 citas perdidas por semana" proviene de un blog de un proveedor de software sobre **salones de Latinoamérica** (ver `01-research.md`); debe citarse con ese alcance, no como cifra propia ni de Ecuador.
+**Honestidad en el contenido:** ninguna pieza afirma experiencia o contactos que el equipo no pueda respaldar (p. ej. "hablé con decenas de dueños"). El dato "2-5 citas perdidas por semana" proviene de un blog de un proveedor de software sobre **salones de Latinoamérica** (ver `01-research.md`); si se usa en alguna pieza, debe citarse con ese alcance, no como cifra propia ni de Ecuador. Las versiones actuales de las piezas 02 y 03 ya no lo usan.
 
 Lógica del orden: construye de frío (carrusel educativo) a cálido (POV relatable → cara real del CEO que genera confianza) y recién ahí pide la acción (motion con CTA a WhatsApp) — la única pieza que nombra a Iguana explícitamente.
 

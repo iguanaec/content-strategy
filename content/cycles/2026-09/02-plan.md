@@ -7,14 +7,15 @@
 | Pieza | Tema/ángulo | Formato | Plataforma | Etapa de funnel | Fecha objetivo | Candidata a pauta | Razón breve |
 |---|---|---|---|---|---|---|---|
 | pieza-01 | **"No perdiste al cliente por caro, lo perdiste por lento."** Carrusel con 3 señales de lentitud en WhatsApp (para responder, para agendar, para dar seguimiento). Foto real en cada slide. | Carrusel (7 slides) | IG + Facebook | awareness | 2026-10-09 | No | Abre el ciclo sin video: fotos propias de 5-10 min + Canva. |
-| pieza-02 | "POV: son las 6pm, tienes clienta en la silla..." con remate **"Ya no importa, gracias 🙏"**. Escenificado en un cuarto con luz de ventana (solo manos, nuca de la "clienta", celular vibrando). | Reel (POV) | IG + Facebook | awareness | 2026-10-13 | No | Formato de tendencia, 2 tomas, no necesita salón: CEO = manos, marketing = "clienta". |
-| pieza-03 | Founder/CEO a cámara: por qué los negocios de servicios pierden plata por el WhatsApp desatendido. Convicción y datos citados con su alcance real; sin credenciales inventadas. | Reel (CEO a cámara) | IG + Facebook | awareness / confianza | 2026-10-16 | No | Pone una cara real detrás de la marca antes del pedido de la pieza 4. |
+| pieza-02 | **"«Ya le contesto en 5 minutos». Cinco minutos después:"** POV de pantalla (~11 s): un celular real en una mano real con 4 mensajes de "Clienta nueva" y el remate **"Ya no importa, gracias 🙏"**. | Reel (POV de pantalla) | IG + Facebook | awareness | 2026-10-13 | No | Sin actores ni salón: creíble en cualquier lugar. Los 4 mensajes los manda marketing durante el día (horas reales); la toma son ~10 min. |
+| pieza-03 | Founder/CEO a cámara (≤ 22 s, ~62 palabras): **"Las dueñas de peluquería tienen un segundo trabajo que nadie les paga"** (ser recepcionistas por WhatsApp). Una sola opinión, sin cifras ni credenciales. | Reel (CEO a cámara) | IG + Facebook | awareness / confianza | 2026-10-16 | No | Pone una cara real detrás de la marca antes del pedido de la pieza 4, sin afirmar nada que no se pueda respaldar. |
 | pieza-04 | Presenta a Iguana por primera vez + CTA a WhatsApp ("Escríbenos por WhatsApp, link en la bio"). Sin pricing. | Motion (sin grabación) | IG + Facebook | conversión (captura de leads) | 2026-10-20 | No (boost manual, no vía `pauta`) | Único pedido de acción del ciclo, apoyado en la confianza de 1-3. |
 
 ## Notas de ejecución
 - Piezas 1-3 no mencionan pricing, planes ni a Iguana como producto. La pieza 4 sí nombra a Iguana y pide la acción, pero tampoco menciona pricing.
 - Link `wa.me` de la pieza 4 (bio de Instagram y caption, nunca dentro del video): `https://wa.me/593959420676?text=Hola%2C%20vi%20el%20video%20de%20Iguana%20y%20quiero%20saber%20m%C3%A1s`.
 - Línea gráfica: blanco, negro y verde fosforescente (HEX de trabajo `#39FF14`, por confirmar). Fotografía real, sin IA ni ilustraciones; chats simulados con datos ficticios.
-- Sesión de producción única (07/10): fotos de los 7 slides del carrusel, 2 tomas del POV y 1 toma continua del CEO. Lista de props y orden en el `.docx` del ciclo.
+- Sesión de producción única (07/10, ~60 min): fotos del carrusel (20 min), POV de pantalla (10 min), toma del CEO (15 min), preparación y revisión (15 min). Los 4 mensajes del POV se envían durante el día. Lista de props y orden en el `.docx` del ciclo.
+- Hooks de las piezas 02 y 03 reescritos en estilo humor + curiosidad, con tres alternativas cada uno (ver `hook.md` de cada pieza).
 - Presupuesto: piezas 1-2 sin boost al publicar; boost manual (~$10-15) a la de mejor desempeño orgánico de 1-3 antes de publicar la 4; ~$25-35 para la pieza 4, con hasta $20 adicionales si el desempeño lo justifica (tope ~$70).
 - Las fechas anteriores (22/09-04/10) ya habían vencido sin media producida; se re-propusieron a partir del 06/10.
