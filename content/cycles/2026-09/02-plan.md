@@ -19,3 +19,5 @@
 - Hooks de las piezas 02 y 03 reescritos en estilo humor + curiosidad, con tres alternativas cada uno (ver `hook.md` de cada pieza).
 - Presupuesto: piezas 1-2 sin boost al publicar; boost manual (~$10-15) a la de mejor desempeño orgánico de 1-3 antes de publicar la 4; ~$25-35 para la pieza 4, con hasta $20 adicionales si el desempeño lo justifica (tope ~$70).
 - Las fechas anteriores (22/09-04/10) ya habían vencido sin media producida; se re-propusieron a partir del 06/10.
+
+- **Actualización 2026-11-09:** el público es multi-género y multi-vertical; el hook del CEO pasa a la versión neutra "Quien tiene un negocio tiene un segundo trabajo que nadie le paga: contestar WhatsApp."; el CTA de la pieza 4 ofrece demo gratis por WhatsApp. Ver `content/strategy/estrategia-nov-ene.md`.

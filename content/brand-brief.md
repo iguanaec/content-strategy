@@ -48,6 +48,8 @@ Completa este archivo antes de correr el primer ciclo (`/content-cycle`). Todos 
 - No invocar al subagente `pauta` mientras estemos en fase 1-2 del roadmap — el pipeline llega hasta `publicar` y se detiene ahí; el boost es una acción manual del usuario, fuera de este sistema.
 - Cada ciclo, `planificador` debe pesar la mezcla de "etapa de funnel" según la fase vigente de este roadmap (ver tabla arriba), y `analista` (desde el ciclo 2) debe usar el desempeño orgánico real para decidir cuándo pasar de fase.
 
+**Actualización 2026-11-09:** Iguana es para todos los géneros y todos los micronegocios populares de Ecuador (belleza, salud, mascotas, bienestar, servicios técnicos, clases, eventos), no solo belleza ni solo mujeres; el copy es neutro y rota verticales. La **demo gratis por WhatsApp se ofrece desde ahora**; los precios siguen sin mostrarse hasta que el usuario confirme los planes. Estrategia vigente: `content/strategy/estrategia-nov-ene.md` (Nov-Ene; pauta Nov $20, Dic $20, Ene $50-70). Sesión de grabación: 20/nov.
+
 **Ejecución del ciclo 2026-09 (revisada — reemplaza el plan original de 7 piezas).** Dado presupuesto muy limitado y poco tiempo de grabación disponible, este ciclo se redujo a **4 piezas** en vez de 4-8: 3 en `awareness` (formatos rápidos/baratos de producir) y 1 orientada a **captura de leads** por WhatsApp (sin revelar pricing — pedir el contacto no requiere precio). Todas se publican en feed (no Stories) y se potencian desde ahí con boost manual, nunca vía `pauta`.
 
 | Pieza | Formato | Tema/ángulo | Etapa de funnel | Producción |
