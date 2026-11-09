@@ -6,7 +6,7 @@
 
 | Fecha | Pieza | Formato | Fecha clave | Etapa | Quién produce |
 |---|---|---|---|---|---|
-| Ya publicada | (indicar cuál) | — | — | Awareness | Hecha |
+| Ya publicada | Carrusel "No perdiste al cliente por caro, lo perdiste por lento" (5 slides) | Carrusel | — | Awareness | Hecha |
 | Mar 10/nov | **Pieza 01** "El segundo trabajo que nadie le paga" | Reel a cámara con la persona de marketing (≤ 22 s) | — | Awareness / confianza | Ya grabado |
 | Lun 16/nov | **Pieza 02** "Black Friday trae mensajes. Tu WhatsApp decide quién se queda." | Carrusel guardable (7 slides) | CyberDay.ec 16-18/nov | Awareness + lead suave | Fotos 11-13/nov |
 | Vie 20/nov | **Pieza 03** "Black Friday: la promo salió perfecta. Tu WhatsApp:" | Reel de pantalla, humor (~12 s) | Black Friday Ecuador 20/nov | Awareness | Grabación en pantalla 11-19/nov |
@@ -47,3 +47,6 @@ Actualiza la bio de Instagram con este link antes del 16/nov (sin precios en bio
 
 ## 6. KPIs de noviembre
 Pieza 01: alcance y seguidores nuevos. Pieza 02: guardados y compartidos. Pieza 03: compartidos y comentarios. Pieza 04: mensajes a WhatsApp. Meta del mes: +200-300 seguidores y 10 demos solicitadas.
+
+## 7. Línea gráfica de referencia
+Todas las piezas de noviembre siguen la línea del carrusel publicado: blanco hueso `#F8F8F6`, carbón `#383838`, verde lima `#A7FF6B` como resalte y verde bosque `#39713E` en logo y fotos. Detalle de patrones de slide en `content/guia-linea-grafica.md`.
