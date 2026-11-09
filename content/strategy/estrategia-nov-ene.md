@@ -43,7 +43,7 @@ Bonus opcional solo Quito: 6/dic Fundación de Quito. Verificar traslados de fer
 - Si ya salieron otras, el usuario indica cuáles para no repetir.
 
 ## 5. Diciembre — "Año nuevo, agenda nueva" (grabable el 20/nov)
-1. ~2/dic Carrusel: "3 mensajes que llegan en diciembre y se pierden" (verticales mezcladas) → demo.
+1. ~2/dic Carrusel narrativo: los mensajes de diciembre que se quedan sin respuesta (verticales mezcladas) → demo.
 2. ~8/dic Reel POV de pantalla: "Mensajes a las 11 pm del 23 de diciembre" (veterinaria, dentista, barbero).
 3. ~14/dic Reel de marketing a cámara: "Lo que dicen los dueños de negocio cuando les preguntas por su WhatsApp" (humor, sin clientes reales).
 4. ~21/dic Reel del CEO: "Qué hace Iguana en 20 segundos" + demo.

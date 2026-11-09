@@ -1,6 +1,6 @@
 # Pieza 02 — Brief de diseño (Canva, 1080x1350)
-- Línea gráfica: fotos cálidas de dominante verde bosque con bloque marcador verde lima `#A7FF6B` sobre la frase clave y píldora de numeración; slides tipográficas sobre blanco hueso `#F8F8F6`. Sin ilustraciones.
-- Fotos (15 min, 11-13/nov, marketing + celular): (1) mano con celular lleno de notificaciones, (2) mostrador/escritorio con cuaderno de citas, (3) primer plano del chat con "Cliente nuevo" (datos ficticios), (4) agenda en papel con citas cruzadas (flechas verdes), (5) pantalla de WhatsApp Business con respuestas rápidas (captura real), (6) retrato de marketing sonriendo, (7) la bio con el link.
-- Slide 1: foto 1, titular blanco con "mensajes" en verde. Slides 3-5: píldora "1/3, 2/3, 3/3" en verde y captura o foto. Slide 6: fondo verde bosque `#39713E` o blanco hueso `#F8F8F6`, texto carbón o blanco, "Iguana" en verde. Slide 7: bloque verde lima con texto carbón y flecha hacia el link.
-- Verificar antes de publicar: que los pasos de WhatsApp Business (saludo, respuestas rápidas) coincidan con la versión instalada.
-- Publicación: lunes 16/nov, 12:00-13:00. Archivos `slide-1.png … slide-7.png` en `media/`.
+- Línea gráfica del carrusel publicado (ver `content/guia-linea-grafica.md`): fotos cálidas de dominante verde bosque, slides tipográficas sobre blanco hueso `#F8F8F6`, texto carbón `#383838`, resalte verde lima `#A7FF6B`, handle `@iguana.ec` abajo y centrado.
+- Fotos (15 min, 11-13/nov, marketing + celular) o bancos de imágenes en tono verde: (1) mano con celular lleno de notificaciones sobre mostrador (portada), (3) celular sobre una mesa de trabajo con burbujas de chat superpuestas en Canva (ortografía correcta, con tildes), (4) marketing con las manos ocupadas atendiendo (cualquier oficio).
+- Slides 2 y 5: solo tipografía; frase clave sobre bloque marcador lima. Slide 6: logo verde bosque + texto + CTA.
+- Verificar: que el saludo automático y las respuestas rápidas existan con ese nombre en la versión instalada de WhatsApp Business.
+- Publicación: lunes 16/nov, 12:00-13:00. Archivos `slide-1.png … slide-6.png` en `media/`.

@@ -8,7 +8,7 @@
 |---|---|---|---|---|---|
 | Ya publicada | Carrusel "No perdiste al cliente por caro, lo perdiste por lento" (5 slides) | Carrusel | — | Awareness | Hecha |
 | Mar 10/nov | **Pieza 01** "El segundo trabajo que nadie le paga" | Reel a cámara con la persona de marketing (≤ 22 s) | — | Awareness / confianza | Ya grabado |
-| Lun 16/nov | **Pieza 02** "Black Friday trae mensajes. Tu WhatsApp decide quién se queda." | Carrusel guardable (7 slides) | CyberDay.ec 16-18/nov | Awareness + lead suave | Fotos 11-13/nov |
+| Lun 16/nov | **Pieza 02** "Black Friday trae CLIENTES. Tu WhatsApp decide si se quedan." | Carrusel narrativo (6 slides) | CyberDay.ec 16-18/nov | Awareness + lead suave | Fotos 11-13/nov |
 | Vie 20/nov | **Pieza 03** "Black Friday: la promo salió perfecta. Tu WhatsApp:" | Reel de pantalla, humor (~12 s) | Black Friday Ecuador 20/nov | Awareness | Grabación en pantalla 11-19/nov |
 | Vie 27/nov | **Pieza 04** Motion "¿Y si tu WhatsApp respondiera, agendara y facturara…?" | Motion (~30 s) | Cierre de la semana de Black Friday | Conversión (demo) | Solo edición |
 
@@ -23,8 +23,8 @@ No existe un ranking oficial de tendencias de Instagram en Ecuador; lo que sí e
 | Tendencia / hallazgo | Fuente | Cómo la usamos | Pieza |
 |---|---|---|---|
 | Los Reels llegan a más gente que los carruseles y las imágenes únicas | Metricool y resúmenes de estudios de Instagram 2026 | 2 de 4 piezas nuevas son Reels | 01, 03 |
-| Los carruseles guardables y los Reels que responden búsquedas generan más resultado de negocio que publicar más | Guía de tendencias de Instagram, noviembre 2026 | Carrusel tipo checklist "3 cosas que revisar antes del Black Friday" | 02 |
-| Formato lista ("3 errores", "7 cosas antes del Black Friday") | Misma guía de noviembre 2026 | Estructura de la pieza 02 | 02 |
+| Los carruseles guardables y los Reels que responden búsquedas generan más resultado de negocio que publicar más | Guía de tendencias de Instagram, noviembre 2026 | Carrusel narrativo con un tip práctico en el caption (estructura libre, sin lista fija) | 02 |
+| Formato lista ("3 errores", "7 cosas antes del Black Friday") | Misma guía de noviembre 2026 | Opción para otros carruseles; no es obligatoria | — |
 | Humor y vida cotidiana ecuatoriana dominan TikTok e Instagram en el país | Favikon / Primicias | Humor de "expectativa vs. realidad" en la pieza 03 | 03 |
 | Pocos hashtags (3–5) y palabras clave en el texto | Marketing4eCommerce, Instagram 2026 | Caption con keywords y 3–5 hashtags | todas |
 
@@ -46,7 +46,7 @@ Regla para audios: el día de grabar, abre Reels → Tendencias y elige un audio
 Actualiza la bio de Instagram con este link antes del 16/nov (sin precios en bio ni posts).
 
 ## 6. KPIs de noviembre
-Pieza 01: alcance y seguidores nuevos. Pieza 02: guardados y compartidos. Pieza 03: compartidos y comentarios. Pieza 04: mensajes a WhatsApp. Meta del mes: +200-300 seguidores y 10 demos solicitadas.
+Pieza 01: alcance y seguidores nuevos. Pieza 02: compartidos, guardados y mensajes DEMO. Pieza 03: compartidos y comentarios. Pieza 04: mensajes a WhatsApp. Meta del mes: +200-300 seguidores y 10 demos solicitadas.
 
 ## 7. Línea gráfica de referencia
 Todas las piezas de noviembre siguen la línea del carrusel publicado: blanco hueso `#F8F8F6`, carbón `#383838`, verde lima `#A7FF6B` como resalte y verde bosque `#39713E` en logo y fotos. Detalle de patrones de slide en `content/guia-linea-grafica.md`.

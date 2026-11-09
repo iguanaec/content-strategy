@@ -14,7 +14,7 @@
 
 ## Patrones de slide
 1. **Portada con foto** a sangre completa, esquina inferior izquierda: línea corta en blanco + palabra clave enorme en verde lima, mayúsculas; handle `@iguana.ec` centrado abajo.
-2. **Slide tipográfica** sobre blanco hueso: titular en carbón con la frase clave sobre un **bloque marcador verde lima**; lista de 3 con negritas en la palabra clave; línea fina verde; handle verde abajo.
+2. **Slide tipográfica** sobre blanco hueso: titular en carbón con la frase clave sobre un **bloque marcador verde lima**; texto de apoyo con negritas en la palabra clave (en la referencia, una lista corta, pero no es obligatoria); línea fina verde; handle verde abajo.
 3. **Slide con foto + mensajes flotantes**: titular arriba (blanco con la frase clave en lima), burbujas de chat estilo WhatsApp sobre la foto.
 4. **Slide con foto y bloque lima** sobre la frase final ("DE TIEMPO.") en carbón.
 5. **Cierre sobre blanco hueso**: logo verde bosque + pregunta + CTA con palabra clave entre comillas.
@@ -30,3 +30,9 @@
 - Las fotos publicadas tienen look generado/producido; la regla de "foto real" de Iguana se interpreta como **estética real y cálida**; usa fotos propias cuando sea posible y mantén el tono verde bosque para coherencia.
 - Revisar ortografía en los chats simulados: en la slide 3 aparecen "Dondé están ubicados ?" y "Cual es su precio?" (faltan tildes/espacios). Corregir en próximas piezas.
 - La slide 5 pide comentar "lento" para enviar un tip: alguien debe responder cada comentario/DM (o usar respuesta automática de Instagram) para cumplir la promesa.
+
+## Estilo de copy (tomado del carrusel publicado)
+- Frases cortas en dos tiempos: una línea de apoyo en peso ligero + la idea clave en MAYÚSCULAS extra bold ("No perdiste al CLIENTE POR CARO. Lo perdiste por lento.", "No eres tú… Es la falta DE TIEMPO.").
+- Tuteo directo y empático, sin culpar: "tu servicio es bueno", "no eres tú".
+- Una idea por slide; los carruseles **no tienen que ser listas de 3 puntos**: el de referencia usó una lista solo en una slide. Variar estructuras: contraste, historia en pasos, pregunta-respuesta, mito vs. realidad, checklist (solo a veces).
+- Cierre con pregunta + CTA con palabra clave entre comillas.
