@@ -1,11 +1,11 @@
 # Iguana — Reel Black Friday con marketing
 
-## Vie 20/nov · Reel a cámara, dos personas (≤ 15 s)
+## Vie 20/nov · Reel a cámara, solo marketing (≤ 15 s)
 **Texto en pantalla (0-2 s):** Black Friday en tu negocio:
 
-**Marketing** (celebrando, mirando el celular): ¡Funcionó! ¡Nos escribieron 80 personas!
-**CEO** (sorprendido): ¿80? ¿Y quién les contesta?
-**Marketing** (silencio, mira a cámara): …Yo pensé que tú.
+**Marketing** (mirando el celular, feliz): ¡Funcionó! Nos escribieron 80 personas.
+**Marketing** (baja el celular, cara de pánico, mira a cámara): Ahora… ¿quién les contesta?
+**Marketing** (silencio, sonrisa nerviosa): Yo todavía no contesté ni el primero.
 
 **Texto en pantalla (final):** Black Friday trae mensajes. Alguien tiene que contestarlos.
 **Cierre:** Estamos construyendo algo para eso 🦎 Sígueme.
