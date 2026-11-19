@@ -1,16 +1,17 @@
 # Iguana — Carrusel Black Friday
 
-## Vie 20/nov · Carrusel (6 slides)
-**Slide 1:** Te escribieron a las 9 pm. Contestaste a las 9 am. **YA ERA TARDE.**
-**Slide 2:** Black Friday te trae mensajes. El día sigue teniendo las mismas **24 horas.**
-**Slide 3:** Quien pregunta a las 9 pm quiere respuesta a las 9 pm.
-Burbujas: "¿Hay cupo mañana?" · "¿Hasta qué hora atienden?" · "¿Cuánto cuesta?"
-**Slide 4:** No te faltan clientes. Te falta **contestarles a tiempo.**
-**Slide 5:** Mientras atiendes, tu WhatsApp puede seguir trabajando. **Iguana** contesta, agenda y factura por ti.
-**Slide 6:** Mándaselo a quien en tu negocio siempre dice **«ahorita le contesto».**
+## Vie 20/nov · Carrusel (7 slides)
+**Slide 1** (etiqueta: BLACK FRIDAY · 20/NOV): Este Black Friday, tu WhatsApp **TRABAJA POR TI.**
+**Slide 2:** Así funciona **Iguana,** paso a paso.
+**Slide 3:** Un cliente te escribe y **Iguana responde al instante.**
+Chat: Cliente: "Hola, ¿tienen cupo mañana a las 4?" · Iguana: "¡Hola! Sí, mañana a las 4:00 pm tengo espacio. ¿Te lo agendo?"
+**Slide 4:** Si hay espacio, **agenda la cita sola.** Sin cuaderno y sin citas cruzadas.
+**Slide 5:** Y la factura electrónica del SRI sale **sin que tú la hagas.**
+**Slide 6:** Todo pasa en el mismo chat de WhatsApp. **Sin apps nuevas.** Sin computadora.
+**Slide 7:** La iguana se adaptó. ¿Qué esperas tú?
 
 **Caption**
-En Black Friday el problema casi nunca es vender, es contestar a tiempo.
-Si atiendes por citas (peluquería, consultorio, veterinaria, taller), seguro te suena.
-Si quieres ver cómo funciona Iguana, el link está en la bio 🦎
+Black Friday llena el WhatsApp de mensajes. Así responde, agenda y factura Iguana mientras tú atiendes a tus clientes.
+Para peluquerías, consultorios, veterinarias, talleres y cualquier negocio que atiende por citas.
+Pídenos tu demo gratis: link en la bio 🦎
 #NegociosEcuador #BlackFridayEcuador #WhatsAppBusiness #EmprendedoresEcuador
