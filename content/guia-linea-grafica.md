@@ -36,3 +36,5 @@
 - Tuteo directo y empático, sin culpar: "tu servicio es bueno", "no eres tú".
 - Una idea por slide; los carruseles **no tienen que ser listas de 3 puntos**: el de referencia usó una lista solo en una slide. Variar estructuras: contraste, historia en pasos, pregunta-respuesta, mito vs. realidad, checklist (solo a veces).
 - Cierre con pregunta + CTA con palabra clave entre comillas.
+
+- **CTA variable:** no repetir el mismo CTA entre piezas. Rotar: comentar palabra clave, compartir ("Mándaselo a quien…"), guardar, pregunta abierta o sin CTA. Alternar slides de foto y tipográficas; no copiar el orden del carrusel anterior.
