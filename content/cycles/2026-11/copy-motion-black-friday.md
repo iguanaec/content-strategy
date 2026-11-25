@@ -1,16 +1,19 @@
-# Iguana — Motion Black Friday: la historia de Dani
+# Iguana — Motion Black Friday con voz: la historia de Dani
 
-## Vie 27/nov · Motion vertical 9:16 (39 s)
-**Hook (0-4.4 s):** ¿Sabías que el 22 % de las ventas del año pueden concentrarse en noviembre y diciembre? (Fuente en pantalla: Cámara de Comercio de Guayaquil)
-**Escena 2 (4.4-8 s):** Esta es la historia de Dani, dueño de una barbería.
-**Escena 3 (8-10.7 s):** Viernes de Black Friday. 9:00 am. Promo lista.
-**Escena 4 (10.7-14.7 s):** A las 11:00, ya son 80 mensajes.
-**Escena 5 (14.7-18.7 s):** Cada mensaje: contestar y agendar. 80 × 3 min = 4 horas.
-**Escena 6 (18.7-23.2 s):** Alguien escribió: ¿Hay cupo hoy a las 4? Visto hace 4 horas. Nadie contestó. Ya había agendado en otro lado.
-**Escena 7 (23.2-26 s):** ¿Cuánto vale una hora de tu día?
-**Escena 8 (26-31.6 s):** Con Iguana. Cliente: Hola, ¿tienen cupo mañana a las 4? Iguana: ¡Hola! Sí, mañana a las 4:00 pm tengo espacio. ¿Te lo agendo? Responde y agenda por ti.
-**Escena 9 (31.6-35.6 s):** A las 6, Dani cierra y llega a cenar con su familia.
-**Cierre (35.6-39 s):** Recupera tus horas. Agenda tu demo gratis · link en la bio.
+## Vie 27/nov · Motion vertical 9:16 (43 s) · voz en off + palabras clave en pantalla
+
+**Voz en off (guion completo)**
+1. ¿Sabías que el veintidós por ciento de las ventas del año puede concentrarse en noviembre y diciembre?
+2. Dani tiene una barbería. Es Black Friday, y la promo está lista.
+3. A las once, ya tiene ochenta mensajes.
+4. Tres minutos por cliente. Son cuatro horas pegado al celular.
+5. Alguien escribió: ¿hay cupo hoy? Nadie contestó. Ya había agendado en otro lado.
+6. ¿Cuánto vale una hora de tu día?
+7. Con Iguana, ese mensaje se responde al instante, y la cita queda agendada.
+8. Dani cierra a las seis, y llega a cenar con su familia.
+9. Recupera tus horas. Agenda tu demo gratis. Link en la bio.
+
+**Solo estas palabras en pantalla:** ¿Sabías que… · 22 % · noviembre · diciembre · Dani · barbería · BLACK FRIDAY · PROMO LISTA · 80 mensajes · 3 min × 80 = 4 horas · ¿Hay cupo hoy? · NADIE contestó · agendó en otro lado · ¿Cuánto vale UNA HORA? · Con Iguana · al instante · 6:00 pm · en familia · Recupera tus horas. · Agenda tu demo gratis · link en la bio
 
 **Caption**
 ¿Sabías que Black Friday te trae clientes y te quita horas? Esta es la historia de Dani ⏰

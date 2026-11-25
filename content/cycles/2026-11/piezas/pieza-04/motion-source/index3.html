@@ -1,0 +1,161 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:300;src:url(assets/montserrat-latin-300-normal.woff2)}
+@font-face{font-family:M;font-weight:500;src:url(assets/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(assets/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(assets/montserrat-latin-900-normal.woff2)}
+html,body{margin:0;background:#F8F8F6}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#F8F8F6;font-family:M,sans-serif;color:#383838}
+.e{position:absolute;left:540px;top:960px;white-space:nowrap;display:none;will-change:transform}
+.t{font-weight:800;line-height:1.05;text-align:center}
+.hl{position:relative;display:inline-block;padding:0 22px}
+.hl .bg{position:absolute;left:0;top:6%;width:100%;height:88%;background:#A7FF6B;transform-origin:left center;z-index:0}
+.hl span{position:relative;z-index:1}
+</style></head><body><div id="stage"></div>
+<script>
+const LIME='#A7FF6B',INK='#383838',GREEN='#39713E',PAPER='#F8F8F6';
+const st=document.getElementById('stage');
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eo=x=>1-Math.pow(1-clamp(x),3);
+const eb=x=>{x=clamp(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const eio=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const tracks=[];
+function mk(html,css){const d=document.createElement('div');d.className='e';d.innerHTML=html;if(css)d.style.cssText+=css;st.appendChild(d);return d}
+function put(d,x=0,y=0,o={}){const s=o.s??1,r=o.r??0;d.style.opacity=o.o??1;d.style.transform=`translate(-50%,-50%) translate(${x}px,${y}px) rotate(${r}deg) scale(${s})`}
+function track(d,a,b,fn){tracks.push({d,a,b,fn})}
+// fade window helper: in/out opacity
+const win=(lt,dur,i=.2,o=.25)=>Math.min(clamp(lt/i),clamp((dur-lt)/o));
+function T(txt,size,color=INK,w=800){return `<div class="t" style="font-size:${size}px;color:${color};font-weight:${w}">${txt}</div>`}
+function HL(txt,size){return `<div class="t"><span class="hl" style="font-size:${size}px"><i class="bg"></i><span>${txt}</span></span></div>`}
+function setHL(d,p){const b=d.querySelector('.bg');if(b)b.style.transform=`scaleX(${clamp(p)})`}
+// ---------- icons
+const clockSVG=`<svg width="560" height="560" viewBox="0 0 400 400"><circle cx="200" cy="200" r="182" fill="#fff" stroke="${INK}" stroke-width="14"/>${[...Array(12)].map((_,i)=>`<line x1="200" y1="36" x2="200" y2="${i%3?50:62}" stroke="${INK}" stroke-width="${i%3?6:10}" stroke-linecap="round" transform="rotate(${i*30} 200 200)"/>`).join('')}<line id="hh" x1="200" y1="200" x2="200" y2="118" stroke="${INK}" stroke-width="16" stroke-linecap="round"/><line id="mh" x1="200" y1="200" x2="200" y2="70" stroke="${GREEN}" stroke-width="10" stroke-linecap="round"/><circle cx="200" cy="200" r="14" fill="${GREEN}"/></svg>`;
+const heart=`<svg width="120" height="120" viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
+const cup=`<svg width="120" height="120" viewBox="0 0 24 24"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z M16 10h2a2.5 2.5 0 0 1 0 5h-2 M8 3v3 M12 3v3" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const user=`<svg width="120" height="120" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="${INK}" stroke-width="1.8"/><path d="M4 21a8 8 0 0 1 16 0" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+const calSVG=`<svg width="420" height="420" viewBox="0 0 100 100"><rect x="10" y="18" width="80" height="72" rx="12" fill="#fff" stroke="${INK}" stroke-width="4"/><rect x="10" y="18" width="80" height="22" rx="12" fill="${LIME}" stroke="${INK}" stroke-width="4"/><line x1="30" y1="8" x2="30" y2="26" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><line x1="70" y1="8" x2="70" y2="26" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><path id="ck" d="M30 66 l14 14 l27 -28" fill="none" stroke="${GREEN}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="80" stroke-dashoffset="80"/></svg>`;
+
+// ---------- character
+const SKIN='#E9B48A',HAIR='#2B2B2B';
+function dani(mood){
+ const eyes = mood==='relax' ? `<path d="M110 135 q15 -14 30 0 M160 135 q15 -14 30 0" fill="none" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`
+  : mood==='happy' ? `<circle cx="125" cy="135" r="9" fill="${INK}"/><circle cx="175" cy="135" r="9" fill="${INK}"/>`
+  : `<circle cx="125" cy="135" r="12" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="175" cy="135" r="12" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="125" cy="138" r="5" fill="${INK}"/><circle cx="175" cy="138" r="5" fill="${INK}"/>`;
+ const brows = mood==='stress' ? `<path d="M105 108 l35 12 M195 108 l-35 12" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`
+  : mood==='sad' ? `<path d="M105 120 l35 -10 M195 120 l-35 -10" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>` : '';
+ const mouth = mood==='happy' ? `<path d="M118 172 q32 30 64 0" fill="none" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`
+  : mood==='relax' ? `<path d="M112 168 q38 46 76 0 z" fill="#fff" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/>`
+  : `<path d="M122 186 q28 -22 56 0" fill="none" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>`;
+ const sweat = mood==='stress' ? `<path d="M232 105 q-14 22 0 32 q14 -10 0 -32z" fill="#fff" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>` : '';
+ return `<svg width="560" height="670" viewBox="0 0 300 360"><rect x="55" y="225" width="190" height="125" rx="62" fill="${GREEN}" stroke="${INK}" stroke-width="8"/><rect x="95" y="262" width="110" height="82" rx="20" fill="${LIME}" stroke="${INK}" stroke-width="8"/><rect x="128" y="190" width="44" height="48" fill="${SKIN}" stroke="${INK}" stroke-width="8"/><circle cx="150" cy="130" r="72" fill="${SKIN}" stroke="${INK}" stroke-width="8"/><path d="M78 125 a72 72 0 0 1 144 0 q-36 -38 -72 -30 q-36 -8 -72 30z" fill="${HAIR}"/>${eyes}${brows}${mouth}${sweat}</svg>`}
+function setMood(d,m){if(d.dataset.m!==m){d.dataset.m=m;d.innerHTML=dani(m)}}
+const TL={"starts": {"s1": 0.25, "s2": 6.809, "s3": 11.905, "s4": 14.841, "s5": 19.589, "s6": 25.729, "s7": 28.178, "s8": 33.344, "s9": 37.534}, "dur": {"s1": 6.408707482993197, "s2": 4.9458503401360545, "s3": 2.786394557823129, "s4": 4.597551020408163, "s5": 5.990748299319728, "s6": 2.2987755102040817, "s7": 5.015510204081632, "s8": 4.040272108843538, "s9": 4.527891156462585}, "total": 43.012};
+const ST=TL.starts,DU=TL.dur,DUR=TL.total;
+const A=(k,x=0)=>ST[k]+x;
+const E=(k)=>ST[k]+DU[k]+0.16;
+const shake=(lt,amp=14,dec=6)=>Math.sin(lt*70)*amp*Math.exp(-lt*dec);
+const bar=mk('<div style="width:1080px;height:10px;background:#A7FF6B;transform-origin:left"></div>','left:0;top:0;transform:none;display:block');
+const handle=mk(T('@iguana.ec',30,GREEN,500),'top:1850px;display:block');
+const bob=(lt,a=10,f=3)=>Math.sin(lt*f)*a;
+const dn=mk('');
+// ---------- S1 sabias que
+{const a=A('s1'),b=E('s1');
+const w0=mk(HL('¿Sabías que…',130),'');const w1=mk(`<div class="t" style="font-size:420px;color:${INK};font-weight:900"><span id="pc">0</span><span style="color:${GREEN}">%</span></div>`,'');
+const w2=mk(HL('noviembre',120),'');const w3=mk(HL('diciembre',120),'');const w4=mk(T('Fuente: Cámara de Comercio de Guayaquil',28,GREEN,500),'');
+track(w0,a,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,0,-650,{s:eb(lt/.35),o:win(lt,b-a,.05,.15)})});
+track(w1,a+1.5,b,(d,lt)=>{d.querySelector('#pc').textContent=Math.round(eo(lt/1.0)*22);put(d,0,-190,{s:eb(lt/.4)*(1+Math.sin(lt*6)*.01),r:shake(lt,2,5),o:win(lt,b-a-1.5,.05,.15)})});
+track(w2,a+3.7,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,-30+shake(lt,18),230,{s:eb(lt/.35),r:-3,o:win(lt,b-a-3.7,.05,.15)})});
+track(w3,a+4.6,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,30+shake(lt,18),400,{s:eb(lt/.35),r:3,o:win(lt,b-a-4.6,.05,.15)})});
+track(w4,a+3.0,b,(d,lt)=>put(d,0,620,{o:win(lt,b-a-3.0,.2,.15)}));}
+// ---------- Dani
+track(dn,A('s2'),E('s8'),(d,t0)=>{const t=t0+A('s2');let m='happy',x=0,y=300,s=.9;
+ if(t<A('s3')){m='happy';x=0;y=330;s=.95}
+ else if(t<A('s4')){m='stress';x=-250;y=560;s=.7}
+ else if(t<A('s5')){m='stress';x=-270;y=640;s=.65}
+ else if(t<A('s6')){m='sad';x=-260;y=640;s=.65}
+ else if(t<A('s7')){m='sad';x=0;y=1500;s=.5}
+ else if(t<A('s8')){m='relax';x=330;y=760;s=.42}
+ else {m='relax';x=0;y=230;s=1}
+ let drop=0;if(t<A('s2')+.55)drop=-(1-eb((t-A('s2'))/.55))*900;
+ setMood(d,m);put(d,x,y+drop+bob(t,8,4),{s,r:Math.sin(t*3)*1.2,o:1})});
+// ---------- S2
+{const a=A('s2'),b=E('s2');
+const n=mk(`<div style="background:${INK};color:${PAPER};padding:12px 36px;border-radius:60px;font-weight:800;font-size:48px">Dani</div>`);
+const bar2=mk(`<div style="background:${LIME};padding:12px 36px;border-radius:60px;font-weight:800;font-size:48px">barbería</div>`);
+const bf=mk(`<div style="border:12px solid ${INK};background:${LIME};padding:10px 50px;border-radius:20px;font-weight:900;font-size:110px;transform:rotate(-6deg)">BLACK FRIDAY</div>`);
+const pr=mk(`<div style="background:#fff;border:8px solid ${INK};padding:12px 40px;border-radius:60px;font-weight:800;font-size:56px">PROMO LISTA</div>`);
+track(n,a+.45,b,(d,lt)=>put(d,-190,-220,{s:eb(lt/.35),o:win(lt,b-a-.45,.05,.15)}));
+track(bar2,a+1.1,b,(d,lt)=>put(d,170,-220,{s:eb(lt/.35),o:win(lt,b-a-1.1,.05,.15)}));
+track(bf,a+2.3,b,(d,lt)=>{const k=lt<.25?(1+(1-lt/.25)*2.2):1;put(d,shake(lt,16,5),-520,{s:k,o:win(lt,b-a-2.3,.02,.15)})});
+track(pr,a+3.6,b,(d,lt)=>put(d,0,-380,{s:eb(lt/.35),o:win(lt,b-a-3.6,.05,.15)}));}
+// ---------- S3 mensajes
+{const a=A('s3'),b=E('s3');
+const big=mk(`<div class="t" style="font-size:560px;font-weight:900;color:${INK}"><span id="n80">0</span></div>`);
+const lab=mk(HL('mensajes',130),'');
+const L=['¿Hay cupo?','¿Precio?','¿Hasta qué hora?','¿Me separan?','¿Dónde están?','¿Atienden hoy?','¿Cuánto?','¿Disponible?'];
+const bs=L.map(m=>mk(`<div style="background:#EDEDEA;padding:14px 30px;border-radius:32px;font-weight:500;font-size:40px;color:${INK}">${m}</div>`));
+track(big,a,b,(d,lt)=>{d.querySelector('#n80').textContent=Math.round(eo(lt/1.4)*80);put(d,0,-250,{s:eb(lt/.3)*(1+Math.sin(lt*14)*.012),r:shake(lt,3,3),o:win(lt,b-a,.02,.15)})});
+track(lab,a+.5,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,0,120,{s:eb(lt/.3),o:win(lt,b-a-.5,.05,.15)})});
+bs.forEach((d,i)=>track(d,a+.1+i*.22,b,(dd,lt)=>{const side=i%2?1:-1;const k=eo(lt/.45);const x=side*(900-k*(380+(i%3)*50));const y=-520+((i*137)%900);put(dd,x,y,{s:1,r:side*(1-k)*18,o:win(lt,b-a-.1-i*.22,.03,.15)})}));}
+// ---------- S4 cuenta
+{const a=A('s4'),b=E('s4');
+const m3=mk(T('3 min',230),'');const x80=mk(T('× 80',230),'');const h4=mk(HL('4 horas',260),'');const ck=mk(clockSVG.replace('width="560" height="560"','width="260" height="260"'));
+track(m3,a+.15,b,(d,lt)=>put(d,-220+(1-eo(lt/.3))*-700,-560,{s:1,o:win(lt,b-a-.15,.02,.15)}));
+track(x80,a+1.0,b,(d,lt)=>put(d,230+(1-eo(lt/.3))*700,-340,{s:1,o:win(lt,b-a-1.0,.02,.15)}));
+track(h4,a+2.4,b,(d,lt)=>{setHL(d,eo(lt/.25));const k=lt<.25?(1+(1-lt/.25)*1.8):1;put(d,shake(lt,14,5),-70,{s:k,o:win(lt,b-a-2.4,.02,.15)})});
+track(ck,a+2.0,b,(d,lt)=>{const ang=lt*900;d.querySelector('#mh').setAttribute('transform',`rotate(${ang} 200 200)`);d.querySelector('#hh').setAttribute('transform',`rotate(${ang/12+270} 200 200)`);put(d,330,-760,{s:eb(lt/.3),o:win(lt,b-a-2.0,.05,.15)})});}
+// ---------- S5 cliente perdido
+{const a=A('s5'),b=E('s5');
+const bub=mk(`<div style="background:#EDEDEA;padding:30px 50px;border-radius:50px;font-weight:500;font-size:62px;color:${INK}">¿Hay cupo hoy?<div style="font-size:30px;margin-top:8px;color:${GREEN};text-align:right">visto</div></div>`);
+const nad=mk(HL('NADIE contestó',112),'');const otro=mk(`<div style="background:${LIME};padding:22px 44px;border-radius:44px;font-weight:800;font-size:46px;border:6px solid ${INK}">agendó en otro lado</div>`);
+track(bub,a+.3,b,(d,lt)=>{let x=0;if(lt>3.6)x=eo((lt-3.6)/.5)*1200;put(d,x,-560,{s:eb(lt/.35),r:(lt>2.0&&lt<2.6)?shake(lt-2.0,4,4):0,o:win(lt,b-a-.3,.02,.15)})});
+track(nad,a+2.0,b,(d,lt)=>{setHL(d,eo(lt/.2));const k=lt<.25?(1+(1-lt/.25)*1.8):1;put(d,shake(lt,14,5),-260,{s:k,o:win(lt,b-a-2.0,.02,.15)})});
+track(otro,a+4.2,b,(d,lt)=>put(d,(1-eo(lt/.4))*-1000,-60,{s:1,r:-4,o:win(lt,b-a-4.2,.02,.15)}));}
+// ---------- S6 una hora
+{const a=A('s6'),b=E('s6');
+const bg=mk(clockSVG.replace('width="560" height="560"','width="900" height="900"'));
+const g0=mk(T('¿Cuánto vale',130),'');const g1=mk(HL('UNA HORA',230),'');
+track(bg,a,b,(d,lt)=>{const ang=lt*500;d.querySelector('#mh').setAttribute('transform',`rotate(${ang} 200 200)`);d.querySelector('#hh').setAttribute('transform',`rotate(${ang/12+270} 200 200)`);put(d,0,-80,{s:1+lt*.12,o:.25*win(lt,b-a,.05,.15)})});
+track(g0,a+.05,b,(d,lt)=>put(d,0,-300,{s:eb(lt/.3),o:win(lt,b-a-.05,.02,.15)}));
+track(g1,a+.45,b,(d,lt)=>{setHL(d,eo(lt/.2));const k=lt<.25?(1+(1-lt/.25)*1.8):1;put(d,shake(lt,12,5),-60,{s:k,o:win(lt,b-a-.45,.02,.15)})});}
+// ---------- S7 con Iguana
+{const a=A('s7'),b=E('s7');
+const tag=mk(`<div style="background:${INK};color:${LIME};padding:14px 44px;border-radius:60px;font-weight:900;font-size:64px">Con Iguana</div>`);
+const c1=mk(`<div style="background:#EDEDEA;padding:24px 40px;border-radius:44px;font-weight:500;font-size:46px;color:${INK}">¿Hay cupo mañana?</div>`);
+const c2=mk(`<div style="background:${LIME};padding:24px 40px;border-radius:44px;font-weight:800;font-size:46px;color:${INK}">¡Sí! Mañana 4:00 pm. ¿Te agendo?</div>`);
+const bolt=mk(`<svg width="200" height="260" viewBox="0 0 100 130"><path d="M58 4 L16 74 H46 L38 126 L86 48 H54z" fill="${LIME}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/></svg>`);
+const cal=mk(calSVG);const w=mk(HL('al instante',100),'');
+track(tag,a,b,(d,lt)=>put(d,0,-700,{s:eb(lt/.3),o:win(lt,b-a,.02,.15)}));
+track(c1,a+.4,b,(d,lt)=>put(d,-90,-480,{s:eb(lt/.3),o:win(lt,b-a-.4,.02,.15)}));
+track(bolt,a+1.2,b,(d,lt)=>put(d,420,-120,{s:eb(lt/.25),r:shake(lt,10,4),o:win(lt,b-a-1.2,.02,.15)}));
+track(c2,a+1.4,b,(d,lt)=>put(d,60,-320,{s:eb(lt/.3),o:win(lt,b-a-1.4,.02,.15)}));
+track(w,a+2.0,b,(d,lt)=>{setHL(d,eo(lt/.2));put(d,0,-120,{s:eb(lt/.3),o:win(lt,b-a-2.0,.02,.15)})});
+track(cal,a+3.2,b,(d,lt)=>{d.querySelector('#ck').style.strokeDashoffset=80*(1-eo((lt-.3)/.35));put(d,0,230,{s:eb(lt/.35),o:win(lt,b-a-3.2,.02,.15)})});}
+// ---------- S8 cena
+{const a=A('s8'),b=E('s8');
+const t6=mk(`<div style="background:${INK};color:${PAPER};padding:14px 50px;border-radius:60px;font-weight:900;font-size:90px">6:00 pm</div>`);
+const fam=mk(HL('en familia',150),'');
+const hs=[0,1,2,3,4].map(i=>mk(heart.replace(/stroke="#383838"/g,`stroke="${GREEN}" fill="${LIME}"`)));
+track(t6,a+.1,b,(d,lt)=>put(d,0,-640,{s:eb(lt/.3),o:win(lt,b-a-.1,.02,.15)}));
+track(fam,a+1.8,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,0,560,{s:eb(lt/.3),o:win(lt,b-a-1.8,.02,.15)})});
+hs.forEach((d,i)=>track(d,a+1.0+i*.3,b,(dd,lt)=>put(dd,-340+i*170,-200-eo(lt/1.5)*330-Math.sin(lt*3+i)*16,{s:eb(lt/.35)*(.8+(i%2)*.4),r:Math.sin(lt*2+i)*10,o:win(lt,b-a-1.0-i*.3,.05,.3)})));}
+// ---------- S9 cierre
+{const a=A('s9'),b=DUR;
+const logo=mk(`<img src="assets/logo_green.png" style="width:760px;display:block">`);
+const j1=mk(HL('Recupera tus horas.',100),'');
+const j2=mk(`<div style="background:${INK};color:${PAPER};padding:26px 50px;border-radius:70px;font-weight:800;font-size:42px">Agenda tu demo gratis · link en la bio</div>`);
+track(logo,a,b,(d,lt)=>put(d,0,-330,{s:eb(lt/.4),o:clamp(lt/.1)}));
+track(j1,a+.7,b,(d,lt)=>{setHL(d,eo(lt/.25));put(d,shake(lt,10,6),-60,{s:eb(lt/.35),o:clamp(lt/.08)})});
+track(j2,a+2.2,b,(d,lt)=>put(d,0,190+Math.sin(lt*5)*5,{s:eb(lt/.35),o:clamp(lt/.1)}));}
+// ---------- wipes
+const wipes=Object.keys(ST).slice(1).map(k=>ST[k]);
+const wp=mk(`<div style="width:1300px;height:1920px;background:${LIME}"></div>`,'left:0;top:0;transform:none;display:none;z-index:50');
+window.render=function(t){
+ put(handle,0,890);
+ bar.firstChild.style.transform=`scaleX(${clamp(t/DUR)})`;
+ for(const k of tracks){const on=t>=k.a&&t<k.b;k.d.style.display=on?'block':'none';if(on)k.fn(k.d,t-k.a)}
+ let show=false,x=0;
+ for(const w of wipes){const p=(t-(w-.27))/.45;if(p>=0&&p<=1){show=true;x=-1300+2600*eio(p)}}
+ wp.style.display=show?'block':'none';wp.style.transform=`translateX(${x}px) skewX(-8deg)`;
+ return true};
+render(0);
+</script></body></html>

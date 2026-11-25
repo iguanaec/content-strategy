@@ -1,0 +1,1 @@
+Voz en off generada con el motor Supertonic-3 de VoiceStudio (https://github.com/debpalash/VoiceStudio), voz F3, español, CPU. Modelo: Supertone/supertonic-3 (licencia OpenRAIL-M: revisar condiciones de uso comercial). Script: `gen.py F3 1.15` (usa `segs.json`), `join.py` une los segmentos y crea `timeline.json`.
