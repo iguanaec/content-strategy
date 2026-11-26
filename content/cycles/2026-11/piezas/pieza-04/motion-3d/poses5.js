@@ -1,0 +1,18 @@
+const POSES={
+ wave:(lt)=>({arz:2.5,aer:.4+Math.sin(lt*11)*.45,alz:.1,hdz:Math.sin(lt*3)*.08,dy:Math.abs(Math.sin(lt*4))*.015}),
+ surprised:(lt)=>({arz:.5,alz:.5,aer:.6,ael:.6,tx:-.06,hdx:-.08,dy:Math.abs(Math.sin(lt*6))*.01}),
+ megaphone:(lt)=>({arx:-1.25,arz:.25,aer:.9,alz:.45,ael:.6,tx:-.08,dy:Math.abs(Math.sin(lt*7))*.04,hdx:-.12}),
+ phone:(lt)=>({arx:-1.15,alx:-1.05,arz:.12,alz:.12,aer:1.55,ael:1.5,tx:.06,hdx:.32,look:[0,-1]}),
+ phoneUp:(lt)=>({arx:-1.35,arz:.05,aer:1.9,alz:.1,ael:.2,tx:.02,hdx:.12,look:[.2,-.6]}),
+ headhands:(lt)=>({arz:2.55,alz:2.55,aer:2.45,ael:2.45,arx:-.25,alx:-.25,tz:Math.sin(lt*24)*.03,hdz:Math.sin(lt*24)*.05,dy:Math.abs(Math.sin(lt*12))*.015}),
+ give:(lt)=>({alx:-1.3,ael:.25,alz:-.1,arx:-1.1,aer:1.6,arz:.1,hdy:.35,tx:.04,look:[.8,-.2]}),
+ giveCalm:(lt)=>({alx:-1.3,ael:.25,alz:-.1,arz:.1,hdy:.25,look:[.6,0]}),
+ slump:()=>({tx:.3,hdx:.45,arx:.05,alx:.05,aer:.15,ael:.15,dy:-.03,look:[0,-1]}),
+ chin:(lt)=>({arx:-1.95,aer:2.35,arz:.1,alz:.2,ael:.5,alx:-.5,hdz:.14,hdy:Math.sin(lt*1.5)*.12,look:[.6,.5]}),
+ lean:(lt)=>({arx:-.6,alx:-.6,aer:1.9,ael:1.9,arz:-.2,alz:-.2,tx:-.05,hdz:Math.sin(lt*1.4)*.06,dy:Math.sin(lt*2)*.005}),
+ cheer:(lt)=>({arz:2.7,alz:2.7,aer:.35,ael:.35,dy:Math.abs(Math.sin(lt*6))*.06,hdz:Math.sin(lt*5)*.08}),
+ hug:(lt)=>({arz:1.45,alz:1.45,arx:-.6,alx:-.6,aer:.6,ael:.6,dy:Math.abs(Math.sin(lt*4))*.02}),
+ wait:(lt)=>({arx:-1.25,aer:1.75,alz:.08,hlL:Math.abs(Math.sin(lt*7))*.18,hdx:.25,look:[0,-1]}),
+ waitImp:(lt)=>({arx:-.2,alx:-.2,arz:.25,alz:.25,aer:1.4,ael:1.4,hlL:Math.abs(Math.sin(lt*8))*.2,hdy:Math.sin(lt*3)*.25,look:[-.6,0]}),
+ stand:()=>({}),
+};

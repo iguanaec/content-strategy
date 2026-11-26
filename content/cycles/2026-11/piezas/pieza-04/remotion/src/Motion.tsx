@@ -9,8 +9,6 @@ export const Motion: React.FC = () => {
       <OffthreadVideo src={staticFile('video.mp4')} muted />
       {/* Voz en off limpia (-16 LUFS) */}
       <Audio src={staticFile('voice_clean.wav')} volume={1} />
-      {/* Música original sintetizada (sin samples externos), con ducking bajo la voz */}
-      <Audio src={staticFile('music_ducked.wav')} volume={1} />
       {/* Efectos de sonido CC0 (wyzowl/sfx-kit), alineados por su punto de sincronizacion */}
       {(data.cues as Cue[]).map((c, i) => {
         const from = Math.round(c.start * fps);
