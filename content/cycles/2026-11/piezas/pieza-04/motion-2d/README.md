@@ -1,9 +1,11 @@
 # Motion 2D de Dani (sin voz, sin subtítulos)
 
-Animación vectorial (React + SVG) con Remotion 4. El personaje es un rig reutilizable: `src/char/Dani.tsx`.
+Animación vectorial (React + SVG) con Remotion 4, de 36 s. El personaje es un rig semi-realista reutilizable: `src/char/Dani.tsx`.
+
+Franja libre para subtítulos: y 1470–1660 (de 1920). El contenido se desvanece hacia el fondo claro para que subtítulos pequeños se lean sobre cualquier escena.
 
 - Escenas: `src/Motion2D.tsx`. Props y fondos: `src/world.tsx`.
-- Tiempos: `src/timeline.json` marca cuándo empieza cada frase. Hoy tiene el ritmo del guion de referencia (48 s). Cuando llegue la voz real, se transcribe con timestamps, se reemplaza este archivo y las escenas, música y efectos se re-sincronizan solos.
+- Tiempos: `src/timeline.json` marca cuándo empieza cada frase. Hoy tiene el ritmo del guion de referencia (36 s). Cuando llegue la voz real, se transcribe con timestamps, se reemplaza este archivo y las escenas, música y efectos se re-sincronizan solos.
 - Audio: música original (`../musica`) + efectos CC0 (`public/sfx`, wyzowl/sfx-kit) con `public/cues.json`. Sin voz.
 - Hoja de personaje: `npx remotion still src/index.ts Sheet out/sheet.png`.
 

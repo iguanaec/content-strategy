@@ -7,9 +7,9 @@ export const eo = (x: number) => 1 - Math.pow(1 - clamp(x), 3);
 export const eio = (x: number) => { x = clamp(x); return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
 export const back = (x: number) => { x = clamp(x); const c1 = 2.2, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
 export const pop = (lt: number, d: number, dur = 0.38) => back((lt - d) / dur);
-const S = {stroke: INK, strokeWidth: 6, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const};
+const S = {stroke: INK, strokeWidth: 4.5, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const};
 
-export const Floor: React.FC = () => (<g><rect x={-100} y={1440} width={1300} height={520} fill="#ECEDE6" /><path d="M -100 1440 H 1200" stroke="#D9DBD2" strokeWidth={4} /></g>);
+export const Floor: React.FC = () => (<g><rect x={-100} y={1405} width={1300} height={560} fill="#ECEDE6" /><path d="M -100 1405 H 1200" stroke="#D9DBD2" strokeWidth={4} /></g>);
 export const Disc: React.FC<{cx?: number; cy?: number; r?: number}> = ({cx = 540, cy = 1120, r = 340}) => <circle cx={cx} cy={cy} r={r} fill={DISC} />;
 
 export const Shelf: React.FC<{x: number; y: number}> = ({x, y}) => (
@@ -22,10 +22,10 @@ export const Shelf: React.FC<{x: number; y: number}> = ({x, y}) => (
     ))}
   </g>
 );
-export const Counter: React.FC<{x: number; y: number; w?: number}> = ({x, y, w = 430}) => (
+export const Counter: React.FC<{x: number; y: number; w?: number; h?: number}> = ({x, y, w = 430, h = 460}) => (
   <g transform={`translate(${x} ${y})`}>
-    <rect x={0} y={30} width={w} height={240} rx={14} fill="#fff" {...S} />
-    <rect x={0} y={150} width={w} height={34} fill={LIME} {...S} />
+    <rect x={0} y={30} width={w} height={h - 30} rx={14} fill="#fff" {...S} />
+    <rect x={0} y={h - 150} width={w} height={34} fill={LIME} {...S} />
     <rect x={-16} y={0} width={w + 32} height={40} rx={14} fill="#fff" {...S} />
     <g transform="translate(40 -52)"><rect x={0} y={0} width={150} height={56} rx={12} fill={GREEN} {...S} /><text x={75} y={40} textAnchor="middle" fontFamily="Montserrat" fontWeight={900} fontSize={30} fill="#fff">ABIERTO</text></g>
   </g>
@@ -93,11 +93,11 @@ export const Bag: React.FC<{x: number; y: number; s?: number; rot?: number; c?: 
   </g>
 );
 export const Heart: React.FC<{x: number; y: number; s: number}> = ({x, y, s}) => (<path transform={`translate(${x} ${y}) scale(${s})`} d="M 0 28 C -60 -14 -40 -58 0 -30 C 40 -58 60 -14 0 28 Z" fill="#FF6B7A" {...S} />);
-export const Table: React.FC<{x: number; y: number}> = ({x, y}) => (
+export const Table: React.FC<{x: number; y: number; legH?: number}> = ({x, y, legH = 340}) => (
   <g transform={`translate(${x} ${y})`}>
     <rect x={-380} y={0} width={760} height={40} rx={16} fill="#fff" {...S} />
-    <rect x={-330} y={40} width={34} height={160} fill={GREEN} {...S} /><rect x={296} y={40} width={34} height={160} fill={GREEN} {...S} />
-    {[-220, 0, 220].map((px, i) => <g key={i}><ellipse cx={px} cy={-4} rx={72} ry={14} fill="#fff" {...S} /><ellipse cx={px} cy={-10} rx={46} ry={8} fill={i === 1 ? LIME : '#F5C26B'} stroke={INK} strokeWidth={4} /></g>)}
+    <rect x={-330} y={40} width={34} height={legH} fill={GREEN} {...S} /><rect x={296} y={40} width={34} height={legH} fill={GREEN} {...S} />
+    {[-220, 0, 220].map((px, i) => <g key={i}><ellipse cx={px} cy={-4} rx={72} ry={14} fill="#fff" {...S} /><ellipse cx={px} cy={-10} rx={46} ry={8} fill={i === 1 ? LIME : '#F5C26B'} stroke={INK} strokeWidth={3} /></g>)}
   </g>
 );
 export const Speed: React.FC<{cx: number; cy: number; t: number; c?: string}> = ({cx, cy, t, c = '#E4F7D2'}) => (
