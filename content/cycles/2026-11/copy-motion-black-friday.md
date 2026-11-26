@@ -7,13 +7,21 @@
 2. Dani tiene un pequeño negocio. Llega Black Friday, y lanza su promo.
 3. Primero llega un mensaje. Luego diez. A las once, ya son ochenta.
 4. Atiende con una mano, y contesta con la otra. Son cuatro horas pegado al celular.
-5. Alguien preguntó si había cupo. Esperó. Nadie respondió. Y se fue con la competencia.
+5. Alguien preguntó si había cupo. Esperó, pero nadie respondió. Y se fue con la competencia.
 6. ¿Cuánto vale una hora de tu día?
 7. Con Iguana, cada mensaje se responde al instante, y la cita queda agendada sola.
 8. Dani atiende tranquilo. Y a las seis, llega a cenar con su familia.
 9. Recupera tus horas. Agenda tu demo gratis.
 
-**En pantalla (máx. 2 líneas por escena, en la franja superior):** ¿Sabías que… · noviembre y diciembre · 22 % · de las ventas del año · Dani · su pequeño negocio · BLACK FRIDAY · lanza su promo · 1 mensaje · 10 · 11:00 am · 80 · atiende y contesta · 4 horas · pegado al celular · ¿Hay cupo hoy? · esperó… · nadie respondió · y se fue con la competencia · ¿Cuánto vale una hora de tu día? · Con Iguana · responde al instante · agenda sola · atiende tranquilo · 6:00 pm · con su familia
+**Subtítulos en pantalla (palabra por palabra, en la franja superior):**
+1. ¿Sabías que noviembre y diciembre… / de tus ventas del año (22 % en 3D)
+2. Dani tiene un pequeño negocio / Llega Black Friday y lanza su promo
+3. Primero, llega 1 mensaje / Luego… 10 mensajes / A las 11:00, ya son… / 80 mensajes
+4. Atiende con una mano, y contesta con la otra / 4 horas pegado al celular
+5. Alguien preguntó: ¿hay cupo hoy? / Esperó… pero nadie respondió / y se fue con la competencia
+6. ¿Cuánto vale una hora de tu día?
+7. Con Iguana, cada mensaje se responde al instante / y la cita queda agendada sola
+8. Dani atiende tranquilo / a las 6:00 pm, llega a cenar con su familia
 **Cierre:** logo de Iguana · Recupera tus horas. · Agenda tu demo gratis
 
 **Caption**
