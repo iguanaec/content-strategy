@@ -1,0 +1,131 @@
+{
+ "clauses": [
+  {
+   "seg": "s1",
+   "id": "s1a",
+   "text": "¿Sabías que noviembre y diciembre pueden sumar hasta el veintidós por ciento de las ventas del año?",
+   "start": 0.3,
+   "dur": 5.347
+  },
+  {
+   "seg": "s2",
+   "id": "s2a",
+   "text": "Dani tiene un pequeño negocio.",
+   "start": 6.197,
+   "dur": 1.509
+  },
+  {
+   "seg": "s2",
+   "id": "s2b",
+   "text": "Llega Black Friday, y lanza su promo.",
+   "start": 8.047,
+   "dur": 2.337
+  },
+  {
+   "seg": "s3",
+   "id": "s3a",
+   "text": "Primero, llega un mensaje.",
+   "start": 10.933,
+   "dur": 1.651
+  },
+  {
+   "seg": "s3",
+   "id": "s3b",
+   "text": "Luego, diez.",
+   "start": 12.924,
+   "dur": 0.767
+  },
+  {
+   "seg": "s3",
+   "id": "s3c",
+   "text": "A las once, ya son ochenta.",
+   "start": 14.032,
+   "dur": 1.648
+  },
+  {
+   "seg": "s4",
+   "id": "s4a",
+   "text": "Atiende con una mano, y contesta con la otra.",
+   "start": 16.23,
+   "dur": 2.655
+  },
+  {
+   "seg": "s4",
+   "id": "s4b",
+   "text": "Son cuatro horas pegado al celular.",
+   "start": 19.225,
+   "dur": 1.98
+  },
+  {
+   "seg": "s5",
+   "id": "s5a",
+   "text": "Alguien preguntó si había cupo.",
+   "start": 21.754,
+   "dur": 1.759
+  },
+  {
+   "seg": "s5",
+   "id": "s5b",
+   "text": "Esperó.",
+   "start": 23.853,
+   "dur": 0.498
+  },
+  {
+   "seg": "s5",
+   "id": "s5c",
+   "text": "Nadie respondió.",
+   "start": 24.691,
+   "dur": 1.13
+  },
+  {
+   "seg": "s5",
+   "id": "s5d",
+   "text": "Y se fue con la competencia.",
+   "start": 26.161,
+   "dur": 1.676
+  },
+  {
+   "seg": "s6",
+   "id": "s6a",
+   "text": "¿Cuánto vale una hora de tu día?",
+   "start": 28.387,
+   "dur": 1.641
+  },
+  {
+   "seg": "s7",
+   "id": "s7a",
+   "text": "Con Iguana, cada mensaje se responde al instante, y la cita queda agendada sola.",
+   "start": 30.578,
+   "dur": 4.924
+  },
+  {
+   "seg": "s8",
+   "id": "s8a",
+   "text": "Dani atiende tranquilo.",
+   "start": 36.053,
+   "dur": 1.38
+  },
+  {
+   "seg": "s8",
+   "id": "s8b",
+   "text": "Y a las seis, llega a cenar con su familia.",
+   "start": 37.772,
+   "dur": 2.434
+  },
+  {
+   "seg": "s9",
+   "id": "s9a",
+   "text": "Recupera tus horas.",
+   "start": 40.757,
+   "dur": 1.14
+  },
+  {
+   "seg": "s9",
+   "id": "s9b",
+   "text": "Agenda tu demo gratis.",
+   "start": 42.237,
+   "dur": 1.09
+  }
+ ],
+ "total": 44.927
+}
