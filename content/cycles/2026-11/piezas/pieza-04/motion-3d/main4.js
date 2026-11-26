@@ -61,7 +61,7 @@ const CAPS=[];
 function cap(a,b,src,clause,{pos='top',size=80,slam=false}={}){const d=document.createElement('div');d.className='cap';d.style.fontSize=size+'px';wrap.appendChild(d);
  const toks=src.match(/(\[[^\]]+\]|\*[^*]+\*)[,.…?!:]*|\S+/g);const cl=clause?CL[clause]:null;const ntext=cl?norm(cl.text):'';let from=0,last=a;const words=[];
  for(const tk of toks){let type='w',txt=tk,pn='';const mm=tk.match(/^([\[*])(.+)([\]*])([,.…?!:]*)$/);if(mm){type=mm[1]==='['?'h':'a';txt=mm[2];pn=mm[4]}
-  const sp=document.createElement('span');sp.className='w'+(type==='a'?' a':type==='h'?' h':'');sp.innerHTML=(type==='h'?`<i></i><b>${txt}</b>`:txt)+(pn?`<u style="text-decoration:none;font-family:M;font-style:normal;font-weight:800;color:#383838;font-size:${type==='a'?'.82em':'1em'}">${pn}</u>`:'');d.appendChild(sp);
+  const sp=document.createElement('span');sp.className='w'+(type==='a'?' a':type==='h'?' h':'');sp.innerHTML=(type==='h'?`<i></i><b>${txt}</b>`:txt)+(pn?`<u style="text-decoration:none;font-family:M;font-weight:800;color:#383838;font-size:${type==='a'?'.85em':'1em'}">${pn}</u>`:'');d.appendChild(sp);
   let tt=last+.08;if(cl){const key=norm(txt).split(' ')[0];const i=key?ntext.indexOf(key,from):-1;if(i>=0){tt=cl.start+cl.dur*(i/ntext.length);from=i+key.length}}tt=Math.max(a,Math.min(tt,b-.25));if(tt<last)tt=last;last=tt;words.push({sp,t:tt,type})}
  d.style.display='flex';const W=d.scrollWidth,H=d.offsetHeight;d.style.display='none';const fit=Math.min(1,880/W,310/H);
  CAPS.push({d,a,b,words,fit,y:pos==='top'?430:1390,slam})}

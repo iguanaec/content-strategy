@@ -1,6 +1,6 @@
 # Iguana — Motion Black Friday 3D: la historia de Dani
 
-## Vie 27/nov · Motion 3D vertical 9:16 (44 s) · voz en off + palabras clave
+## Vie 27/nov · Motion 3D vertical 9:16 (48 s) · voz en off + palabras clave
 
 **Voz en off**
 1. ¿Sabías que noviembre y diciembre pueden sumar hasta el 22 % de las ventas del año?
