@@ -5,8 +5,8 @@
 html,body{margin:0;background:#1d2622}
 #wrap{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:M,sans-serif}
 canvas{position:absolute;left:0;top:0}
-#scrim{position:absolute;left:0;top:1380px;width:1080px;height:540px;background:linear-gradient(to bottom,rgba(16,22,18,0),rgba(16,22,18,.5));pointer-events:none}
-.sub{position:absolute;left:0;top:1500px;width:1080px;text-align:center;font-weight:800;font-size:56px;line-height:1.1;color:#F8F8F6;text-shadow:0 3px 14px rgba(0,0,0,.6),0 1px 2px rgba(0,0,0,.7);display:none;will-change:transform,opacity}
+#scrim{position:absolute;left:0;top:1400px;width:1080px;height:520px;background:linear-gradient(to bottom,rgba(26,26,26,0) 0%,rgba(26,26,26,.5) 26%,rgba(26,26,26,.62) 100%);pointer-events:none}
+.sub{position:absolute;left:0;top:1500px;width:1080px;text-align:center;font-weight:800;font-size:56px;line-height:1.1;color:#F8F8F6;text-shadow:0 2px 10px rgba(0,0,0,.55),0 1px 2px rgba(0,0,0,.65);display:none;will-change:transform,opacity}
 .sub .k{color:#A7FF6B}
 .e{position:absolute;left:540px;top:960px;white-space:nowrap;display:none;will-change:transform}
 </style></head><body><div id="wrap"><canvas id="c" width="1080" height="1920"></canvas><div id="scrim"></div></div>
@@ -17,6 +17,7 @@ import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js'
 import {TTFLoader} from 'three/addons/loaders/TTFLoader.js';
 import {Font} from 'three/addons/loaders/FontLoader.js';
 import {TextGeometry} from 'three/addons/geometries/TextGeometry.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 const LIME='#A7FF6B',INK='#383838',GREEN='#39713E',PAPER='#F8F8F6';
 const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
 const eo=x=>1-Math.pow(1-clamp(x),3);
@@ -30,12 +31,15 @@ const nrm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').rep
 const at=(id,w)=>{const c=CL[id];const k=nrm(w);if(c.words){const f=c.words.find(x=>nrm(x.w).startsWith(k));if(f)return f.s}const i=c.text.toLowerCase().indexOf(w.toLowerCase());return c.start+c.dur*(i<0?0:i/c.text.length)};
 const SEGS=['s1','s2','s3','s4','s5','s6','s7','s8','s9'];const segStart=s=>TL.clauses.find(c=>c.seg===s).start;
 const R=new THREE.WebGLRenderer({canvas:document.getElementById('c'),antialias:true,preserveDrawingBuffer:true});
-R.shadowMap.enabled=true;R.setSize(1080,1920,false);
+R.shadowMap.enabled=true;R.shadowMap.type=THREE.PCFSoftShadowMap;R.toneMapping=THREE.NeutralToneMapping;R.toneMappingExposure=1.0;R.setSize(1080,1920,false);
 const scene=new THREE.Scene();scene.background=new THREE.Color('#1d2622');
 const cam=new THREE.PerspectiveCamera(35,1080/1920,.03,100);
-const hemi=new THREE.HemisphereLight('#ffffff','#e8efe2',1.45);scene.add(hemi);
-const sun=new THREE.DirectionalLight('#ffffff',1.5);sun.position.set(3,6,5);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-3,right:3,top:3,bottom:-3});sun.shadow.bias=-0.0004;scene.add(sun);
-const rim=new THREE.DirectionalLight('#f4fff0',.7);rim.position.set(-3,4,-4);scene.add(rim);
+const hemi=new THREE.HemisphereLight('#ffffff','#efe6d6',1.1);scene.add(hemi);
+const PM=new THREE.PMREMGenerator(R);scene.environment=PM.fromScene(new RoomEnvironment(),.04).texture;scene.environmentIntensity=.9;
+const sun=new THREE.DirectionalLight('#ffffff',1.5);sun.position.set(3,6,5);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.radius=7;sun.shadow.intensity=.28;Object.assign(sun.shadow.camera,{left:-3,right:3,top:3,bottom:-3});sun.shadow.bias=-0.0004;scene.add(sun);
+const rim=new THREE.DirectionalLight('#fff6ea',.8);rim.position.set(-3,4,-4);scene.add(rim);
+const fillL=new THREE.DirectionalLight('#fff4e4',1.0);fillL.position.set(1.5,3.5,9);scene.add(fillL);
+const fillR=new THREE.DirectionalLight('#eaf2ff',.55);fillR.position.set(-6,2.5,6);scene.add(fillR);
 const M=(c,r=.55,m=0)=>new THREE.MeshStandardMaterial({color:c,roughness:r,metalness:m});
 await document.fonts.load('800 40px M');await document.fonts.load('500 40px M');await document.fonts.load('900 40px M');
 function canvasTex(w,h,draw){const c=document.createElement('canvas');c.width=w;c.height=h;const x=c.getContext('2d');draw(x,w,h);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;t._c=c;t._x=x;return t}

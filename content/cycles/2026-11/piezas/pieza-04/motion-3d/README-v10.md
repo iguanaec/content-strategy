@@ -6,3 +6,10 @@ Escena Three.js (`scene5.html` = `head5.html props5.js rig5.js sets5.js main5a-d
 - Sets: `sets5.js` (tienda con ventana a la calle, puerta, caja registradora y estantes; fachada y casa de noche; comedor).
 - Planos: `main5c.js`, todos con corte seco y sincronizados por palabra con `assets/timeline6.json`. Subtítulos: `main5b.js`.
 - Render: servir esta carpeta (`python3 -m http.server 8765`), `node render.js`, luego Remotion (`../remotion`) y masterización a −14 LUFS.
+
+## v11
+- Iluminación: luz ambiental suave (entorno) + luz principal con sombra muy tenue + luces de relleno y contraluz; tone mapping neutro. Sin zonas oscuras ni sombras duras.
+- Fondos con poco ruido visual: estantes con pocos objetos en tonos suaves, ventana con edificios lisos, sin pósters ni plantas.
+- El 22 % ocupa el cuadro sobre un fondo verde bosque (su ancho se ajusta solo al encuadre).
+- Peinado de Dani pegado a la cabeza; tarjeta final con fondo blanco.
+- Subtítulos con velo inferior neutro para leerse sobre fondos claros.

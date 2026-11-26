@@ -5,17 +5,18 @@ const hourOf=t=>t<C('s3c')?9.2:t<S4?11+eio((t-C('s3c'))/(S4-C('s3c')))*.05:t<S5?
 const todOf=t=>t<C('s4b')?0:t<S5?lerp(0,.62,eio((t-C('s4b'))/(S5-C('s4b')))):t<S8?.62:1;
 const doorAng=t=>t<T_OPEN?0:t<T_OPEN+.5?eio((t-T_OPEN)/.5)*1.6:t<T_OPEN+2.2?1.6:t<T_OPEN+2.7?lerp(1.6,0,eio((t-T_OPEN-2.2)/.5)):0;
 const SH=[];const S=(a,b,f)=>SH.push({a,b,f});
-const hide=()=>{people.forEach(p=>p.root.visible=false);Object.values(P3).flat().forEach(o=>{if(o)o.visible=false});bubs.forEach(b=>b.visible=false);stool.visible=false;banner.visible=false;cal.visible=false;t22.visible=false};
+const hide=()=>{people.forEach(p=>p.root.visible=false);Object.values(P3).flat().forEach(o=>{if(o)o.visible=false});bubs.forEach(b=>b.visible=false);stool.visible=false;banner.visible=false;cal.visible=false;t22.visible=false;poster22.visible=false};
 const DZ=-.95,DX=2.05;
 const daniAt=(ry=0)=>where(dani,DX,DZ,ry);
 const regS=window.__reg=shopRefs.reg;
 // ---- 1. gancho: noviembre + diciembre = 22 %
 S(0,at('s1a','llegan'),(t,lt,p)=>{setEnv('shop',0);cal.visible=true;cal.position.set(3.44,1.9,-.8);cal.rotation.y=-Math.PI/2;cal.userData.flip(eio((t-at('s1a','diciembre')+.05)/.5)*3.0);
  shot([lerp(1.2,2.0,p),lerp(1.95,1.9,p),-.8+lt*.05],[3.4,1.9,-.8],{fov:34})});
-S(at('s1a','llegan'),at('s1a','veintid')-.1,(t,lt,p)=>{setEnv('shop',0);const ps=[[.95,1.03,.0],[1.45,1.03,.05],[1.2,1.03,.45]];place(P3.bagA,ps[0],{s:1.25,rot:[0,.5,0],t});place(P3.bagB,ps[1],{s:1.25,rot:[0,-.4,0],t,ph:1});place(P3.bagC,ps[2],{s:1.15,rot:[0,.2,0],t,ph:2});
+S(at('s1a','llegan'),at('s1a','sumar')-.05,(t,lt,p)=>{setEnv('shop',0);const ps=[[.95,1.03,.0],[1.45,1.03,.05],[1.2,1.03,.45]];place(P3.bagA,ps[0],{s:1.25,rot:[0,.5,0],t});place(P3.bagB,ps[1],{s:1.25,rot:[0,-.4,0],t,ph:1});place(P3.bagC,ps[2],{s:1.15,rot:[0,.2,0],t,ph:2});
  shot(orb([1.2,1,.1],2.6,lerp(1.25,1.05,p),lerp(.95,.2,p)),[1.2,1.2,.1],{fov:32,roll:.04})});
-S(at('s1a','veintid')-.1,S2,(t,lt,p)=>{setEnv('shop',0);t22.visible=true;const pp=eb(lt/.5);t22.position.set(-2.0,1.75,-1.7);t22.rotation.set(0,(1-pp)*-1.4+Math.sin(t*1.2)*.05,0);t22.scale.setScalar(.12+eb(lt/.5)*.38);
- shot([lerp(-1.0,-1.95,p),1.72,lerp(2.9,2.1,p)],[-2,1.75,-1.7],{fov:34})});
+S(at('s1a','sumar')-.05,S2,(t,lt,p)=>{setEnv('shop',0);t22.visible=true;const pp=eb(clamp((t-at('s1a','veintid')+.2)/.55));
+ poster22.visible=true;t22.position.set(-3.0,1.5,.5);t22.rotation.set(0,Math.PI/2+(1-pp)*-1.3+Math.sin(t*1.1)*.05,0);t22.scale.setScalar(.06+pp*(.80/t22.userData.W0));
+ shot([-.1,lerp(1.45,1.55,p),lerp(.9,.2,p)],[-3.0,1.5,.5],{fov:34,roll:lerp(.03,-.02,p)})});
 // ---- 2. Dani abre el negocio
 S(S2,T_OPEN,(t,lt,p)=>{setEnv('shop',0);const L=T_OPEN-S2;mover(dani,[-4.3,-3.15],[-.05,-3.15],eo(lt/L),t,9);const dx=lerp(-4.3,-.05,eo(lt/L));
  shot([dx-.7,1.3,-7.6],[dx-.05,1.25,-3.1],{fov:38,roll:-.03})});

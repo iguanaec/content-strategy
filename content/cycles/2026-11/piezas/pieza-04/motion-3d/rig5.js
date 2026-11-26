@@ -21,18 +21,18 @@ function buildHair(head,style,c,skin){const H=new THREE.Group();head.add(H);cons
   const cv=document.createElement('canvas');cv.width=W;cv.height=Hh;const cx=cv.getContext('2d');
   cx.fillStyle='#'+col.getHexString();cx.fillRect(0,0,W,Hh);
   // brillo y hebras peinadas hacia atrás
-  for(let i=0;i<260;i++){const u=.25+(Math.random()-.5)*.5,v=.3+Math.random()*.2;cx.strokeStyle=`rgba(190,150,140,${.03+Math.random()*.05})`;cx.lineWidth=1+Math.random()*2.2;cx.beginPath();cx.moveTo(U(u),V(v));cx.quadraticCurveTo(U(u+(u-.25)*.25),V(v-.12),U(u+(u-.25)*.5),V(v-.27-Math.random()*.1));cx.stroke()}
+  for(let i=0;i<260;i++){const u=.25+(Math.random()-.5)*.5,v=.3+Math.random()*.2;cx.strokeStyle=`rgba(150,115,110,${.015+Math.random()*.03})`;cx.lineWidth=1+Math.random()*2.2;cx.beginPath();cx.moveTo(U(u),V(v));cx.quadraticCurveTo(U(u+(u-.25)*.25),V(v-.12),U(u+(u-.25)*.5),V(v-.27-Math.random()*.1));cx.stroke()}
   // degradado: laterales y nuca más claros (rapado)
   const gr=cx.createLinearGradient(0,V(.36),0,V(.52));gr.addColorStop(0,'rgba(120,95,90,0)');gr.addColorStop(1,'rgba(150,115,100,.5)');cx.fillStyle=gr;cx.fillRect(0,V(.36),U(.07),V(.2));cx.fillRect(U(.43),V(.36),U(.14),V(.2));cx.fillRect(U(.93),V(.36),U(.07),V(.2));
   const colT=new THREE.CanvasTexture(cv);colT.colorSpace=THREE.SRGBColorSpace;
-  const g=new THREE.SphereGeometry(.246,72,48);const pos=g.attributes.position;const v=new THREE.Vector3();
+  const g=new THREE.SphereGeometry(.236,72,48);const pos=g.attributes.position;const v=new THREE.Vector3();
   const sm=(a,b,x)=>{const t=Math.min(1,Math.max(0,(x-a)/(b-a)));return t*t*(3-2*t)};
   for(let i=0;i<pos.count;i++){v.fromBufferAttribute(pos,i);const d=v.clone().normalize();
    const f=sm(.2,.92,d.y)*sm(-.25,.85,d.z),side=sm(.2,.8,d.y)*(1-Math.abs(d.x))*.0;
    const wave=.006*Math.sin(34*d.x+7*d.z)*sm(.3,.8,d.y);
-   const out=.058*f+wave;v.addScaledVector(d,out);v.y+=.032*f;v.z+=.03*f-.012*sm(.2,.7,-d.z)*sm(.3,.8,d.y);pos.setXYZ(i,v.x,v.y,v.z)}
+   const tp=sm(.62,.9,d.y);const out=.062*f*tp+wave*tp;v.addScaledVector(d,out);v.y+=.036*f*tp;v.z+=.03*f*tp;pos.setXYZ(i,v.x,v.y,v.z)}
   g.computeVertexNormals();
-  const m=new THREE.Mesh(g,new THREE.MeshStandardMaterial({map:colT,alphaMap:alphaT,transparent:true,alphaTest:.35,roughness:.62,metalness:.04}));m.position.set(0,.22,-.004);m.rotation.x=-.12;m.castShadow=true;H.add(m)}
+  const m=new THREE.Mesh(g,new THREE.MeshStandardMaterial({map:colT,alphaMap:alphaT,transparent:true,alphaTest:.35,roughness:.8,metalness:0}));m.position.set(0,.22,0);m.castShadow=true;H.add(m)}
  else if(style==='long'){capM(.248,.52,mat);blob(.21,[0,.06,-.13],[1.05,2.2,.72]);[-1,1].forEach(s=>blob(.06,[s*.205,.12,.02],[.7,2.3,.8]));blob(.07,[-.06,.47,.12],[1.5,.5,1],[-.4,0,.3])}
  else if(style==='bun'){capM(.246,.52,mat);blob(.1,[0,.47,-.16],[1,1,1]);blob(.06,[0,.4,-.2],[1.6,.5,.8]);blob(.06,[-.17,.3,.12],[.6,1.2,.7],[0,0,.3]);blob(.06,[.17,.3,.12],[.6,1.2,.7],[0,0,-.3])}
  else if(style==='spiky'){capM(.244,.5,mat);for(let i=0;i<9;i++){const a=i/9*Math.PI*2;const sp=new THREE.Mesh(new THREE.ConeGeometry(.045,.13,8),mat);sp.position.set(Math.cos(a)*.11,.44,Math.sin(a)*.1+.02);sp.rotation.set(Math.sin(a)*.6,0,-Math.cos(a)*.6);H.add(sp)}const top=new THREE.Mesh(new THREE.ConeGeometry(.05,.15,8),mat);top.position.set(0,.5,.04);H.add(top)}
