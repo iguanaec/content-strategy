@@ -1,8 +1,8 @@
 # Iguana — Motion Black Friday: la historia de Dani
 
-## Vie 27/nov · Motion 3D vertical 9:16 (37 s) · voz del usuario + subtítulos cortos · sin música
+## Vie 27/nov · Motion 3D vertical 9:16 (36 s) · voz del usuario + subtítulos cortos · sin música
 
-**Voz en off (versión 37 s)**
+**Voz en off (versión 36 s)**
 1. ¿Sabías que noviembre y diciembre llegan a sumar el 22 % de tus ventas?
 2. Dani tiene un pequeño negocio. Llega Black Friday, y lanza su promo.
 3. Un mensaje. Luego, diez. A las once, ya son ochenta.
@@ -11,10 +11,10 @@
 6. ¿Cuánto vale una hora de tu día?
 7. Con Iguana, cada mensaje se responde al instante, y la cita se agenda.
 8. Dani atiende tranquilo. Y a las seis, llega a cenar con su familia.
-9. Recupera tus horas. Agenda tu demo gratis.
+9. Con Iguana, recupera tus horas.
 
 **Subtítulos:** pequeños, abajo, de 1 a 3 palabras por vez, con las palabras clave en verde lima. Sin música. Sin fuentes en pantalla.
-**Cierre:** logo de Iguana · Recupera tus horas · Agenda tu demo gratis
+**Cierre:** logo de Iguana · Recupera tus horas · botón «Agenda tu demo gratis» (solo en pantalla)
 
 **Caption**
 ¿Sabías que Black Friday te trae clientes y te quita horas? Esta es la historia de Dani ⏰
