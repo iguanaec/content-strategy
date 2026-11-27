@@ -1,0 +1,594 @@
+{
+ "fps": 30,
+ "total": 36.89,
+ "cues": [
+  {
+   "id": "whoosh-fast-medium",
+   "file": "sfx/whoosh-fast-medium.wav",
+   "start": 4.544,
+   "vol": 0.42,
+   "dur": 0.252
+  },
+  {
+   "id": "whoosh-medium-medium",
+   "file": "sfx/whoosh-medium-medium.wav",
+   "start": 8.781,
+   "vol": 0.42,
+   "dur": 0.517
+  },
+  {
+   "id": "swish-medium",
+   "file": "sfx/swish-medium.wav",
+   "start": 12.594,
+   "vol": 0.42,
+   "dur": 0.201
+  },
+  {
+   "id": "whoosh-fast-medium",
+   "file": "sfx/whoosh-fast-medium.wav",
+   "start": 16.814,
+   "vol": 0.42,
+   "dur": 0.252
+  },
+  {
+   "id": "whoosh-medium-medium",
+   "file": "sfx/whoosh-medium-medium.wav",
+   "start": 21.211,
+   "vol": 0.42,
+   "dur": 0.517
+  },
+  {
+   "id": "swish-medium",
+   "file": "sfx/swish-medium.wav",
+   "start": 24.384,
+   "vol": 0.42,
+   "dur": 0.201
+  },
+  {
+   "id": "whoosh-fast-medium",
+   "file": "sfx/whoosh-fast-medium.wav",
+   "start": 28.744,
+   "vol": 0.42,
+   "dur": 0.252
+  },
+  {
+   "id": "writing-highlighter",
+   "file": "sfx/writing-highlighter.wav",
+   "start": 0.14,
+   "vol": 0.32,
+   "dur": 0.381
+  },
+  {
+   "id": "pop-medium-in",
+   "file": "sfx/pop-medium-in.wav",
+   "start": 0.159,
+   "vol": 0.4,
+   "dur": 0.06
+  },
+  {
+   "id": "pop-medium-in",
+   "file": "sfx/pop-medium-in.wav",
+   "start": 0.409,
+   "vol": 0.35,
+   "dur": 0.06
+  },
+  {
+   "id": "click-snap-soft",
+   "file": "sfx/click-snap-soft.wav",
+   "start": 0.705,
+   "vol": 0.3,
+   "dur": 0.148
+  },
+  {
+   "id": "riser-1s-soft",
+   "file": "sfx/riser-1s-soft.wav",
+   "start": 1.638,
+   "vol": 0.28,
+   "dur": 1.19
+  },
+  {
+   "id": "impact-medium-hard",
+   "file": "sfx/impact-medium-hard.wav",
+   "start": 2.61,
+   "vol": 0.5,
+   "dur": 0.162
+  },
+  {
+   "id": "bass-808-short",
+   "file": "sfx/bass-808-short.wav",
+   "start": 2.609,
+   "vol": 0.35,
+   "dur": 0.683
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 2.635,
+   "vol": 0.25,
+   "dur": 0.223
+  },
+  {
+   "id": "props-shop-bell",
+   "file": "sfx/props-shop-bell.wav",
+   "start": 5.03,
+   "vol": 0.3,
+   "dur": 1.415
+  },
+  {
+   "id": "pop-small-in",
+   "file": "sfx/pop-small-in.wav",
+   "start": 4.69,
+   "vol": 0.38,
+   "dur": 0.04
+  },
+  {
+   "id": "writing-highlighter",
+   "file": "sfx/writing-highlighter.wav",
+   "start": 5.32,
+   "vol": 0.3,
+   "dur": 0.381
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 6.565,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "cinematic-slam-big",
+   "file": "sfx/cinematic-slam-big.wav",
+   "start": 6.869,
+   "vol": 0.42,
+   "dur": 2.225
+  },
+  {
+   "id": "boom-hit-medium",
+   "file": "sfx/boom-hit-medium.wav",
+   "start": 6.842,
+   "vol": 0.28,
+   "dur": 1.301
+  },
+  {
+   "id": "whoosh-fast-soft",
+   "file": "sfx/whoosh-fast-soft.wav",
+   "start": 7.675,
+   "vol": 0.3,
+   "dur": 0.25
+  },
+  {
+   "id": "pop-large-in",
+   "file": "sfx/pop-large-in.wav",
+   "start": 7.813,
+   "vol": 0.32,
+   "dur": 0.112
+  },
+  {
+   "id": "phone-vibrate-table",
+   "file": "sfx/phone-vibrate-table.wav",
+   "start": 9.03,
+   "vol": 0.4,
+   "dur": 1.116
+  },
+  {
+   "id": "notification-message-in-soft",
+   "file": "sfx/notification-message-in-soft.wav",
+   "start": 9.034,
+   "vol": 0.42,
+   "dur": 0.423
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 9.775,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "phone-vibrate-table",
+   "file": "sfx/phone-vibrate-table.wav",
+   "start": 9.86,
+   "vol": 0.42,
+   "dur": 1.116
+  },
+  {
+   "id": "pop-medium-bubble",
+   "file": "sfx/pop-medium-bubble.wav",
+   "start": 9.969,
+   "vol": 0.26,
+   "dur": 0.126
+  },
+  {
+   "id": "pop-medium-bubble",
+   "file": "sfx/pop-medium-bubble.wav",
+   "start": 10.169,
+   "vol": 0.26,
+   "dur": 0.126
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 10.745,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "click-snap-soft",
+   "file": "sfx/click-snap-soft.wav",
+   "start": 11.045,
+   "vol": 0.28,
+   "dur": 0.148
+  },
+  {
+   "id": "riser-1s-strong",
+   "file": "sfx/riser-1s-strong.wav",
+   "start": 10.896,
+   "vol": 0.28,
+   "dur": 1.216
+  },
+  {
+   "id": "impact-heavy-hard",
+   "file": "sfx/impact-heavy-hard.wav",
+   "start": 11.87,
+   "vol": 0.5,
+   "dur": 0.3
+  },
+  {
+   "id": "bass-sub-drop-short",
+   "file": "sfx/bass-sub-drop-short.wav",
+   "start": 11.859,
+   "vol": 0.42,
+   "dur": 1.175
+  },
+  {
+   "id": "whoosh-fast-medium",
+   "file": "sfx/whoosh-fast-medium.wav",
+   "start": 12.684,
+   "vol": 0.32,
+   "dur": 0.252
+  },
+  {
+   "id": "phone-vibrate-hand",
+   "file": "sfx/phone-vibrate-hand.wav",
+   "start": 12.78,
+   "vol": 0.3,
+   "dur": 0.344
+  },
+  {
+   "id": "pop-small-bubble",
+   "file": "sfx/pop-small-bubble.wav",
+   "start": 12.77,
+   "vol": 0.3,
+   "dur": 0.081
+  },
+  {
+   "id": "pop-small-bubble",
+   "file": "sfx/pop-small-bubble.wav",
+   "start": 12.87,
+   "vol": 0.3,
+   "dur": 0.081
+  },
+  {
+   "id": "pop-small-bubble",
+   "file": "sfx/pop-small-bubble.wav",
+   "start": 12.97,
+   "vol": 0.3,
+   "dur": 0.081
+  },
+  {
+   "id": "pop-small-bubble",
+   "file": "sfx/pop-small-bubble.wav",
+   "start": 13.07,
+   "vol": 0.3,
+   "dur": 0.081
+  },
+  {
+   "id": "writing-highlighter",
+   "file": "sfx/writing-highlighter.wav",
+   "start": 12.73,
+   "vol": 0.3,
+   "dur": 0.381
+  },
+  {
+   "id": "foley-plastic-touch",
+   "file": "sfx/foley-plastic-touch.wav",
+   "start": 13.1,
+   "vol": 0.35,
+   "dur": 0.079
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 13.955,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "phone-keypad",
+   "file": "sfx/phone-keypad.wav",
+   "start": 14.19,
+   "vol": 0.25,
+   "dur": 1.116
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 15.485,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "impact-deep-hard",
+   "file": "sfx/impact-deep-hard.wav",
+   "start": 15.55,
+   "vol": 0.5,
+   "dur": 1.205
+  },
+  {
+   "id": "time-clock-fast",
+   "file": "sfx/time-clock-fast.wav",
+   "start": 15.66,
+   "vol": 0.2,
+   "dur": 2.534
+  },
+  {
+   "id": "phone-keypad",
+   "file": "sfx/phone-keypad.wav",
+   "start": 17.05,
+   "vol": 0.25,
+   "dur": 1.116
+  },
+  {
+   "id": "pop-medium-bubble",
+   "file": "sfx/pop-medium-bubble.wav",
+   "start": 17.689,
+   "vol": 0.3,
+   "dur": 0.126
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 18.595,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "time-clock",
+   "file": "sfx/time-clock.wav",
+   "start": 18.68,
+   "vol": 0.22,
+   "dur": 3.037
+  },
+  {
+   "id": "notification-failure-low",
+   "file": "sfx/notification-failure-low.wav",
+   "start": 19.1,
+   "vol": 0.42,
+   "dur": 0.703
+  },
+  {
+   "id": "impact-deep-soft",
+   "file": "sfx/impact-deep-soft.wav",
+   "start": 19.055,
+   "vol": 0.38,
+   "dur": 1.276
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 20.445,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "whoosh-slow-soft",
+   "file": "sfx/whoosh-slow-soft.wav",
+   "start": 20.278,
+   "vol": 0.28,
+   "dur": 1.049
+  },
+  {
+   "id": "faller-1s-soft",
+   "file": "sfx/faller-1s-soft.wav",
+   "start": 21.42,
+   "vol": 0.2,
+   "dur": 0.862
+  },
+  {
+   "id": "time-clock",
+   "file": "sfx/time-clock.wav",
+   "start": 21.46,
+   "vol": 0.26,
+   "dur": 3.037
+  },
+  {
+   "id": "impact-light-firm",
+   "file": "sfx/impact-light-firm.wav",
+   "start": 22.136,
+   "vol": 0.32,
+   "dur": 0.099
+  },
+  {
+   "id": "shimmer-medium-bright",
+   "file": "sfx/shimmer-medium-bright.wav",
+   "start": 24.439,
+   "vol": 0.34,
+   "dur": 1.109
+  },
+  {
+   "id": "sting-warm-short",
+   "file": "sfx/sting-warm-short.wav",
+   "start": 24.373,
+   "vol": 0.3,
+   "dur": 1.672
+  },
+  {
+   "id": "pop-medium-in",
+   "file": "sfx/pop-medium-in.wav",
+   "start": 24.639,
+   "vol": 0.36,
+   "dur": 0.06
+  },
+  {
+   "id": "notification-message-in-clear",
+   "file": "sfx/notification-message-in-clear.wav",
+   "start": 24.809,
+   "vol": 0.34,
+   "dur": 0.607
+  },
+  {
+   "id": "notification-message-in-soft",
+   "file": "sfx/notification-message-in-soft.wav",
+   "start": 25.604,
+   "vol": 0.3,
+   "dur": 0.423
+  },
+  {
+   "id": "notification-message-in-clear",
+   "file": "sfx/notification-message-in-clear.wav",
+   "start": 26.359,
+   "vol": 0.3,
+   "dur": 0.607
+  },
+  {
+   "id": "notification-message-in-soft",
+   "file": "sfx/notification-message-in-soft.wav",
+   "start": 27.054,
+   "vol": 0.26,
+   "dur": 0.423
+  },
+  {
+   "id": "zip-in-medium",
+   "file": "sfx/zip-in-medium.wav",
+   "start": 26.424,
+   "vol": 0.28,
+   "dur": 0.349
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 27.329,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "notification-success-chime",
+   "file": "sfx/notification-success-chime.wav",
+   "start": 27.464,
+   "vol": 0.45,
+   "dur": 0.963
+  },
+  {
+   "id": "pop-medium-bubble",
+   "file": "sfx/pop-medium-bubble.wav",
+   "start": 27.453,
+   "vol": 0.3,
+   "dur": 0.126
+  },
+  {
+   "id": "click-tap-firm",
+   "file": "sfx/click-tap-firm.wav",
+   "start": 27.805,
+   "vol": 0.28,
+   "dur": 0.024
+  },
+  {
+   "id": "writing-highlighter",
+   "file": "sfx/writing-highlighter.wav",
+   "start": 28.9,
+   "vol": 0.3,
+   "dur": 0.381
+  },
+  {
+   "id": "foley-paper-touch",
+   "file": "sfx/foley-paper-touch.wav",
+   "start": 29.208,
+   "vol": 0.33,
+   "dur": 0.31
+  },
+  {
+   "id": "swish-soft",
+   "file": "sfx/swish-soft.wav",
+   "start": 30.255,
+   "vol": 0.22,
+   "dur": 0.223
+  },
+  {
+   "id": "time-alarm",
+   "file": "sfx/time-alarm.wav",
+   "start": 30.59,
+   "vol": 0.16,
+   "dur": 2.314
+  },
+  {
+   "id": "whoosh-medium-soft",
+   "file": "sfx/whoosh-medium-soft.wav",
+   "start": 30.671,
+   "vol": 0.3,
+   "dur": 0.543
+  },
+  {
+   "id": "shimmer-short-sparkle",
+   "file": "sfx/shimmer-short-sparkle.wav",
+   "start": 32.028,
+   "vol": 0.3,
+   "dur": 0.53
+  },
+  {
+   "id": "pop-small-in",
+   "file": "sfx/pop-small-in.wav",
+   "start": 31.79,
+   "vol": 0.26,
+   "dur": 0.04
+  },
+  {
+   "id": "pop-small-in",
+   "file": "sfx/pop-small-in.wav",
+   "start": 31.99,
+   "vol": 0.26,
+   "dur": 0.04
+  },
+  {
+   "id": "pop-small-in",
+   "file": "sfx/pop-small-in.wav",
+   "start": 32.19,
+   "vol": 0.26,
+   "dur": 0.04
+  },
+  {
+   "id": "whoosh-medium-soft",
+   "file": "sfx/whoosh-medium-soft.wav",
+   "start": 32.981,
+   "vol": 0.3,
+   "dur": 0.543
+  },
+  {
+   "id": "sting-warm-short",
+   "file": "sfx/sting-warm-short.wav",
+   "start": 33.303,
+   "vol": 0.42,
+   "dur": 1.672
+  },
+  {
+   "id": "writing-highlighter",
+   "file": "sfx/writing-highlighter.wav",
+   "start": 33.66,
+   "vol": 0.3,
+   "dur": 0.381
+  },
+  {
+   "id": "pop-large-in",
+   "file": "sfx/pop-large-in.wav",
+   "start": 34.529,
+   "vol": 0.38,
+   "dur": 0.112
+  },
+  {
+   "id": "tension",
+   "file": "sfx/tension.wav",
+   "start": 8.93,
+   "vol": 0.42,
+   "dur": 14.75
+  }
+ ]
+}

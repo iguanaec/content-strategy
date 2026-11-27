@@ -1,0 +1,109 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:300;src:url(assets/montserrat-latin-300-normal.woff2)}
+@font-face{font-family:M;font-weight:500;src:url(assets/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(assets/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(assets/montserrat-latin-900-normal.woff2)}
+html,body{margin:0;background:#F8F8F6}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#F8F8F6;font-family:M,sans-serif;color:#383838}
+.e{position:absolute;left:540px;top:960px;white-space:nowrap;display:none;will-change:transform}
+.t{font-weight:800;line-height:1.05;text-align:center}
+.hl{position:relative;display:inline-block;padding:0 22px}
+.hl .bg{position:absolute;left:0;top:6%;width:100%;height:88%;background:#A7FF6B;transform-origin:left center;z-index:0}
+.hl span{position:relative;z-index:1}
+</style></head><body><div id="stage"></div>
+<script>
+const LIME='#A7FF6B',INK='#383838',GREEN='#39713E',PAPER='#F8F8F6';
+const st=document.getElementById('stage');
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const eo=x=>1-Math.pow(1-clamp(x),3);
+const eb=x=>{x=clamp(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const eio=x=>{x=clamp(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const tracks=[];
+function mk(html,css){const d=document.createElement('div');d.className='e';d.innerHTML=html;if(css)d.style.cssText+=css;st.appendChild(d);return d}
+function put(d,x=0,y=0,o={}){const s=o.s??1,r=o.r??0;d.style.opacity=o.o??1;d.style.transform=`translate(-50%,-50%) translate(${x}px,${y}px) rotate(${r}deg) scale(${s})`}
+function track(d,a,b,fn){tracks.push({d,a,b,fn})}
+// fade window helper: in/out opacity
+const win=(lt,dur,i=.2,o=.25)=>Math.min(clamp(lt/i),clamp((dur-lt)/o));
+function T(txt,size,color=INK,w=800){return `<div class="t" style="font-size:${size}px;color:${color};font-weight:${w}">${txt}</div>`}
+function HL(txt,size){return `<div class="t"><span class="hl" style="font-size:${size}px"><i class="bg"></i><span>${txt}</span></span></div>`}
+function setHL(d,p){const b=d.querySelector('.bg');if(b)b.style.transform=`scaleX(${clamp(p)})`}
+// ---------- icons
+const clockSVG=`<svg width="560" height="560" viewBox="0 0 400 400"><circle cx="200" cy="200" r="182" fill="#fff" stroke="${INK}" stroke-width="14"/>${[...Array(12)].map((_,i)=>`<line x1="200" y1="36" x2="200" y2="${i%3?50:62}" stroke="${INK}" stroke-width="${i%3?6:10}" stroke-linecap="round" transform="rotate(${i*30} 200 200)"/>`).join('')}<line id="hh" x1="200" y1="200" x2="200" y2="118" stroke="${INK}" stroke-width="16" stroke-linecap="round"/><line id="mh" x1="200" y1="200" x2="200" y2="70" stroke="${GREEN}" stroke-width="10" stroke-linecap="round"/><circle cx="200" cy="200" r="14" fill="${GREEN}"/></svg>`;
+const heart=`<svg width="120" height="120" viewBox="0 0 24 24"><path d="M12 21s-8-5.2-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 5.8-8 11-8 11z" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linejoin="round"/></svg>`;
+const cup=`<svg width="120" height="120" viewBox="0 0 24 24"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z M16 10h2a2.5 2.5 0 0 1 0 5h-2 M8 3v3 M12 3v3" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+const user=`<svg width="120" height="120" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="${INK}" stroke-width="1.8"/><path d="M4 21a8 8 0 0 1 16 0" fill="none" stroke="${INK}" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+const calSVG=`<svg width="420" height="420" viewBox="0 0 100 100"><rect x="10" y="18" width="80" height="72" rx="12" fill="#fff" stroke="${INK}" stroke-width="4"/><rect x="10" y="18" width="80" height="22" rx="12" fill="${LIME}" stroke="${INK}" stroke-width="4"/><line x1="30" y1="8" x2="30" y2="26" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><line x1="70" y1="8" x2="70" y2="26" stroke="${INK}" stroke-width="5" stroke-linecap="round"/><path id="ck" d="M30 66 l14 14 l27 -28" fill="none" stroke="${GREEN}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="80" stroke-dashoffset="80"/></svg>`;
+// ---------- persistent
+const bar=mk('<div style="width:1080px;height:10px;background:#A7FF6B;transform-origin:left"></div>','left:0;top:0;transform:none;display:block');
+const handle=mk(T('@iguana.ec',30,GREEN,500),'top:1850px;display:block');
+// ---------- S1 hook 0-3.6
+const clk=mk(clockSVG);const h1=mk(T('¿Cuánto vale',110),'');const h2=mk(HL('una hora',150),'');const h3=mk(T('de tu día?',110),'');
+track(clk,0,3.8,(d,lt)=>{const k=eo(lt/2.6);const sc=lt<3.0?1:1-eio((lt-3.0)/.8)*.25;put(d,0,-250-eio((lt-3.0)/.8)*0,{s:eb(lt/.5)*sc,o:win(lt,3.8,.1,.25)});
+ const a=k*1080;d.querySelector('#mh').setAttribute('transform',`rotate(${a} 200 200)`);d.querySelector('#hh').setAttribute('transform',`rotate(${a/12+270} 200 200)`)});
+track(h1,0.35,3.8,(d,lt)=>put(d,0,230,{s:eb(lt/.45),o:win(lt,3.45,.05,.25)}));
+track(h2,0.75,3.8,(d,lt)=>{setHL(d,eo(lt/.35));put(d,0,390,{s:eb((lt)/.5),o:win(lt,3.05,.05,.25)})});
+track(h3,1.15,3.8,(d,lt)=>put(d,0,550,{s:eb(lt/.45),o:win(lt,2.65,.05,.25)}));
+// ---------- S2 3.8-7.6 tienda 9:00
+const s2a=mk(T('Viernes de Black Friday',70),'');const pill=mk(`<div style="background:${LIME};padding:14px 40px;border-radius:60px;font-weight:800;font-size:44px">9:00 am</div>`);
+const shop=mk(`<svg width="520" height="420" viewBox="0 0 130 105"><path d="M10 38 L20 10 H110 L120 38 Z" fill="${LIME}" stroke="${INK}" stroke-width="3" stroke-linejoin="round"/><path d="M10 38 a11 11 0 0 0 22 0 a11 11 0 0 0 22 0 a11 11 0 0 0 22 0 a11 11 0 0 0 22 0 a11 11 0 0 0 22 0" fill="#fff" stroke="${INK}" stroke-width="3"/><rect x="18" y="50" width="94" height="50" fill="#fff" stroke="${INK}" stroke-width="3"/><rect x="28" y="62" width="30" height="38" fill="#fff" stroke="${INK}" stroke-width="3"/><rect x="70" y="62" width="32" height="22" rx="2" fill="${LIME}" stroke="${INK}" stroke-width="3"/><text x="86" y="78" font-family="M" font-weight="800" font-size="6" text-anchor="middle" fill="${INK}">ABIERTO</text></svg>`);
+const s2b=mk(T('Abres tu negocio.',72,INK,500));
+track(s2a,3.8,7.6,(d,lt)=>put(d,0,-560,{s:eb(lt/.45),o:win(lt,3.8,.1,.25)}));
+track(shop,3.9,7.6,(d,lt)=>put(d,0,-200,{s:eb(lt/.6),o:win(lt,3.7,.1,.25)}));
+track(pill,4.5,7.6,(d,lt)=>put(d,0,110,{s:eb(lt/.45),o:win(lt,3.1,.1,.25)}));
+track(s2b,5.2,7.6,(d,lt)=>put(d,0,260,{s:eb(lt/.45),o:win(lt,2.4,.1,.25)}));
+// ---------- S3 7.6-11.8 mensajes
+const phone=mk(`<div style="width:540px;height:900px;border:14px solid ${INK};border-radius:80px;background:#fff;position:relative;overflow:hidden"><div style="position:absolute;left:50%;top:18px;width:150px;height:22px;background:${INK};border-radius:20px;transform:translateX(-50%)"></div></div>`);
+const msgs=['¿Hay cupo hoy?','¿Cuánto cuesta?','¿Hasta qué hora?','¿Me separan uno?','¿Dónde están?','¿Atienden sábado?'];
+const mel=msgs.map((m,i)=>{const left=i%2===0;const d=mk(`<div style="background:#EDEDEA;padding:18px 32px;border-radius:34px;font-weight:500;font-size:38px;color:${INK}">${m}</div>`);return d});
+const badge=mk(`<div id="bn" style="background:${INK};color:${LIME};font-weight:900;font-size:78px;padding:6px 40px;border-radius:70px;min-width:110px;text-align:center">0</div>`);
+const s3t=mk(T('Llegan 80 mensajes.',84),'');
+track(phone,7.6,11.8,(d,lt)=>put(d,0,-60,{s:eb(lt/.5),o:win(lt,4.2,.1,.3)}));
+mel.forEach((d,i)=>{track(d,7.9+i*.42,11.8,(dd,lt)=>{const left=i%2===0;put(dd,left?-70:70,-330+i*115,{s:eb(lt/.35),o:win(lt,11.8-7.9-i*.42,.05,.3)})})});
+track(badge,8.0,11.8,(d,lt)=>{const n=Math.round(eo(lt/2.6)*80);d.querySelector('#bn').textContent=n;put(d,300,-440,{s:eb(lt/.4),o:win(lt,3.8,.1,.3)})});
+track(s3t,8.8,11.8,(d,lt)=>put(d,0,570,{s:eb(lt/.45),o:win(lt,3.0,.1,.3)}));
+// ---------- S4 11.8-15.8 cuenta
+const q1=mk(T('80 clientes',130),'');const q2=mk(T('× 3 minutos',130),'');const q3=mk(HL('= 4 horas',170),'');const q4=mk(T('pegado al celular.',64,INK,500),'');
+track(q1,11.8,15.8,(d,lt)=>put(d,0,-380,{s:eb(lt/.4),o:win(lt,4,.1,.25)}));
+track(q2,12.5,15.8,(d,lt)=>put(d,0,-170,{s:eb(lt/.4),o:win(lt,3.3,.1,.25)}));
+track(q3,13.3,15.8,(d,lt)=>{setHL(d,eo(lt/.35));put(d,0,90,{s:eb(lt/.5),o:win(lt,2.5,.1,.25)})});
+track(q4,14.2,15.8,(d,lt)=>put(d,0,300,{s:eb(lt/.4),o:win(lt,1.6,.1,.25)}));
+// ---------- S5 15.8-19.8 cuatro horas
+const boxes=[0,1,2,3].map(i=>mk(`<div style="width:210px;height:210px;border:10px solid ${INK};border-radius:36px;background:#fff;position:relative;overflow:hidden"><div class="f" style="position:absolute;left:0;bottom:0;width:100%;height:0;background:${LIME}"></div><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:60px">${i+1} h</div></div>`));
+const s5t=mk(T('Cuatro horas<br>que no son tuyas.',86),'');
+const chips=[[heart,'tu familia'],[cup,'descansar'],[user,'tu cliente<br>de enfrente']].map(c=>mk(`<div style="text-align:center">${c[0]}<div style="font-weight:500;font-size:36px;margin-top:6px">${c[1]}</div><svg style="position:absolute;left:-10px;top:30px" width="160" height="90" viewBox="0 0 160 90"><path class="x" d="M5 85 L155 5" stroke="${INK}" stroke-width="8" stroke-linecap="round" stroke-dasharray="180" stroke-dashoffset="180" fill="none"/></svg></div>`));
+boxes.forEach((d,i)=>track(d,15.8+i*.2,19.8,(dd,lt)=>{dd.querySelector('.f').style.height=(eo((lt-.2)/.45)*100)+'%';put(dd,-345+i*230,-520,{s:eb(lt/.4),o:win(lt,4-i*.2,.1,.25)})}));
+track(s5t,16.8,19.8,(d,lt)=>put(d,0,-150,{s:eb(lt/.45),o:win(lt,3,.1,.25)}));
+chips.forEach((d,i)=>track(d,17.5+i*.3,19.8,(dd,lt)=>{dd.querySelector('.x').style.strokeDashoffset=180*(1-eo((lt-.5)/.35));put(dd,-300+i*300,330,{s:eb(lt/.4),o:win(lt,2.3-i*.3,.1,.25)})}));
+// ---------- S6 19.8-22.4 vuelven
+const s6a=mk(T('¿Y si esas horas',92),'');const s6b=mk(HL('volvieran a ti?',112),'');
+const hb=[0,1,2,3].map(i=>mk(`<div style="width:210px;height:210px;border:10px solid ${GREEN};border-radius:36px;background:${LIME};display:flex;align-items:center;justify-content:center;font-weight:900;font-size:60px;color:${INK}">${i+1} h</div>`));
+track(s6a,19.8,22.4,(d,lt)=>put(d,0,-120,{s:eb(lt/.4),o:win(lt,2.6,.1,.25)}));
+track(s6b,20.2,22.4,(d,lt)=>{setHL(d,eo(lt/.35));put(d,0,40,{s:eb(lt/.45),o:win(lt,2.2,.1,.25)})});
+hb.forEach((d,i)=>track(d,20.0+i*.15,22.4,(dd,lt)=>put(dd,-345+i*230,380-Math.sin(clamp(lt/1.6)*Math.PI)*60,{s:eb(lt/.4),r:Math.sin(lt*4+i)*4,o:win(lt,2.4-i*.15,.1,.25)})));
+// ---------- S7 22.4-27.2 chat Iguana
+const c0=mk(T('Con Iguana',70,GREEN,800),'');
+const cb1=mk(`<div style="background:#EDEDEA;padding:26px 40px;border-radius:44px;font-weight:500;font-size:44px;max-width:640px;white-space:normal;line-height:1.25;color:${INK}">Hola, ¿tienen cupo mañana a las 4?</div>`);
+const dots=mk(`<div style="background:${LIME};padding:22px 40px;border-radius:44px;display:flex;gap:12px">${[0,1,2].map(i=>`<i class="dt" style="width:20px;height:20px;border-radius:50%;background:${INK};display:block"></i>`).join('')}</div>`);
+const cb2=mk(`<div style="background:${LIME};padding:26px 40px;border-radius:44px;font-weight:500;font-size:44px;max-width:640px;white-space:normal;line-height:1.25;color:${INK}">¡Hola! Sí, mañana a las 4:00 pm tengo espacio. ¿Te lo agendo?</div>`);
+const cal=mk(calSVG);const s7t=mk(HL('Responde y agenda por ti',64),'');
+track(c0,22.4,27.2,(d,lt)=>put(d,0,-640,{s:eb(lt/.4),o:win(lt,4.8,.1,.25)}));
+track(cb1,22.7,27.2,(d,lt)=>put(d,-120,-470,{s:eb(lt/.4),o:win(lt,4.5,.1,.25)}));
+track(dots,23.5,24.5,(d,lt)=>{d.querySelectorAll('.dt').forEach((e,i)=>e.style.transform=`translateY(${-Math.abs(Math.sin(lt*7+i*.8))*14}px)`);put(d,120,-250,{s:eb(lt/.3),o:win(lt,1,.05,.1)})});
+track(cb2,24.5,27.2,(d,lt)=>put(d,120,-210,{s:eb(lt/.4),o:win(lt,2.7,.1,.25)}));
+track(cal,25.0,27.2,(d,lt)=>{d.querySelector('#ck').style.strokeDashoffset=80*(1-eo((lt-.5)/.4));put(d,0,200,{s:eb(lt/.5),o:win(lt,2.2,.1,.25)})});
+track(s7t,25.4,27.2,(d,lt)=>{setHL(d,eo(lt/.35));put(d,0,520,{s:eb(lt/.4),o:win(lt,1.8,.1,.25)})});
+// ---------- S8 cierre 27.2-30
+const logo=mk(`<img src="assets/logo_green.png" style="width:700px;display:block">`);
+const f1=mk(HL('Recupera tus horas.',92),'');
+const f2=mk(`<div style="background:${INK};color:${PAPER};padding:24px 48px;border-radius:70px;font-weight:800;font-size:40px">Agenda tu demo gratis · link en la bio</div>`);
+track(logo,27.2,30,(d,lt)=>put(d,0,-330,{s:eb(lt/.5),o:clamp(lt/.15)}));
+track(f1,27.6,30,(d,lt)=>{setHL(d,eo(lt/.35));put(d,0,-60,{s:eb(lt/.45),o:clamp(lt/.1)})});
+track(f2,28.2,30,(d,lt)=>put(d,0,190,{s:eb(lt/.45),o:clamp(lt/.1)}));
+// ---------- render
+window.render=function(t){
+ put(handle,0,890);
+ bar.firstChild.style.transform=`scaleX(${clamp(t/30)})`;
+ for(const k of tracks){const on=t>=k.a&&t<k.b;k.d.style.display=on?'block':'none';if(on)k.fn(k.d,t-k.a)}
+ return true};
+render(0);
+</script></body></html>

@@ -30,6 +30,12 @@ El skill (`.claude/skills/content-cycle/SKILL.md`) es el playbook completo: en q
 
 Los subagentes no comparten contexto de conversación entre sí. Todo el traspaso de información ocurre por archivo dentro de `content/cycles/<cycle-id>/`. Cada subagente lee los archivos de etapas previas que necesita y escribe su salida en el archivo que le corresponde (ver tabla de rutas en el skill). Al volver a la sesión principal, cada subagente debe reportar solo un resumen corto + la ruta del archivo que escribió, no el contenido completo, para no inflar el contexto del orquestador.
 
+## Entrega de contenido al usuario
+
+Cada vez que se sube (commit + push) contenido de un ciclo — research, plan, o el lote de hook/guion/diseño de las piezas — la sesión principal debe generar **además** un documento `.docx` consolidado con ese contenido (roadmap de estrategia vigente, calendario del ciclo, y por cada pieza: hook recomendado + alternativas, guion completo, y brief de diseño resumido con shotlist), guardarlo en `content/cycles/<cycle-id>/` (ej. `Iguana-Ciclo-<cycle-id>.docx`), subirlo también al repo, y entregárselo directamente al usuario (no basta con dejarlo en el repo). Esta es una preferencia permanente del usuario, no algo que se pregunte cada vez.
+
+**Formato vigente del docx (desde 2026-11-09):** solo copy de las piezas **nuevas** — por pieza: fecha y formato en una línea, texto de cada slide/escena en orden y caption con 3-5 hashtags. No incluir piezas ya publicadas ni explicaciones, diseño, colores, guía de producción, tendencias, presupuesto o KPIs (eso vive en el repo). Modelo: `content/cycles/2026-11/copy-noviembre.md`.
+
 ## Cadencia
 
 **Mensual.** Un ciclo completo (`análisis → pauta`) corre una vez al mes. Motivo: las campañas de Meta Ads necesitan ~1-2 semanas para salir de fase de aprendizaje y dar datos confiables, y la producción (grabación + edición) la hace una sola persona — un ciclo quincenal duplicaría la carga semanal de piezas. Ver el razonamiento completo y la opción de "pulse check" quincenal opcional en `content/brand-brief.md` (sección de notas) y en el histórico de decisiones si se documenta ahí.
