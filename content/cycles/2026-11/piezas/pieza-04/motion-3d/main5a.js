@@ -1,7 +1,7 @@
 // ================= personajes =================
-const dani=makePerson({apron:LIME,shirt:'#3F5F86',pants:'#2b2b2b',skin:'#C48A5E',hair:'#120d0f',style:'quiff',beard:true,beardColor:'#1d1618',shoe:'#efefef'});
+const dani=makePerson({apron:LIME,shirt:'#3F5F86',pants:'#2b2b2b',skin:'#C48A5E',hair:'#120d0f',style:'part',beard:true,beardColor:'#1c1517',shoe:'#efefef'});
 const cliA=makePerson({shirt:'#D2523F',pants:'#3b4f7a',skin:'#E4B08A',hair:'#4a2a1a',style:'long'});
-const cliB=makePerson({shirt:'#E2B33A',pants:'#34404f',skin:'#B97A52',hair:'#2a1a14',style:'short',beard:true,beardColor:'#2a1a14'});
+const cliB=makePerson({shirt:'#E2B33A',pants:'#34404f',skin:'#B97A52',hair:'#2a1a14',style:'short'});
 const cliC=makePerson({shirt:'#2F8F9D',pants:'#4a3f55',skin:'#D2986E',hair:'#241a16',style:'curly'});
 const mom=makePerson({shirt:'#E36A5D',pants:'#47506b',skin:'#C98F68',hair:'#2a1a14',style:'long'});
 const kid=makePerson({shirt:'#F2C14E',pants:'#35507a',skin:'#D9A478',hair:'#2B2B2B',style:'spiky'});kid.root.scale.setScalar(.62);

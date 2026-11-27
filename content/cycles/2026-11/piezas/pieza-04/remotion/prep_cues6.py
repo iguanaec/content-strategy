@@ -19,7 +19,7 @@ def cue(sid,t,vol=0.5):
     s=S[sid];start=max(0,t-s['sync']['at']);fn=os.path.basename(s['file'])
     if not os.path.exists(OUT+'/sfx/'+fn):shutil.copy(X+'/sfx/kit/'+s['file'],OUT+'/sfx/'+fn)
     cues.append({'id':sid,'file':'sfx/'+fn,'start':round(start,3),'vol':vol,'dur':s['duration']})
-for i,sg in enumerate(['s2','s3','s4','s5','s6','s7','s8','s9']):cue(['whoosh-fast-medium','whoosh-medium-medium','swish-medium'][i%3],seg0(sg)-0.04,0.42)
+for i,sg in enumerate(['s2','s3','s4','s5','s6','s7','s8']):cue(['whoosh-fast-medium','whoosh-medium-medium','swish-medium'][i%3],seg0(sg)-0.04,0.42)
 cut=lambda t:cue('swish-soft',t,0.22)
 cue('writing-highlighter',C('s1a')+.02,.32);cue('pop-medium-in',C('s1a')+.05,.4);cue('pop-medium-in',C('s1a')+.3,.35);cue('click-snap-soft',at('s1a','noviembre'),.3)
 cue('riser-1s-soft',at('s1a','veintidós'),.28);cue('impact-medium-hard',at('s1a','veintidós'),.5);cue('bass-808-short',at('s1a','veintidós'),.35);cue('swish-soft',at('s1a','veintidós')+.1,.25)
@@ -43,7 +43,7 @@ cue('zip-in-medium',at('s7a','al instante'),.28);cut(at('s7a','y la cita'));cue(
 cue('writing-highlighter',C('s8a')+.02,.3);cue('foley-paper-touch',C('s8a')+.35,.33);cut(C('s8b'));cue('time-alarm',C('s8b')+.25,.16)
 cue('whoosh-medium-soft',at('s8b','llega'),.3);cue('shimmer-short-sparkle',at('s8b','familia'),.3)
 for d in [.9,1.1,1.3]:cue('pop-small-in',at('s8b','llega')+d,.26)
-cue('sting-warm-short',C('s9a')+.02,.42);cue('writing-highlighter',C('s9a')+.15,.3);cue('pop-large-in',C('s9b'),.38)
+cue('whoosh-medium-soft',at('s9a','recupera')-.25,.3);cue('sting-warm-short',at('s9a','recupera')-.05,.42);cue('writing-highlighter',at('s9a','recupera')+.2,.3);cue('pop-large-in',at('s9a','horas')+.12,.38)
 json.dump({'fps':30,'total':TL['total'],'cues':cues},open(OUT+'/cues.json','w'),indent=1)
 print(len(cues),'cues')
 

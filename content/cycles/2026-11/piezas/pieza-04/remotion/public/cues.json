@@ -1,6 +1,6 @@
 {
  "fps": 30,
- "total": 37.22,
+ "total": 35.84,
  "cues": [
   {
    "id": "whoosh-fast-medium",
@@ -50,13 +50,6 @@
    "start": 27.694,
    "vol": 0.42,
    "dur": 0.252
-  },
-  {
-   "id": "whoosh-medium-medium",
-   "file": "sfx/whoosh-medium-medium.wav",
-   "start": 31.611,
-   "vol": 0.42,
-   "dur": 0.517
   },
   {
    "id": "writing-highlighter",
@@ -556,23 +549,30 @@
    "dur": 0.04
   },
   {
+   "id": "whoosh-medium-soft",
+   "file": "sfx/whoosh-medium-soft.wav",
+   "start": 31.941,
+   "vol": 0.3,
+   "dur": 0.543
+  },
+  {
    "id": "sting-warm-short",
    "file": "sfx/sting-warm-short.wav",
-   "start": 31.773,
+   "start": 32.263,
    "vol": 0.42,
    "dur": 1.672
   },
   {
    "id": "writing-highlighter",
    "file": "sfx/writing-highlighter.wav",
-   "start": 32.01,
+   "start": 32.62,
    "vol": 0.3,
    "dur": 0.381
   },
   {
    "id": "pop-large-in",
    "file": "sfx/pop-large-in.wav",
-   "start": 33.989,
+   "start": 33.469,
    "vol": 0.38,
    "dur": 0.112
   }

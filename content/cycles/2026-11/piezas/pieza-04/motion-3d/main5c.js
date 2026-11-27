@@ -1,5 +1,5 @@
 // ================= línea de tiempo narrativa =================
-const B9=segStart('s9'),S2=segStart('s2'),S3=segStart('s3'),S4=segStart('s4'),S5=segStart('s5'),S6=segStart('s6'),S7=segStart('s7'),S8=segStart('s8');
+const B9=at('s9a','recupera')-.12,S2=segStart('s2'),S3=segStart('s3'),S4=segStart('s4'),S5=segStart('s5'),S6=segStart('s6'),S7=segStart('s7'),S8=segStart('s8');
 const T_OPEN=S2+(C('s2b')-S2)*.55,T_PERO=at('s5b','pero'),T_80=at('s3c','ochenta'),T_BOOK=at('s7a','agenda'),T_LLEGA=at('s8b','llega'),T_LOCK=C('s8b')+(T_LLEGA-C('s8b'))*.55;
 const hourOf=t=>t<C('s3c')?9.2:t<S4?11+eio((t-C('s3c'))/(S4-C('s3c')))*.05:t<S5?lerp(11.1,15,eio((t-C('s4b'))/(S5-C('s4b')))):t<S8?15.2+Math.min(1,(t-S5)/(S8-S5))*1.6:t<C('s8b')?17.4:lerp(17.5,18,eio((t-C('s8b'))/(T_LLEGA-C('s8b'))));
 const todOf=t=>t<C('s4b')?0:t<S5?lerp(0,.62,eio((t-C('s4b'))/(S5-C('s4b')))):t<S8?.62:1;

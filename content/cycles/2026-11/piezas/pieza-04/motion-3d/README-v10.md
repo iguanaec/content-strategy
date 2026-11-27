@@ -13,3 +13,8 @@ Escena Three.js (`scene5.html` = `head5.html props5.js rig5.js sets5.js main5a-d
 - El 22 % ocupa el cuadro sobre un fondo verde bosque (su ancho se ajusta solo al encuadre).
 - Peinado de Dani pegado a la cabeza; tarjeta final con fondo blanco.
 - Subtítulos con velo inferior neutro para leerse sobre fondos claros.
+
+## v12
+- Barba nueva (volumétrica, mandíbula + bigote) y peinado con raya al lado; sin mejillas rosadas.
+- Cierre: la voz dice "Con Iguana, recupera tus horas." y la tarjeta blanca entra con disolvencia suave (sin corte). El botón "Agenda tu demo gratis" queda solo en pantalla.
+- Duración 35,9 s. Voz del cierre = empalme del clon (pronunciación de "Iguana" no verificada de oído).
