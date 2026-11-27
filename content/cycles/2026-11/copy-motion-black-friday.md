@@ -1,8 +1,8 @@
 # Iguana — Motion Black Friday: la historia de Dani
 
-## Vie 27/nov · Motion 3D vertical 9:16 (36 s) · voz del usuario + subtítulos cortos · sin música
+## Vie 27/nov · Motion 3D vertical 9:16 (37 s) · voz del usuario + subtítulos cortos · sin música
 
-**Voz en off (versión 36 s)**
+**Voz en off (versión 37 s)**
 1. ¿Sabías que noviembre y diciembre llegan a sumar el 22 % de tus ventas?
 2. Dani tiene un pequeño negocio. Llega Black Friday, y lanza su promo.
 3. Un mensaje. Luego, diez. A las once, ya son ochenta.
