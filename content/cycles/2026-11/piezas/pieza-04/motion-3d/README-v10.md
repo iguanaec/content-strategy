@@ -18,3 +18,8 @@ Escena Three.js (`scene5.html` = `head5.html props5.js rig5.js sets5.js main5a-d
 - Barba nueva (volumétrica, mandíbula + bigote) y peinado con raya al lado; sin mejillas rosadas.
 - Cierre: la voz dice "Con Iguana, recupera tus horas." y la tarjeta blanca entra con disolvencia suave (sin corte). El botón "Agenda tu demo gratis" queda solo en pantalla.
 - Duración 35,9 s. Voz del cierre = empalme del clon (pronunciación de "Iguana" no verificada de oído).
+
+## v13
+- Efectos de sonido de tensión (drone grave, latidos que se aceleran, cuerdas disonantes; `remotion/tension7.py`) desde "Un mensaje" hasta "¿cuánto vale una hora de tu día?", con corte seco y alivio al entrar Iguana.
+- Pausa de 1,35 s antes de "Con Iguana, cada mensaje…".
+- Dani con el corte de cabello de la persona de la ventana (`short`); escena final con Dani, su hijo y su esposa.

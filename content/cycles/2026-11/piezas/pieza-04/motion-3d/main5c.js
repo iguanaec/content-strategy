@@ -77,8 +77,8 @@ S(T_LOCK,T_LLEGA,(t,lt,p)=>{setEnv('shop',.95);where(dani,-.1,-1.4,Math.PI);pose
 S(T_LLEGA,T_LLEGA+(B9-T_LLEGA)*.5,(t,lt,p)=>{setEnv('house');const L=(B9-T_LLEGA)*.5;mover(dani,[62.8,5.2],[60.1,-1.0],eo(lt/(L*.8)),t,9);if(lt>L*.8)pose(dani,{...POSES.key(lt),mood:'relax'},t);houseRefs.door.userData.open(lt>L*.75?eio((lt-L*.75)/(L*.25))*1.5:0);houseRefs.hall.intensity=lt>L*.75?lerp(0,14,eio((lt-L*.75)/(L*.25))):0;
  shot([lerp(55.4,58.2,lt/L),lerp(.6,1.1,lt/L),lerp(6.4,5.6,lt/L)],[lerp(60,60.2,lt/L),1.2,-1.9],{fov:36,roll:-.04})});
 S(T_LLEGA+(B9-T_LLEGA)*.5,B9,(t,lt,p)=>{setEnv('home');const L=B9-(T_LLEGA+(B9-T_LLEGA)*.5);homeRefs.door.userData.open(1.5);
- where(dani,117.2,1.8,Math.PI*.5);dani.root.position.x=lerp(116.5,118.3,eo(lt/.6));pose(dani,{...POSES.hug2(lt),mood:'grin'},t);where(kid,lerp(118.1,118.6,eo(lt/.5)),1.8,-Math.PI*.5);pose(kid,{...POSES.cheer(lt),mood:'grin'},t);where(mom,121,.8,-Math.PI*.7);pose(mom,{...POSES.hello(lt),mood:'happy'},t);
- P3.hearts.forEach((h,i)=>{const t0=.3+i*.2;if(lt>t0)place(h,[118.0+i*.5,2.1+eo((lt-t0)/1)*.15,1.5],{s:eb((lt-t0)/.3)*1.2,rot:[0,Math.sin(t*2+i)*.6,0],t})});
- shot([lerp(124,122.2,lt/L),1.5,lerp(5.0,4.2,lt/L)],[118.8,1.2,1.4],{fov:38,roll:.02})});
+ where(dani,117.2,2.05,Math.PI*.5);dani.root.position.x=lerp(116.5,119.0,eo(lt/.6));pose(dani,{...POSES.hug2(lt),mood:'grin'},t);where(kid,lerp(118.1,119.2,eo(lt/.5)),1.38,Math.PI*.5);pose(kid,{...POSES.cheer(lt),mood:'grin'},t);where(mom,119.0,.72,Math.PI*.5);pose(mom,{...POSES.cheer(lt+.4),mood:'happy'},t);
+ P3.hearts.forEach((h,i)=>{const t0=.3+i*.2;if(lt>t0)place(h,[119.6,2.15+eo((lt-t0)/1)*.15,1.15+i*.28],{s:eb((lt-t0)/.3)*1.2,rot:[0,Math.sin(t*2+i)*.6,0],t})});
+ shot([lerp(126.2,124.6,lt/L),1.6,lerp(4.2,3.6,lt/L)],[119.2,1.3,1.38],{fov:40,roll:.02})});
 // ---- final
 S(B9,DUR+1,(t,lt,p)=>{setEnv('shop',0);hide()});

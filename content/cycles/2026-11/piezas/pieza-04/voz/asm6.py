@@ -27,7 +27,9 @@ for c in TL:
     else:
         w,_=sf.read(f"{X}/v10/clip_{c['id']}.wav");w=prep(w)
     if prev:
-        g=.3 if c['seg']!=prev else .14;parts.append(np.zeros(int(g*sr)));t+=g
+        g=.3 if c['seg']!=prev else .14
+        if c['id']=='s7a':g=1.35
+        parts.append(np.zeros(int(g*sr)));t+=g
     out.append({'seg':c['seg'],'id':c['id'],'text':c['text'],'start':round(t,3),'dur':round(len(w)/sr,3)});parts.append(w);t+=len(w)/sr;prev=c['seg']
 parts.append(np.zeros(int(1.2*sr)));t+=1.2
 v=np.concatenate(parts).astype(np.float32)

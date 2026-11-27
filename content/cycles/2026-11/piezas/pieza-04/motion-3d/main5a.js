@@ -1,5 +1,5 @@
 // ================= personajes =================
-const dani=makePerson({apron:LIME,shirt:'#3F5F86',pants:'#2b2b2b',skin:'#C48A5E',hair:'#120d0f',style:'part',beard:true,beardColor:'#1c1517',shoe:'#efefef'});
+const dani=makePerson({apron:LIME,shirt:'#3F5F86',pants:'#2b2b2b',skin:'#C48A5E',hair:'#120d0f',style:'short',beard:true,beardColor:'#1c1517',shoe:'#efefef'});
 const cliA=makePerson({shirt:'#D2523F',pants:'#3b4f7a',skin:'#E4B08A',hair:'#4a2a1a',style:'long'});
 const cliB=makePerson({shirt:'#E2B33A',pants:'#34404f',skin:'#B97A52',hair:'#2a1a14',style:'short'});
 const cliC=makePerson({shirt:'#2F8F9D',pants:'#4a3f55',skin:'#D2986E',hair:'#241a16',style:'curly'});

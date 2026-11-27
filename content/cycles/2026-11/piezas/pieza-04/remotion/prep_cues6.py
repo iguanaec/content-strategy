@@ -38,12 +38,17 @@ cue('phone-keypad',C('s5a')+.1,.25);cue('pop-medium-bubble',C('s5a')+.75,.3)
 cut(C('s5b'));cue('time-clock',C('s5b'),.22);cue('notification-failure-low',at('s5b','pero'),.42);cue('impact-deep-soft',at('s5b','pero'),.38)
 cut(C('s5c'));cue('whoosh-slow-soft',C('s5c')+.2,.28);cue('faller-1s-soft',C('s5c')+.9,.2)
 cue('time-clock',C('s6a'),.26);cue('impact-light-firm',at('s6a','una hora'),.32)
-cue('shimmer-medium-bright',C('s7a')+.02,.3);cue('pop-medium-in',C('s7a')+.15,.36);cue('notification-message-in-clear',C('s7a')+.35,.34);cue('notification-message-in-soft',C('s7a')+1.15,.3);cue('notification-message-in-clear',C('s7a')+1.9,.3);cue('notification-message-in-soft',C('s7a')+2.6,.26)
+cue('shimmer-medium-bright',C('s7a')-.05,.34);cue('sting-warm-short',C('s7a')-.02,.3);cue('pop-medium-in',C('s7a')+.15,.36);cue('notification-message-in-clear',C('s7a')+.35,.34);cue('notification-message-in-soft',C('s7a')+1.15,.3);cue('notification-message-in-clear',C('s7a')+1.9,.3);cue('notification-message-in-soft',C('s7a')+2.6,.26)
 cue('zip-in-medium',at('s7a','al instante'),.28);cut(at('s7a','y la cita'));cue('notification-success-chime',at('s7a','y la cita')+.05,.45);cue('pop-medium-bubble',at('s7a','y la cita')+.05,.3);cue('click-tap-firm',at('s7a','y la cita')+.4,.28)
 cue('writing-highlighter',C('s8a')+.02,.3);cue('foley-paper-touch',C('s8a')+.35,.33);cut(C('s8b'));cue('time-alarm',C('s8b')+.25,.16)
 cue('whoosh-medium-soft',at('s8b','llega'),.3);cue('shimmer-short-sparkle',at('s8b','familia'),.3)
 for d in [.9,1.1,1.3]:cue('pop-small-in',at('s8b','llega')+d,.26)
 cue('whoosh-medium-soft',at('s9a','recupera')-.25,.3);cue('sting-warm-short',at('s9a','recupera')-.05,.42);cue('writing-highlighter',at('s9a','recupera')+.2,.3);cue('pop-large-in',at('s9a','horas')+.12,.38)
+import sys;sys.path.insert(0,X+'/rem')
+import tension7
+t0=C('s3a')-.1;t1=CLs['s6a']['start']+CLs['s6a']['dur']+.08
+ln=tension7.make(OUT+'/sfx/tension.wav',t1-t0)
+cues.append({'id':'tension','file':'sfx/tension.wav','start':round(t0,3),'vol':.42,'dur':round(ln,3)})
 json.dump({'fps':30,'total':TL['total'],'cues':cues},open(OUT+'/cues.json','w'),indent=1)
 print(len(cues),'cues')
 
